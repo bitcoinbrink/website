@@ -1,0 +1,7 @@
+- name: John Newbery
+  title: Founder
+  description: John has been contributing to Bitcoin Core since 2016. He set up <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helps organize the <a href="https://bitdevs.org/" target="_blank" rel="noopener">bitdevs NYC meetups</a>, the <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency programs</a> and the <a href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly Bitcoin Core review club</a>.
+  social: "@jfnewbery"
+  link: https://twitter.com/jfnewbery
+  image: assets/images/john-newbery.jpg
+  alt: Picture of John Newbery

@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<script
+  async
+  src="https://platform.twitter.com/widgets.js"
+  charset="utf-8"
+></script>
+{% assign author = site.data.authors[page.author] %}
+<div class="post-container">
+  <div class="post-head">
+    <a href="/blog.html" class="post-back-button">Back to all articles</a>
+    <h1>{{ page.title }}</h1>
+    <div class="post-social">
+      <a
+        href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+        class="twitter"
+        target="_blank"
+        ><img
+          src="/assets/images/social-media-twitter.png"
+          alt="yellow twitter logo"
+        />
+        <span>Tweet</span>
+      </a>
+      <a href="#" class="facebook"
+        ><img
+          src="/assets/images/social-media-facebook.png"
+          alt="yellow facebook logo"
+        />
+        <span>Share</span>
+      </a>
+    </div>
+  </div>
+  <div class="post-row">
+    <div class="post-author">
+      {% if author.image %}
+      <img src="{{ author.image }}" alt="{{ author.alt }}" />
+      {% endif %}
+      <h6 class="author-name">{{ author.name | upcase}}</h6>
+      <p class="author-description">{{ author.bio }}</p>
+      {% if author.handle %}
+      <a class="author-link" href="{{ author.link }}" target="_blank"
+        ><p>{{ author.handle }}</p></a
+      >
+      {% endif %}
+    </div>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+</div>

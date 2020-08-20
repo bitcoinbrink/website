@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="/assets/images/b_logo_square.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="brink is a bitcoin research and development centre"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    {% if page.card_image %}
+    <meta name="twitter:image" content="{{ site.url }}{{ page.card_image }}">
+    {% else %}
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% endif %}
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <!-- % include navigation.html % -->
+    <main>{{ content }}</main>
+  </body>
+</html>

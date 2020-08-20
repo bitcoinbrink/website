@@ -1,0 +1,59 @@
+<header class="header-desktop">
+  <div class="nav-logo">
+    <a href="/"><img src="/assets/images/brink_logo_small.png" alt="brink logo"/></a>
+  </div>
+    <!-- <nav class="nav-items"> -->
+    <!--       <a href="/team" {% if page.url == "/team.html" %}class="nav-active"{% endif %}> -->
+    <!--        Team -->
+    <!--       </a> -->
+    <!--       <a href="/projects" {% if page.url == "/projects.html" %}class="nav-active"{% endif %}> -->
+    <!--         Projects -->
+    <!--        </a> -->
+    <!--        <a href="/blog" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}> -->
+    <!--         Blog -->
+    <!--        </a> -->
+    <!--        <a href="/jobs" {% if page.url == "/jobs.html" %}class="nav-active"{% endif %}> -->
+    <!--         Jobs -->
+    <!--        </a> -->
+    <!--        <a href="/about" {% if page.url == "/about.html" %}class="nav-active"{% endif %}> -->
+    <!--         About -->
+    <!--        </a> -->
+    <!-- </nav> -->
+</header>
+<header {% if page.url == "/" %}class="header-mobile index"{% endif %}{% if page.url != "/" %}class="header-mobile"{% endif %}>
+  <div {% if page.url == "/" %}class="hidden"{% endif %}{% if page.url != "/" %}class="nav-logo-mobile"{% endif %}>
+    <a href="/"><img src="/assets/images/brink_logo.png" alt="brink logo"/></a>
+  </div>
+<div class="nav-button-mobile">
+  <input id="burger" type="checkbox" />
+
+
+<nav class="nav-items">
+  <label for="burger">
+    <img class="toggle-on"src="/assets/images/menu.png" alt="yellow circle icon">
+    <img class="toggle-off" src="/assets/images/add-1.png" alt="black x icon">
+  </label>
+  <a href="/team" {% if page.url == "/team.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">01</span>
+   <span class="mobile-nav-title">Team</span>
+  </a>
+  <a href="/projects" {% if page.url == "/projects.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">02</span>
+    Projects
+   </a>
+   <a href="/blog" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">03</span>
+    Blog
+   </a>
+   <a href="/jobs" {% if page.url == "/jobs.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">04</span>
+    Jobs
+   </a>
+   <a href="/about" {% if page.url == "/about.html" %}class="nav-active"{% endif %}>
+    <span class="mobile-nav-number">05</span>
+    About
+   </a>
+  </ul>
+</nav> 
+</div>
+</header>
