@@ -1,0 +1,42 @@
+---
+layout: default
+title: Donate | Brink
+---
+Brink was founded in 2020 with generous funding from John Pfeffer and Wences
+Casares. We are 100% funded by donations from members of the public and
+sponsorship from Bitcoin businesses.
+
+Brink Technology, Inc is a Delaware nonprofit corporation (EIN 85-2919136). We
+have applied for 501(c)(3) status, and our 1023 application is currently
+pending. If we are successful in our application, donations to Brink from U.S.
+taxpayers will be tax-exempt, including those made during our application
+period.
+
+<div class="sponsors-container">
+  <h2>Founding Sponsors</h2>
+  <p>Our founding sponsors generously funded our start-up costs as well as our ongoing costs.</p>
+  <div class="sponsors-row">
+    {% for sponsor in site.data.sponsors.founding %}
+    <div class="sponsors-col">
+      <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" style="max-height: 200px"/>
+      <h4 class="post-title">{{ sponsor.name }}</h4>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="sponsors-container">
+  <h2>Fellowship and Grant Partners</h2>
+  <p>Our Fellowship and Grant partners make our programs possible by providing
+  funding for our fellows and grantees as well as associated costs.</p>
+  <div class="sponsors-row">
+    {% for sponsor in site.data.sponsors.grants %}
+    <div class="sponsors-col">
+      <a href="{{ sponsor.website }}">
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" style="max-height: 200px"/>
+        <h4 class="post-title">{{ sponsor.name }}</h4>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

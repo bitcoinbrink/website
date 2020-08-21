@@ -20,7 +20,7 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <!-- % include navigation.html % -->
-    <main>{{ content }}</main>
+    {% include navigation.html %}
+    <main class="main-container">{{ content }}</main>
   </body>
 </html>

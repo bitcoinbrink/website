@@ -1,7 +1,49 @@
+officers:
 - name: John Newbery
-  title: Founder
-  description: John has been contributing to Bitcoin Core since 2016. He set up <a href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helps organize the <a href="https://bitdevs.org/" target="_blank" rel="noopener">bitdevs NYC meetups</a>, the <a href="https://residency.chaincode.com/" target="_blank" rel="noopener">Chaincode Residency programs</a> and the <a href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly Bitcoin Core review club</a>.
+  title: Co-founder and President
+  description: >-
+    John has been contributing to Bitcoin Core since 2016. He co-founded <a
+    href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin
+    Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He
+    helped organize the <a href="https://bitdevs.org/" target="_blank"
+    rel="noopener">bitdevs NYC meetups</a>, the <a
+    href="https://residency.chaincode.com/" target="_blank"
+    rel="noopener">Chaincode Residency programs</a> and the <a
+    href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly
+    Bitcoin Core PR review club</a>. John co-founded Brink in 2020 to support
+    Bitcoin protocol development and onboard future Bitcoin protocol
+    developers.
   social: "@jfnewbery"
   link: https://twitter.com/jfnewbery
   image: assets/images/john-newbery.jpg
   alt: Picture of John Newbery
+- name: Mike Schmidt
+  title: Co-founder and Secretary
+  description: >-
+    Mike joined the Bitcoin ecosystem in 2018 as a product manager at
+    <a href="https://blockstream.com">Blockstream</a> and a contributor to <a
+    href="https://bitcoinops.org/">Bitcoin Optech</a>. With Optech, he
+    contributes to the newsletters in addition to organizing and presenting
+    technical content at member workshops. Mike has also contributed to Bitcoin
+    Core by organizing events, assisting in running the <a
+    href="https://github.com/ajtowns/taproot-review">taproot review
+    sessions</a>, and performing testing and outreach in the space.
+  social: "@bitschmidty"
+  link: https://twitter.com/bitschmidty
+  image: assets/images/mike-schmidt.png
+  alt: Picture of Mike Schmidt
+
+board:
+- name: Dave Harding
+  description: >-
+    Dave co-wrote the <a href="https://bitcoin.org">Bitcoin.org</a> developer
+    documentation in 2014 and 2015. In 2016, he created a section of
+    Bitcoin.org dedicated to the Bitcoin Core project before joining the
+    startup 21.co, where he wrote a series of Bitcoin developer tutorials.
+    Since 2018 he has been co-writing a <a
+    href="https://bitcoinops.org/en/newsletters">weekly newsletter</a> for
+    Bitcoin Optech. He joined Brink as a founding member of the board in 2020.
+  social: "@hrdng"
+  link: https://twitter.com/hrdng
+  image: assets/images/dave-harding.png
+  alt: Picture of Dave Harding

@@ -1,7 +1,7 @@
 brink:
   name: "Brink"
-  handle: "@brinkfund"
+  handle: "@bitcoinbrink"
   link: http://twitter.com/brinkfund
-  bio: Brink is a Bitcoin research and development centre
+  bio: We support open source Bitcoin protocol developers
   image: /assets/images/b_logo_square.png
   alt: Brink

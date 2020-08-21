@@ -1,0 +1,39 @@
+## When putting either quotes or exposition into the same types of
+## slots, ensure quotations are displayed surrounded by quotes marks to
+## differentiate the two types of information
+founding:
+  -
+    name: Wences Casares
+    image: assets/images/sponsors/wences-casares.jpg
+    alt: Image of Wences Casares
+    quote: >-
+      "It will take a very large ecosystem of trustworthy companies to ensure that Bitcoin succeeds and can be used by the entire world. By helping Bitcoin companies adopt the best technology and spreading knowledge and best practice among Bitcoin engineers, Bitcoin Optech is contributing to the success of the most important leap forward in the democratization of money we've ever seen."
+  -
+    name: John Pfeffer
+    twitter: jlppfeffer
+    image: assets/images/sponsors/john-pfeffer.jpg
+    alt: Image of John Pfeffer
+    quote: >-
+      "I’m an investor and believer that everyone who has a stake in Bitcoin has a duty to contribute and give back to Bitcoin development, including hodlers!  Wences, Alex and I hope that everyone will pitch in, contribute and do their bit to help make this grand challenge to scale Bitcoin a success."
+
+grants:
+  -
+    name: Human Rights Foundation
+    image: assets/images/sponsors/hrf.jpg
+    alt: Human Rights Foundation logo
+    website: https://hrf.org/
+  -
+    name: Square Crypto
+    image: assets/images/sponsors/sqcrypto.png
+    alt: Square Crypto logo
+    website: https://squarecrypto.org/
+  -
+    name: Kraken
+    image: assets/images/sponsors/kraken.jpg
+    alt: Kraken logo
+    website: https://www.kraken.com/
+  -
+    name: Gemini
+    image: assets/images/sponsors/gemini.png
+    alt: Gemini logo
+    website: https://gemini.com/
