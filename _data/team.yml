@@ -47,3 +47,14 @@ board:
   link: https://twitter.com/hrdng
   image: assets/images/dave-harding.png
   alt: Picture of Dave Harding
+
+fellows:
+- name: Gloria Zhao
+  description: >-
+    Gloria has been contributing to Bitcoin Core since March 2020. Her focus is
+    on Bitcoin Core's peer-to-peer code, and she is currently implementing mempool
+    package acceptance.
+  social: "@glozow"
+  link: https://twitter.com/glozow
+  image: assets/images/gloria-zhao.jpg
+  alt: Picture of Gloria Zhao
