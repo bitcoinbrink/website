@@ -310,9 +310,11 @@ header {
       margin-bottom: 5rem;
       margin-right: 1rem;
       margin-left: 1rem;
+      text-align: center;
       img {
         max-width: 100%;
         height: auto;
+        max-height: 200px;
       }
       .blog-category {
         color: red;
@@ -402,8 +404,12 @@ header {
   .post-content {
     flex: 80%;
     img {
-      width: 100%;
+      display: block;
+      max-width: 100%;
       height: auto;
+      max-height: 200px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .post-social {
@@ -871,7 +877,6 @@ header {
         a:link {
           text-decoration: none;
         }
-        width: 15rem;
       }
     }
   }
@@ -1120,7 +1125,6 @@ header {
         a:link {
           text-decoration: none;
         }
-        width: 15rem;
       }
     }
   }
@@ -1138,7 +1142,6 @@ header {
         a:link {
           text-decoration: none;
         }
-        width: 15rem;
       }
     }
   }
@@ -1239,7 +1242,6 @@ header {
       a:link {
         text-decoration: none;
       }
-      width: 15rem;
     }
   }
   .sponsors-container {
@@ -1316,7 +1318,6 @@ header {
       a:link {
         text-decoration: none;
       }
-      width: 15rem;
     }
   }
   .post-container {
@@ -1398,7 +1399,6 @@ header {
       a:link {
         text-decoration: none;
       }
-      width: 15rem;
     }
   }
   .sponsors-container {
