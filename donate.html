@@ -3,97 +3,97 @@ layout: default
 title: Donate | Brink
 ---
 
-<h2>Donate</h2>
+<div class="donate-container">
+  <h2>Donate</h2>
 
-<p>Brink was founded in 2020 with generous funding from John Pfeffer and Wences
-Casares. We are 100% funded by donations from members of the public and
-sponsorship from Bitcoin businesses.</p>
+  <p>Brink was founded in 2020 with generous funding from John Pfeffer and Wences
+  Casares. We are 100% funded by donations from members of the public and
+  sponsorship from Bitcoin businesses.</p>
 
-<p>Brink Technology, Inc is a Delaware nonprofit corporation (EIN 85-2919136). We
-have applied for 501(c)(3) status, and our 1023 application is currently
-pending. If we are successful in our application, donations to Brink from U.S.
-taxpayers will be tax-exempt, including those made during our application
-period.</p>
+  <p>Brink Technology, Inc is a Delaware nonprofit corporation (EIN 85-2919136). We
+  have applied for 501(c)(3) status, and our 1023 application is currently
+  pending. If we are successful in our application, donations to Brink from U.S.
+  taxpayers will be tax-exempt, including those made during our application
+  period.</p>
 
-<div class="sponsors-container">
-  <h2>Founding Sponsors</h2>
-  <p>Our founding sponsors generously funded our start-up costs as well as our ongoing costs.</p>
-  <div class="sponsors-row">
-    {% for sponsor in site.data.sponsors.founding %}
-    <div class="sponsors-col">
-      <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" style="max-height: 200px"/>
-      <h4 class="post-title">{{ sponsor.name }}</h4>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+  <h4>One-time Donation</h4>
 
-<div class="sponsors-container">
-  <h2>Fellowship and Grant Partners</h2>
-  <p>Our Fellowship and Grant partners make our programs possible by providing
-  funding for our fellows and grantees as well as associated costs.</p>
-  <div class="sponsors-row">
-    {% for sponsor in site.data.sponsors.grants %}
-    <div class="sponsors-col">
-      <a href="{{ sponsor.website }}">
+  <button data-checkout-mode="payment" data-price-id="price_1HqkSyArUr4rAMAltEjPznBR">$50.00</button>
+  <button data-checkout-mode="payment" data-price-id="price_1HqkT8ArUr4rAMAlvENz60HJ">$100.00</button>
+  <button data-checkout-mode="payment" data-price-id="price_1HqkTEArUr4rAMAlqd2g9EEa">$500.00</button>
+  <button data-checkout-mode="payment" data-price-id="price_1HqkTLArUr4rAMAlJkNGfFrZ">$1000.00</button>
+
+  <h4>Monthly Recurring Donation</h4>
+
+  <button data-checkout-mode="subscription" data-price-id="price_1Hph47ArUr4rAMAlxD7hYXMa">$5.00/mo</button>
+  <button data-checkout-mode="subscription" data-price-id="price_1HqkScArUr4rAMAl5H0staN4">$20.00/mo</button>
+  <button data-checkout-mode="subscription" data-price-id="price_1HqkSjArUr4rAMAlEt5w8qMk">$50.00/mo</button>
+  <button data-checkout-mode="subscription" data-price-id="price_1HqkSqArUr4rAMAl6yTaoLt1">$100.00/mo</button>
+
+  <div id="error-message"></div>
+
+  <p><em>For donations greater than $1000.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
+
+  <div class="sponsors-container">
+    <h2>Founding Sponsors</h2>
+    <p>Our founding sponsors generously funded our start-up costs as well as our ongoing costs.</p>
+    <div class="sponsors-row">
+      {% for sponsor in site.data.sponsors.founding %}
+      <div class="sponsors-col">
         <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" style="max-height: 200px"/>
         <h4 class="post-title">{{ sponsor.name }}</h4>
-      </a>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
-</div>
 
-<h3>One-time Donation</h3>
-            
-<button data-checkout-mode="payment" data-price-id="price_1HqkSyArUr4rAMAltEjPznBR">$50.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkT8ArUr4rAMAlvENz60HJ">$100.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTEArUr4rAMAlqd2g9EEa">$500.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTLArUr4rAMAlJkNGfFrZ">$1000.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTQArUr4rAMAllr5igJQ9">$2500.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTWArUr4rAMAl22eRfvDi">$5000.00</button>
+  <div class="sponsors-container">
+    <h2>Fellowship and Grant Partners</h2>
+    <p>Our Fellowship and Grant partners make our programs possible by providing
+    funding for our fellows and grantees as well as associated costs.</p>
+    <div class="sponsors-row">
+      {% for sponsor in site.data.sponsors.grants %}
+      <div class="sponsors-col">
+        <a href="{{ sponsor.website }}">
+          <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" style="max-height: 200px"/>
+          <h4 class="post-title">{{ sponsor.name }}</h4>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 
-<h3>Monthly Recurring Donation</h3>
-            
-<button data-checkout-mode="subscription" data-price-id="price_1Hph47ArUr4rAMAlxD7hYXMa">$5.00/mo</button>
-<button data-checkout-mode="subscription" data-price-id="price_1HqkScArUr4rAMAl5H0staN4">$20.00/mo</button>
-<button data-checkout-mode="subscription" data-price-id="price_1HqkSjArUr4rAMAlEt5w8qMk">$50.00/mo</button>
-<button data-checkout-mode="subscription" data-price-id="price_1HqkSqArUr4rAMAl6yTaoLt1">$100.00/mo</button>
+  <script src="https://js.stripe.com/v3/"></script>
+  <script>
+        var PUBLISHABLE_KEY = 'pk_live_51HotqwArUr4rAMAlHIbM3LGwGFb1k2UsRpi91MlbxlYXFJQFSGPcxrJXI3oREpQnWCbTVDHEdzh0RNxsdfzUcSvh002frYUK76';
+        var DOMAIN = location.href.replace(/[^/]*$/, '');
 
-<div id="error-message"></div>
+        var stripe = Stripe(PUBLISHABLE_KEY);
 
-<p><em>For donations greater than $5000.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
+        // Handle any errors from Checkout
+        var handleResult = function (result) {
+          if (result.error) {
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+          }
+        };
 
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-      var PUBLISHABLE_KEY = 'pk_live_51HotqwArUr4rAMAlHIbM3LGwGFb1k2UsRpi91MlbxlYXFJQFSGPcxrJXI3oREpQnWCbTVDHEdzh0RNxsdfzUcSvh002frYUK76';
-      var DOMAIN = location.href.replace(/[^/]*$/, '');
-
-      var stripe = Stripe(PUBLISHABLE_KEY);
-
-      // Handle any errors from Checkout
-      var handleResult = function (result) {
-        if (result.error) {
-          var displayError = document.getElementById('error-message');
-          displayError.textContent = result.error.message;
-        }
-      };
-
-      document.querySelectorAll('button').forEach(function (button) {
-        button.addEventListener('click', function (e) {
-          var mode = e.target.dataset.checkoutMode;
-          var priceId = e.target.dataset.priceId;
-          var items = [{ price: priceId, quantity: 1 }];
-          stripe
-            .redirectToCheckout({
-              mode: mode,
-              lineItems: items,
-              successUrl:
-                DOMAIN + 'success.html?session_id={CHECKOUT_SESSION_ID}',
-              cancelUrl:
-                DOMAIN + 'canceled.html?session_id={CHECKOUT_SESSION_ID}',
-            })
-            .then(handleResult);
+        document.querySelectorAll('button').forEach(function (button) {
+          button.addEventListener('click', function (e) {
+            var mode = e.target.dataset.checkoutMode;
+            var priceId = e.target.dataset.priceId;
+            var items = [{ price: priceId, quantity: 1 }];
+            stripe
+              .redirectToCheckout({
+                mode: mode,
+                lineItems: items,
+                successUrl:
+                  DOMAIN + 'success.html?session_id={CHECKOUT_SESSION_ID}',
+                cancelUrl:
+                  DOMAIN + 'canceled.html?session_id={CHECKOUT_SESSION_ID}',
+              })
+              .then(handleResult);
+          });
         });
-      });
-    </script>
+      </script>
+</div>
