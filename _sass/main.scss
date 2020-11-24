@@ -15,14 +15,15 @@
 }
 
 $yellow: #feda09;
+$cream: #f1ede9;
 
 body {
-  background-color: #f1ede9;
-  font-family: Avenir-Next;
+  background-color: $cream;
+  font-family: Avenir-Light;
   color: black;
 }
 .background-image {
-  background-color: #f1ede9;
+  background-color: $cream;
   min-height: 100%;
   position: relative;
   background-repeat: no-repeat;
@@ -32,9 +33,13 @@ body {
 }
 
 a {
-  font-family: Avenir-Next;
-  color: #feda09;
+  font-family: Avenir-Light;
+  color: red;
   cursor: pointer;
+}
+
+a:hover {
+  color: black;
 }
 
 a.h2:link {
@@ -45,6 +50,8 @@ main {
   margin-left: 8rem;
   margin-right: 8rem;
   margin-bottom: 5rem;
+  font-size: 1.1rem;
+  line-height: 1.7rem
 }
 .index-container {
   position: static;
@@ -65,7 +72,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #f1ede9;
+  background-color: $cream;
   z-index: 999;
 }
 
@@ -82,17 +89,18 @@ header {
   a {
     color: red;
     font-weight: bold;
+    font-size: 120%;
     text-decoration: none;
     margin: 1rem;
     padding-bottom: 0.3rem;
   }
   a:hover {
-    color: $yellow;
-    border-bottom: 0.1rem solid $yellow;
+    color: black;
+    border-bottom: 0.1rem solid black;
   }
   .nav-active {
-    color: $yellow;
-    border-bottom: 0.1rem solid $yellow;
+    color: black;
+    border-bottom: 0.1rem solid black;
   }
 }
 
@@ -120,7 +128,7 @@ header {
       color: white;
     }
     a:hover {
-      color: $yellow;
+      color: black;
     }
     .text-column {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -162,14 +170,10 @@ header {
 }
 
 .team-container {
-  margin-top: 17rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
   .team-row {
-    margin-top: 5rem;
+    margin-top: 1rem;
     a {
       color: red;
-      font-weight: bold;
     }
     a:hover {
       color: black;
@@ -180,6 +184,7 @@ header {
         width: 100%;
         height: auto;
         max-width: 200px;
+        border: 1px solid darkgray;
       }
     }
     .item-description {
@@ -197,8 +202,8 @@ header {
 }
 
 .team-social {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 2rem;
@@ -222,34 +227,6 @@ header {
   padding-top: 1rem;
 }
 
-.jobs-image {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.role {
-  display: flex;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.jobs-title {
-  flex: 70%;
-}
-
-.jobs-location {
-  flex: 30%;
-}
-
-.jobs-location:hover,
-.jobs-title:hover {
-  color: $yellow;
-}
-
 .contact-row {
   display: flex;
   padding-top: 1rem;
@@ -258,10 +235,21 @@ header {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.main-container {
+  margin-top: 8rem;
+}
+
 .about-container {
   margin-top: 8rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  .about-image {
+    text-align: center;
+    .about-logo {
+      max-width: 50%;
+      max-height: 200px;
+      height: auto;
+    }
+    margin-bottom: 2rem;
+  }
 }
 
 .about-row {
@@ -297,22 +285,14 @@ header {
   }
 }
 .about-contact {
-  color: $yellow;
+  color: red;
   flex: 2%;
   a {
-    color: $yellow;
+    color: red;
     text-decoration: none;
   }
   a:hover {
-    color: white;
-  }
-}
-
-.jobs-container {
-  margin-top: 10rem;
-  a {
-    text-decoration: none;
-    color: white;
+    color: black;
   }
 }
 
@@ -330,12 +310,38 @@ header {
       margin-bottom: 5rem;
       margin-right: 1rem;
       margin-left: 1rem;
+      text-align: center;
       img {
         max-width: 100%;
         height: auto;
+        max-height: 200px;
       }
       .blog-category {
-        color: $yellow;
+        color: red;
+      }
+    }
+  }
+}
+
+.sponsors-container {
+  text-align: center;
+  .sponsors-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .sponsors-col {
+      flex: 0 0 100%;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      img {
+        max-width: 100%;
+        max-height: 200px;
+        height: auto;
+        border: 1px solid darkgray;
+      }
+      a {
+        text-decoration: none;
+	color: black;
       }
     }
   }
@@ -355,7 +361,7 @@ header {
   }
   a {
     text-decoration: none;
-    color: $yellow;
+    color: red;
     transition: all 0.2s ease-in-out;
   }
 
@@ -364,18 +370,18 @@ header {
   }
   .author-link {
     text-decoration: none;
-    color: $yellow;
+    color: red;
   }
   .author-link:hover {
     text-decoration: none;
-    color: white;
+    color: black;
   }
 
   .post-head {
     border-bottom: 1px solid white;
     margin-bottom: 2rem;
     .post-back-button:hover {
-      color: white;
+      color: black;
     }
     h1 {
       margin-top: 3rem;
@@ -398,12 +404,16 @@ header {
   .post-content {
     flex: 80%;
     img {
-      width: 100%;
+      display: block;
+      max-width: 100%;
       height: auto;
+      max-height: 200px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .post-social {
-    color: $yellow;
+    color: red;
     margin-bottom: 2rem;
     display: flex;
     img {
@@ -496,7 +506,7 @@ header {
     .toggle-off {
       display: none;
     }
-    background-color: #f1ede9;
+    background-color: $cream;
     position: fixed;
     top: 0;
     left: 0;
@@ -533,7 +543,7 @@ header {
     z-index: 3;
     height: 100%;
     transition-delay: 0s;
-    background: $yellow;
+    background: lightgray;
   }
   //End Mobile Nav Menu
 
@@ -543,16 +553,12 @@ header {
     margin-bottom: 4rem;
   }
   .index-container {
-    // .home-logo {
-    //   height: 2rem;
-    // }
     .home-title {
       margin-top: 2rem;
       font-size: 1.2rem;
     }
   }
   .team-container {
-    margin-top: 10rem;
     margin-left: 0;
     margin-right: 0;
     .team-row {
@@ -564,6 +570,7 @@ header {
       .image-column {
         img {
           max-width: 100px;
+          border: 1px solid darkgray;
         }
       }
       .text-column {
@@ -620,6 +627,19 @@ header {
       }
     }
   }
+  .sponsors-container {
+    .sponsors-row {
+      .sponsors-col {
+        margin-bottom: 2rem;
+        text-align: center;
+       .a {
+          h4 {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
   .post-container {
     margin-top: 7rem;
     margin-left: 0;
@@ -636,18 +656,6 @@ header {
       .post-author {
         display: none;
       }
-    }
-  }
-
-  .jobs-container {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 8rem;
-    h1 {
-      font-size: 1.5rem;
-    }
-    .jobs-title {
-      flex: 55%;
     }
   }
 
@@ -748,7 +756,6 @@ header {
     .toggle-off {
       display: none;
     }
-    background-color: #f1ede9;
     position: fixed;
     top: 0;
     left: 0;
@@ -785,7 +792,7 @@ header {
     z-index: 3;
     height: 100%;
     transition-delay: 0s;
-    background: $yellow;
+    background: lightgray;
   }
   //End Mobile Nav Menu
 
@@ -795,16 +802,12 @@ header {
     margin-bottom: 4rem;
   }
   .index-container {
-    // .home-logo {
-    //   height: 2rem;
-    // }
     .home-title {
       margin-top: 2rem;
       font-size: 1.2rem;
     }
   }
   .team-container {
-    margin-top: 10rem;
     margin-left: 0;
     margin-right: 0;
     .team-row {
@@ -816,6 +819,7 @@ header {
       .image-column {
         img {
           max-width: 150px;
+          border: 1px solid darkgray;
         }
       }
       .text-column {
@@ -873,7 +877,18 @@ header {
         a:link {
           text-decoration: none;
         }
-        width: 15rem;
+      }
+    }
+  }
+  .sponsors-container {
+    .sponsors-row {
+      .sponsors-col {
+	text-align: center;
+        max-width: 15rem;
+        margin-bottom: 2rem;
+        h4 {
+          font-size: 1.3rem;
+        }
       }
     }
   }
@@ -894,18 +909,6 @@ header {
       .post-author {
         display: none;
       }
-    }
-  }
-
-  .jobs-container {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 8rem;
-    h1 {
-      font-size: 1.5rem;
-    }
-    .jobs-title {
-      flex: 55%;
     }
   }
 
@@ -1007,7 +1010,6 @@ header {
     .toggle-off {
       display: none;
     }
-    background-color: #f1ede9;
     position: fixed;
     top: 0;
     left: 0;
@@ -1044,7 +1046,7 @@ header {
     z-index: 3;
     height: 100%;
     transition-delay: 0s;
-    background: $yellow;
+    background: lightgray;
   }
   //End Mobile Nav Menu
 
@@ -1054,16 +1056,12 @@ header {
     margin-bottom: 5rem;
   }
   .index-container {
-    // .home-logo {
-    //   height: 2rem;
-    // }
     .home-title {
       margin-top: 2rem;
       font-size: 1.2rem;
     }
   }
   .team-container {
-    margin-top: 10rem;
     margin-left: 0;
     margin-right: 0;
     .team-row {
@@ -1108,26 +1106,6 @@ header {
   .projects-row:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
-  // .blog-container {
-  //   .post-title {
-  //     width: 15rem;
-  //   }
-  //   .archive-title {
-  //     margin-left: 1rem;
-  //   }
-  //   .blog-row {
-  //     .blog-col {
-  //       max-width: 15rem;
-  //       margin-bottom: 2rem;
-  //       h2 {
-  //         font-size: 1.3rem;
-  //       }
-  //       .blog-category {
-  //         margin-top: 0.5rem;
-  //       }
-  //     }
-  //   }
-  // }
   .blog-container {
     .archive-title {
       margin-left: 6%;
@@ -1147,7 +1125,23 @@ header {
         a:link {
           text-decoration: none;
         }
-        width: 15rem;
+      }
+    }
+  }
+  .sponsors-container {
+    .sponsors-row {
+      .sponsors-col {
+        max-width: 15rem;
+        margin-bottom: 2rem;
+	text-align: center;
+        h4 {
+          font-size: 1.3rem;
+        }
+      }
+      .post-title {
+        a:link {
+          text-decoration: none;
+        }
       }
     }
   }
@@ -1167,18 +1161,6 @@ header {
       .post-author {
         display: none;
       }
-    }
-  }
-
-  .jobs-container {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 8rem;
-    h1 {
-      font-size: 1.5rem;
-    }
-    .jobs-title {
-      flex: 55%;
     }
   }
 
@@ -1219,7 +1201,7 @@ header {
     margin-right: 8rem;
   }
   .background-image {
-    background-color: #f1ede9;
+    background-color: $cream;
 
     background-repeat: no-repeat;
     background-position: center;
@@ -1260,16 +1242,24 @@ header {
       a:link {
         text-decoration: none;
       }
-      width: 15rem;
+    }
+  }
+  .sponsors-container {
+    .sponsors-row {
+      .sponsors-col {
+	text-align: center;
+        flex: 0 0 33%;
+      }
     }
   }
   .team-container {
-    margin-left: 5rem;
-    margin-right: 5rem;
     .team-row {
       .image-column {
         flex: 30%;
         margin-right: 1rem;
+        img {
+          border: 1px solid darkgray;
+        }
       }
       .text-column {
         flex: 70%;
@@ -1291,11 +1281,12 @@ header {
     padding-top: 20rem;
   }
   .team-container {
-    margin-left: 10rem;
-    margin-right: 10rem;
     .team-row {
       .image-column {
         flex: 30%;
+        img {
+          border: 1px solid darkgray;
+        }
       }
       .text-column {
         flex: 80%;
@@ -1327,7 +1318,19 @@ header {
       a:link {
         text-decoration: none;
       }
-      width: 15rem;
+    }
+  }
+  .post-container {
+    .post-author {
+      flex: 14%;
+    }
+  }
+  .sponsors-container {
+    .sponsors-row {
+      .sponsors-col {
+	text-align: center;
+        flex: 0 0 23%;
+      }
     }
   }
   .post-container {
@@ -1356,16 +1359,14 @@ header {
   }
   .index-container {
     margin-top: 25rem;
-    // .home-logo {
-    //   height: 7rem;
-    // }
   }
   .team-container {
-    margin-left: 30rem;
-    margin-right: 30rem;
     .team-row {
       .image-column {
         flex: 20%;
+        img {
+          border: 1px solid darkgray;
+        }
       }
       .text-column {
         flex: 80%;
@@ -1398,14 +1399,17 @@ header {
       a:link {
         text-decoration: none;
       }
-      width: 15rem;
+    }
+  }
+  .sponsors-container {
+    .sponsors-row {
+      .sponsors-col {
+	text-align: center;
+        flex: 0 0 16%;
+      }
     }
   }
   .post-container {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
-  .jobs-container {
     margin-left: 20rem;
     margin-right: 20rem;
   }
