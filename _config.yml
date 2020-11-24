@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Brink
-email: info@brink.fund
+email: info@brink.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Brink is a Bitcoin research and development centre
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://brink.fund"
-twitter_username: brinkfund
-github_username: brinkfund
+url: "https://brink.dev"
+twitter_username: bitcoinbrink
+github_username: brink-btc
 
 # Build settings
 theme: minima
