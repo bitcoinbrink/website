@@ -20,6 +20,7 @@ period.</p>
 <button data-checkout-mode="payment" data-price-id="price_1HqkT8ArUr4rAMAlvENz60HJ">$100.00</button>
 <button data-checkout-mode="payment" data-price-id="price_1HqkTEArUr4rAMAlqd2g9EEa">$500.00</button>
 <button data-checkout-mode="payment" data-price-id="price_1HqkTLArUr4rAMAlJkNGfFrZ">$1000.00</button>
+<button data-checkout-mode="payment" data-price-id="price_1HqkTQArUr4rAMAllr5igJQ9">$2500.00</button>
 
 <h4>Monthly Recurring Donation</h4>
 
@@ -30,9 +31,11 @@ period.</p>
 
 <div id="error-message"></div>
 
-<p><em>For donations greater than $1000.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
+<h4>Bitcoin/Lightning Donation</h4>
 
-**We will be able to accept Bitcoin and Lightning donations very soon! Please follow [our twitter account](https://twitter.com/{{ site.twitter_username }}) for updates.**
+<a href="https://checkout.opennode.com/p/5698f840-83ae-4226-a68c-9cfa3005bdbd"><button>Donate with bitcoin</button></a>
+
+<p><em>For donations greater than $2500.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
 
 <script src="https://js.stripe.com/v3/"></script>
 <script>
