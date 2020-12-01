@@ -1,6 +1,7 @@
 ---
-layout: post
 title: "On the Brink"
+permalink: /blog/2020/11/24/on-the-brink/
+layout: post
 author: brink
 name: "brink"
 image: /assets/images/b_logo_square.png
