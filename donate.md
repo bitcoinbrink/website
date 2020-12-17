@@ -32,6 +32,8 @@ period.</p>
 
 <p><em>For donations greater than $1000.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
 
+**We will be able to accept Bitcoin and Lightning donations very soon! Please follow [our twitter account](https://twitter.com/{{ site.twitter_username }}) for updates.**
+
 <script src="https://js.stripe.com/v3/"></script>
 <script>
       var PUBLISHABLE_KEY = 'pk_live_51HotqwArUr4rAMAlHIbM3LGwGFb1k2UsRpi91MlbxlYXFJQFSGPcxrJXI3oREpQnWCbTVDHEdzh0RNxsdfzUcSvh002frYUK76';
