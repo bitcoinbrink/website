@@ -7,6 +7,8 @@ name: "brink"
 image: /assets/images/b_logo_square.png
 alt: Announcing Brink
 category: "News"
+description: We're excited to announce a new independent nonprofit organization
+  to support open source development for Bitcoin and related technologies.
 ---
 
 <img src="/assets/images/brink_logo.png" alt="Announcing Brink">
