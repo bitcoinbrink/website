@@ -27,6 +27,12 @@ url: "https://brink.dev"
 twitter_username: bitcoinbrink
 github_username: brink-btc
 
+defaults:
+  - scope:
+      path: ""  ## all pages
+    values:
+      image: /assets/images/b_logo_whitebg.png
+
 # Build settings
 theme: minima
 plugins:
