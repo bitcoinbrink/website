@@ -37,6 +37,10 @@ period.</p>
 
 <p><em>For donations greater than $2500.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
 
+<h2>Keep in touch</h2>
+<p>Subscribe to the Brink newsletter which includes fellow and grantee contribution updates as a result of your donations.</p>
+{% include newsletter-signup.html %}
+
 <script src="https://js.stripe.com/v3/"></script>
 <script>
       var PUBLISHABLE_KEY = 'pk_live_51HotqwArUr4rAMAlHIbM3LGwGFb1k2UsRpi91MlbxlYXFJQFSGPcxrJXI3oREpQnWCbTVDHEdzh0RNxsdfzUcSvh002frYUK76';
