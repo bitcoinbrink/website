@@ -3,7 +3,7 @@ layout: default
 title: Programs | Brink
 ---
 
-<h2 id="fellowship">Fellowship</h2>
+<h1 id="fellowship">Fellowship</h1>
 
 <p>The Brink fellowship is an intensive one-year program to onboard exceptional
 software engineers into Bitcoin protocol development. Developed and coordinated
@@ -56,7 +56,7 @@ religion, gender, sexual orientation, gender identity, disability, genetic
 information, veteran status, military status, application for military
 service or any other class per local, state or federal law.</em></p>
 
-<h4 id="brink_fellows">Brink Fellows</h4>
+<h2 id="brink_fellows">Brink Fellows</h2>
 
 <div class="team-container">
   {% for item in site.data.team.fellows %}
@@ -65,8 +65,8 @@ service or any other class per local, state or federal law.</em></p>
       <img src="{{ item.image }}" alt="{{ item.alt }}"/>
     </div>
     <div class="text-column">
-      <h1 class="team-name">{{ item.name }}</h1>
-      <h3 class="item-title">{{ item.title | upcase }}</h3>
+      <h3 class="team-name">{{ item.name }}</h3>
+      <h4 class="item-title">{{ item.title | upcase }}</h4>
       <p class="item-description">
         {{ item.description }}
       </p>
@@ -80,7 +80,7 @@ service or any other class per local, state or federal law.</em></p>
   {% endfor %}
 </div>
 
-<h2 id="grants">Grants</h2>
+<h1 id="grants">Grants</h1>
 
 <p>Bitcoin's long-term success requires a sustainable funding model
 for open source developers to maintain and extend the protocol, test and
