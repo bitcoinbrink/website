@@ -22,14 +22,14 @@ title: Brink
 </div>
 
 <div class="team-container">
-  <h2>Team</h2>
+  <h1>Team</h1>
   {% for item in site.data.team.officers %}
   <div class="team-row">
     <div class="image-column">
       <img src="{{ item.image }}" alt="{{ item.alt }}"/>
     </div>
     <div class="text-column">
-      <h1 class="team-name">{{ item.name }}</h1>
+      <h2 class="team-name">{{ item.name }}</h2>
       <h3 class="item-title">{{ item.title | upcase }}</h3>
       <p class="item-description">
         {{ item.description }}
@@ -44,7 +44,7 @@ title: Brink
   {% endfor %}
 </div>
 <div class="team-container">
-  <h2>Board</h2>
+  <h1>Board</h1>
   <p>John and Mike serve on the board, along with the following independent board members:</p>
   {% for item in site.data.team.board %}
   <div class="team-row">
@@ -52,7 +52,7 @@ title: Brink
       <img src="{{ item.image }}" alt="{{ item.alt }}"/>
     </div>
     <div class="text-column">
-      <h1 class="team-name">{{ item.name }}</h1>
+      <h2 class="team-name">{{ item.name }}</h2>
       <p class="item-description">
         {{ item.description }}
       </p>

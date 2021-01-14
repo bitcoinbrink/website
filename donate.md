@@ -4,7 +4,7 @@ title: Donate | Brink
 description: Brink is 100% funded by donations from members of the public and sponsorship from Bitcoin businesses.
 ---
 
-<h2>Donate</h2>
+<h1>Donate</h1>
 
 <p>Brink is 100% funded by donations from members of the public and
 sponsorship from Bitcoin businesses.</p>
