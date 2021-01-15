@@ -5,3 +5,11 @@ brink:
   bio: We support open source Bitcoin protocol developers
   image: /assets/images/b_logo_square.png
   alt: Brink
+
+glozow:
+  name: "Gloria Zhao"
+  handle: "@glozow"
+  link: http://twitter.com/glozow
+  bio: Brink fellow
+  image: /assets/images/gloria-zhao.jpg
+  alt: Brink
