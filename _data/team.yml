@@ -17,6 +17,7 @@ officers:
   link: https://twitter.com/jfnewbery
   image: assets/images/john-newbery.jpg
   alt: Picture of John Newbery
+
 - name: Mike Schmidt
   title: Co-founder and Director of Programs
   description: >-
@@ -47,6 +48,38 @@ board:
   link: https://twitter.com/hrdng
   image: assets/images/dave-harding.png
   alt: Picture of Dave Harding
+
+- name: Jerry Brito
+  description: >-
+    Jerry is executive director of Coin Center, the leading non-profit
+    research and advocacy group focused on the public policy issues facing
+    cryptocurrency technologies. He has <a
+    href="https://jerrybrito.com/testimony">testified</a> several times before
+    the U.S. Congress about cryptocurrencies, holds briefings for policy
+    makers, and has presented to the CFTC, SEC, Treasury Department, State
+    Department, the White House and elsewhere. His scholarly <a
+    href="https://jerrybrito.com/research">research</a> has been published in
+    the Harvard Journal of Law & Public Policy and the Stanford Technology Law
+    Review, and his <a href="https://jerrybrito.com/opeds">articles</a> have
+    appeared in the Wall Street Journal, the New York Times, and elsewhere.
+  social: "@jerrybrito"
+  link: https://twitter.com/jerrybrito
+  image: assets/images/jerry-brito.jpg
+  alt: Picture of Jerry Brito
+
+- name: Carla Kirk-Cohen
+  description: >-
+    Carla is a software engineer at <a
+    href="https://lightning.engineering/">Lightning Labs</a>, where she works
+    on the lnd Lightning Network implementation and associated infrastructure
+    projects.  She was onboarded to full time work on Lightning at the <a
+    href="https://residency.chaincode.com/">Chaincode 2019 residency</a>, and
+    has joined the Brink board with the goal of helping other developers find
+    their way to Bitcoin.
+  social: "@actuallyCarlaKC"
+  link: https://twitter.com/actuallyCarlaKC
+  image: assets/images/carla-kirk-cohen.jpg
+  alt: Picture of Carla Kirk-Cohen
 
 fellows:
 - name: Gloria Zhao
