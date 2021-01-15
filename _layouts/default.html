@@ -5,18 +5,19 @@
     <link rel="icon" type="image/png" href="/assets/images/b_logo_square.png" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="og:title" content="{{ page.title }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
     {% if page.description %}
-    <meta name="og:description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
     <meta name="description" content="{{ page.description }}" />
     {% else %}
-    <meta name="og:description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description }}" />
     <meta name="description" content="{{ site.description }}" />
     {% endif %}
     {% if page.card_image %}
-    <meta name="og:image" content="{{ site.url }}{{ page.card_image }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.card_image }}">
     {% else %}
-    <meta name="og:image" content="{{ site.url }}{{ page.image }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
     {% endif %}
     <title>{{ page.title }}</title>
   </head>
