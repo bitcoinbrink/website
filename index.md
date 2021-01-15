@@ -7,22 +7,24 @@ title: Brink
   <div class="about-image">
     <img class="about-logo" src="assets/images/brink_logo.png" alt="brink logo"/>
   </div>
-
-  <p>Brink exists to strengthen the Bitcoin protocol and network through
-  fundamental research and development, and to support the Bitcoin
-  developer community through funding, education, and mentoring.</p>
-  <p>We support and mentor new contributors to open source Bitcoin
-  development through our <a href="/programs#fellowships">fellowship program</a>, and
-  support the work of established Bitcoin protocol engineers through our <a
-  href="/programs#grants">grants program</a>.</p>
-  <p>We were founded in 2020 with generous financial support from
-  John Pfeffer and Wences Casares. We are 100% funded by donations from
-  individuals and organizations who wish to support the open source Bitcoin
-  network and protocol.</p>
-
-  <p>Subscribe to the Brink newsletter to receive updates on what else we are working on.</p>
-  {% include newsletter-signup.html %}
 </div>
+
+Brink exists to strengthen the Bitcoin protocol and network through
+fundamental research and development, and to support the Bitcoin
+developer community through funding, education, and mentoring.
+
+We support and mentor new contributors to open source Bitcoin
+development through our [fellowship program](/programs#fellowships), and
+support the work of established Bitcoin protocol engineers through our
+[grants program](/programs#grants).
+
+We were founded in 2020 with generous financial support from
+John Pfeffer and Wences Casares. We are 100% funded by donations from
+individuals and organizations who wish to support the open source Bitcoin
+network and protocol.
+
+Subscribe to the Brink newsletter to receive updates on what else we are working on.
+{% include newsletter-signup.html %}
 
 <div class="team-container">
   <h1>Team</h1>
