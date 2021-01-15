@@ -5,15 +5,13 @@ description: The latest news from Brink, our fellows, and our grantees.
 ---
 
 <div class="blog-container">
-  <div class="blog-row">
+  <ul class="post-list">
     {% for post in site.posts %}
-    <div class="blog-col">
-      <a href="{{ post.url }}">
-        <img src="{{ post.image }}" alt="{{ post.alt }}" />
-      </a>
-      <p>{{ post.date | date_to_string }}</p>
+    <li>
+      <span class="post-meta">{{ post.date | date_to_string }}</span>
       <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    </div>
+      <p>{{ post.description }}</p>
+    </li>
     {% endfor %}
-  </div>
+  </ul>
 </div>
