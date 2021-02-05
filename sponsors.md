@@ -5,7 +5,7 @@ description: Thank you to all of our generous donors who make our work possible.
 ---
 
 <div class="sponsors-container">
-  <h1>Founding Sponsors</h1>
+  <h2>Founding Sponsors</h2>
   <p>Our founding sponsors generously funded our start-up costs as well as our ongoing costs.</p>
   <div class="sponsors-row">
     {% for sponsor in site.data.sponsors.founding %}
@@ -17,19 +17,27 @@ description: Thank you to all of our generous donors who make our work possible.
   </div>
 </div>
 
-<div class="sponsors-container">
-  <h2>Fellowship and Grant Partners</h2>
+<div class="program-sponsors-container">
+  <h2>Program Partners</h2>
   <p>Our Fellowship and Grant partners make our programs possible by providing
   funding for our fellows and grantees as well as associated costs.</p>
-  <div class="sponsors-row">
-    {% for sponsor in site.data.sponsors.grants %}
-    <div class="sponsors-col">
+  {% assign grants_sorted = site.data.sponsors.grants | sort: 'amount' | reverse  %}
+  {% assign grant_largest = grants_sorted.first.amount | divided_by: 100 %}
+  {% for sponsor in grants_sorted %}
+  <div class="program-sponsors-row">
+    <div class="image-column">
       <a href="{{ sponsor.website }}">
-        <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" style="max-height: 200px"/>
-        <h4 class="post-title">{{ sponsor.name }}</h4>
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" />
+        <br /><span>{{ sponsor.name }}</span>
       </a>
     </div>
-    {% endfor %}
+    <div class="text-column">
+      <div class="progress-bg">
+        <div class="progress-bar" style="width:{{ sponsor.amount| divided_by: grant_largest }}%">
+        	<h3 class="raised">{{ sponsor.amount_formatted }}</h3>
+        </div>
+      </div>
+    </div>
   </div>
+  {% endfor %}
 </div>
-

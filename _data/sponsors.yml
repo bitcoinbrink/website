@@ -22,18 +22,26 @@ grants:
     image: assets/images/sponsors/hrf.jpg
     alt: Human Rights Foundation logo
     website: https://hrf.org/
+    amount: 50000
+    amount_formatted: $50,000
   -
     name: Square Crypto
     image: assets/images/sponsors/sqcrypto.png
     alt: Square Crypto logo
     website: https://squarecrypto.org/
+    amount: 100000
+    amount_formatted: $100,000
   -
     name: Kraken
     image: assets/images/sponsors/kraken.jpg
     alt: Kraken logo
     website: https://www.kraken.com/
+    amount: 150000
+    amount_formatted: $150,000
   -
     name: Gemini
     image: assets/images/sponsors/gemini.png
     alt: Gemini logo
     website: https://gemini.com/
+    amount: 150000
+    amount_formatted: $150,000

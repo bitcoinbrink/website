@@ -1423,3 +1423,63 @@ header {
     }
   }
 }
+
+.program-sponsors-container {
+  text-align: center;
+
+  .program-sponsors-row {
+    margin-top: 1rem;
+    display: flex;
+    width: 75%;
+    margin: 25px auto;
+
+    .image-column {
+      flex: 5%;
+      img {
+        max-height: 200px;
+        border: 1px solid darkgray;
+      }
+      a {
+        font-weight: bold;
+      }	
+    }
+    .text-column {
+      flex: 50%;
+      margin-top: 70px;
+      margin-right: 5rem;
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .progress-bg h3.raised {
+    color: black !important;
+  }
+  .progress-bar {
+    background-color: transparent !important;
+    text-align: left;
+  }
+}
+
+.progress-bg {
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+  text-align: center;
+}
+
+.progress-bar {
+	height: 60px;
+	border-radius: 10px;
+	float: left;
+	background-color: #009933;
+  min-width: 125px;
+}
+
+.progress-bg h3.raised {
+  font-size: 1.5em;
+	line-height: 60px;
+  display: inline;
+  color: #fff;
+}
