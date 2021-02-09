@@ -9,11 +9,8 @@ description: Brink is 100% funded by donations from members of the public and sp
 <p>Brink is 100% funded by donations from members of the public and
 sponsorship from Bitcoin businesses.</p>
 
-<p>Brink Technology, Inc is a Delaware nonprofit corporation (EIN 85-2919136). We
-have applied for 501(c)(3) status, and our 1023 application is currently
-pending. If we are successful in our application, donations to Brink from U.S.
-taxpayers will be tax-exempt, including those made during our application
-period.</p>
+<p>Brink Technology, Inc is a 501(c)(3) organization (EIN 85-2919136).
+Donations to Brink from U.S. taxpayers can be deducted under IRC section 170.</p>
 
 <h4>One-time Donation</h4>
 
