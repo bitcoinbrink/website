@@ -6,8 +6,8 @@ layout: default
 <div class="container">
   <h2>Donation Successful</h2>
 
-  <p><strong>Your payment was successful. Thank you for your contribution.</p>
-  <p><span id="session"></span></strong></p>
+  <p><strong>Your payment was successful. Thank you for your contribution.</strong></p>
+  <p><strong><span id="session"></span></strong></p>
   <p>Contact <a href="mailto:info@brink.dev">info@brink.dev</a> with any questions</p>
 
 </div>
