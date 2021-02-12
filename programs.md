@@ -112,15 +112,14 @@ The grant program is open to developers anywhere in the world. Grant applicants 
   developer ecosystem and scaling Bitcoin and related projects.
 
 To apply for a Brink grant, please fill out the [grant application
-form](https://forms.gle/zr5QKoV59pkUfBL47) grant application form with the
-following information:
+form](https://forms.gle/zr5QKoV59pkUfBL47) with the following information:
 
-- Describe the contributions you've made to Bitcoin Core or other
+- A description of the contributions you've made to Bitcoin Core or other
   Bitcoin-related projects.
 - Your current funding situation, and whether you've been the recipient of
   any other grants of funding for your open-source work.
 - What project you intend to work on, including expected deliverables and
-  timeline
+  timeline.
 
 _Brink is an equal opportunity employer and does
 not discriminate in its hiring process with applicants, whether internal or
