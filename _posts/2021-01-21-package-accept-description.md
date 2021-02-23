@@ -10,6 +10,9 @@ description: A description of the Package Mempool Accept project.
 
 ---
 
+_Gloria's fellowship is made possible by generous donations from [Square
+Crypto][square crypto] and [The Human Rights Foundation][hrf]._
+
 ## Motivation
 
 As the Bitcoin ecosystem expands, Bitcoin‘s responsibility as a base-layer
@@ -107,3 +110,6 @@ You can follow my progress and day-to-day activities on
 [Github](https://github.com/glozow/). I also plan to post updates throughout
 the fellowship; you can get notified by subscribing to the newsletter
 or following [@bitcoinbrink](https://twitter.com/bitcoinbrink)! :)
+
+[hrf]: https://hrf.org/
+[square crypto]: https://squarecrypto.org/
