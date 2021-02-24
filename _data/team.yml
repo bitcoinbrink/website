@@ -34,6 +34,20 @@ officers:
   image: assets/images/mike-schmidt.png
   alt: Picture of Mike Schmidt
 
+- name: Antonie Hodge
+  title: Director of Operations
+  description: >-
+    Antonie Hodge has worked at the intersection of cryptocurrencies and
+    nonprofits for over six years and brings a wealth of operational experience
+    to the Brink executive team. She is the Operations Director at <a
+    href="https://coincenter.org">Coin Center</a>, the leading nonprofit
+    focused on the policy issues facing cryptocurrencies. Antonie leads our
+    operations, finance, logistics and administration efforts.
+  social: "@antoniehodge"
+  link: https://twitter.com/antoniehodge
+  image: assets/images/antonie-hodge.jpg
+  alt: Picture of Antonie Hodge
+
 board:
 - name: Carla Kirk-Cohen
   description: >-
