@@ -35,6 +35,20 @@ officers:
   alt: Picture of Mike Schmidt
 
 board:
+- name: Carla Kirk-Cohen
+  description: >-
+    Carla is a software engineer at <a
+    href="https://lightning.engineering/">Lightning Labs</a>, where she works
+    on the lnd Lightning Network implementation and associated infrastructure
+    projects.  She was onboarded to full time work on Lightning at the <a
+    href="https://residency.chaincode.com/">Chaincode 2019 residency</a>, and
+    has joined the Brink board with the goal of helping other developers find
+    their way to Bitcoin.
+  social: "@actuallyCarlaKC"
+  link: https://twitter.com/actuallyCarlaKC
+  image: assets/images/carla-kirk-cohen.jpg
+  alt: Picture of Carla Kirk-Cohen
+
 - name: Dave Harding
   description: >-
     Dave co-wrote the <a href="https://bitcoin.org">Bitcoin.org</a> developer
@@ -66,20 +80,6 @@ board:
   link: https://twitter.com/jerrybrito
   image: assets/images/jerry-brito.jpg
   alt: Picture of Jerry Brito
-
-- name: Carla Kirk-Cohen
-  description: >-
-    Carla is a software engineer at <a
-    href="https://lightning.engineering/">Lightning Labs</a>, where she works
-    on the lnd Lightning Network implementation and associated infrastructure
-    projects.  She was onboarded to full time work on Lightning at the <a
-    href="https://residency.chaincode.com/">Chaincode 2019 residency</a>, and
-    has joined the Brink board with the goal of helping other developers find
-    their way to Bitcoin.
-  social: "@actuallyCarlaKC"
-  link: https://twitter.com/actuallyCarlaKC
-  image: assets/images/carla-kirk-cohen.jpg
-  alt: Picture of Carla Kirk-Cohen
 
 fellows:
 - name: Gloria Zhao
