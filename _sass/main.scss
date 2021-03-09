@@ -321,7 +321,7 @@ header {
   }
 }
 
-.blog-container {
+.blog-container, .media-container {
   margin-top: 10rem;
   .archive-title {
     margin-left: 4rem;
@@ -340,6 +340,10 @@ header {
   .post-meta {
     font-size: 14px;
     color: #828282;
+  }
+
+  .post-description {
+    font-style: italic;
   }
 }
 
