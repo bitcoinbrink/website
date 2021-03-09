@@ -298,6 +298,24 @@ header {
 
 #footer{
   text-align: center;
+  .column {
+    float: left;
+    margin-bottom: 16px;
+  }
+
+  .left, .right {
+    width: 25%;
+  }
+
+  .middle {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 }
 
 .blog-container {
