@@ -5,6 +5,9 @@ description: The latest news from Brink, our fellows, and our grantees.
 ---
 
 <div class="blog-container">
+
+  <h1>Blog</h1>
+
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
