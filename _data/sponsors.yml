@@ -59,3 +59,10 @@ grants:
     website: https://pro.btcturk.com/en
     amount: 210000
     amount_formatted: $210,000
+  -  
+    name: Silvergate
+    image: assets/images/sponsors/silvergate.jpg
+    alt: Silvergate logo
+    website: https://www.silvergatebank.com/
+    amount: 50000
+    amount_formatted: $50,000
