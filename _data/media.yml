@@ -1,11 +1,15 @@
 - date: "2021-02-10"
+  outlet: Cointelegraph
+  image: assets/images/media/cointelegraph.png
   title: "Bitcoin core non-profit gets approved for tax exemption, perks for donors"
   description: "501(3)(c) status boosts the project's legitimacy as well as its
   efficiency in using donations."
   url: https://cointelegraph.com/news/bitcoin-core-non-profit-gets-approved-for-tax-exemption-perks-for-donors
 
 - date: "2020-12-04"
-  title: "What Bitcoin Did - Funding Bitcoin Development with John Newbery"
+  outlet: What Bitcoin Did
+  image: assets/images/media/whatbitcoindid.png
+  title: "Funding Bitcoin Development with John Newbery"
   description: "Bitcoin has a market capitalisation of over $300 billion,
   holding significant value for millions of investors. Yet we all rely on the
   developer community around the world to protect the network from bugs and
