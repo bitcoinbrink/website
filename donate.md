@@ -36,7 +36,7 @@ Donations to Brink from U.S. taxpayers can be deducted under IRC section 170.</p
 <p><em>For donations greater than $2500.00 USD, please email <a href="mailto:info@brink.dev">info@brink.dev</a></em></p>
 
 <h2>Keep in touch</h2>
-<p>Subscribe to the Brink newsletter which includes fellow and grantee contribution updates as a result of your donations.</p>
+<p>Follow <a href="https://twitter.com/bitcoinbrink">@bitcoinbrink</a> on Twitter or subscribe to the Brink newsletter which includes fellow and grantee contribution updates as a result of your donations.</p>
 {% include newsletter-signup.html %}
 
 <script src="https://js.stripe.com/v3/"></script>

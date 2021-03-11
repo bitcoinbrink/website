@@ -305,13 +305,16 @@ header {
 
   .left, .right {
     width: 25%;
+    a {
+      padding-left: 25px;
+    }
   }
 
   .middle {
     width: 50%;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1050px) {
     .column {
       width: 100%;
     }
