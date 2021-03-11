@@ -23,7 +23,9 @@ John Pfeffer and Wences Casares. We are 100% funded by donations from
 individuals and organizations who wish to support the open source Bitcoin
 network and protocol.
 
-Subscribe to the Brink newsletter to receive updates on what else we are working on.
+Subscribe to the Brink newsletter or
+follow [@bitcoinbrink](https://twitter.com/bitcoinbrink) on Twitter to receive
+updates on what else we are working on.
 {% include newsletter-signup.html %}
 
 <div class="team-container">

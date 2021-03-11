@@ -130,6 +130,7 @@ service or any other class per local, state or federal law._
 
 ## Stay updated
 
-Subscribe to our newsletter including updates on project progress and accouncements
-of new fellows and grantees.
+Follow [@bitcoinbrink](https://twitter.com/bitcoinbrink) on Twitter or subscribe to our
+newsletter including updates on project progress and accouncements of new
+fellows and grantees.
 {% include newsletter-signup.html %}
