@@ -1,14 +1,30 @@
+- date: "2021-03-05"
+  outlet: Coinscrum
+  image: coinscrum.png
+  title: "Discussing Bitcoin Core Devs In A Bull Market With John Newbery"
+  description: "Bitcoin core developer John Newbery joined host Nicholas
+  Gregory, CEO at CommeceBlock, to discuss the state of the Bitcoin network."
+  url: https://www.coinscrum.com/discussing-bitcoin-core-devs-in-a-bull-market-with-john-newbery/
+
 - date: "2021-02-10"
   outlet: Cointelegraph
-  image: assets/images/media/cointelegraph.png
+  image: cointelegraph.png
   title: "Bitcoin core non-profit gets approved for tax exemption, perks for donors"
   description: "501(3)(c) status boosts the project's legitimacy as well as its
   efficiency in using donations."
   url: https://cointelegraph.com/news/bitcoin-core-non-profit-gets-approved-for-tax-exemption-perks-for-donors
 
+- date: "2020-12-29"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "Interview: Developing Bitcoin with John Newbery"
+  description: "In this episode of the 'Bitcoin Magazine Podcast,' John Newbery
+  discusses Bitcoin development, Taproot and Brink."
+  url: https://bitcoinmagazine.com/technical/interview-developing-bitcoin-with-john-newbery
+
 - date: "2020-12-04"
   outlet: What Bitcoin Did
-  image: assets/images/media/whatbitcoindid.png
+  image: what-bitcoin-did.png
   title: "Funding Bitcoin Development with John Newbery"
   description: "Bitcoin has a market capitalisation of over $300 billion,
   holding significant value for millions of investors. Yet we all rely on the
@@ -19,19 +35,25 @@
   url: https://www.whatbitcoindid.com/podcast/funding-bitcoin-development
 
 - date: "2020-12-01"
-  title: "Bitcoin Magazine - Gloria Zhao And Brink Are Set To Give Bitcoin Mempools An Upgrade"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "Gloria Zhao And Brink Are Set To Give Bitcoin Mempools An Upgrade"
   description: "Bitcoin development nonprofit Brink has awarded its first
   fellowship to Gloria Zhao, who will work on package relay for Bitcoin
   mempools."
   url: https://bitcoinmagazine.com/articles/gloria-zhao-and-brink-are-set-to-give-bitcoin-mempools-an-upgrade
 
 - date: "2020-11-24"
-  title: "Bitcoin Magazine - John Newbery’s New Nonprofit Brink Will Train And Support Bitcoin Developers"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "John Newbery’s New Nonprofit Brink Will Train And Support Bitcoin Developers"
   description: "Brink, a nonprofit founded by John Newbery and Mike Schmidt, will offer fellowship and support to Bitcoin and Bitcoin-adjacent developers."
   url: https://bitcoinmagazine.com/articles/john-newberys-new-nonprofit-brink-will-train-and-support-bitcoin-developers
 
 - date: "2020-11-24"
-  title: "Coindesk - Square, Human Rights Foundation Back New Bitcoin Open-Source Developer Fund"
+  outlet: Coindesk
+  image: coindesk.png
+  title: "Square, Human Rights Foundation Back New Bitcoin Open-Source Developer Fund"
   description: "Veteran open source Bitcoin developer John Newbery just
   launched Brink, an independent organization for funding Bitcoin’s open source
   developer community, a key component driving the global currency and making it
@@ -39,14 +61,18 @@
   url: https://www.coindesk.com/bitcoin-developer-john-newbery-brink-open-source-fund-square-hrf
 
 - date: "2020-11-24"
-  title: "On The Brink - John Newbery (Brink) on funding Bitcoin development"
+  outlet: On The Brink
+  image: on-the-brink.png
+  title: "John Newbery (Brink) on funding Bitcoin development"
   description: "John Newbery, Bitcoin Core developer and founder of Bitcoin
   Optech, announces an independent nonprofit organization to support Bitcoin
   development, Brink."
   url: https://onthebrink-podcast.com/brink/
 
 - date: "2020-11-24"
-  title: "The Stephan Livera Podcast - John Newbery – Brink: Bitcoin Development"
+  outlet: The Stephan Livera Podcast
+  image: stephan-livera-podcast.png
+  title: "John Newbery – Brink: Bitcoin Development"
   description: "John Newbery joins me to talk about his new bitcoin research and
   development center, Brink. John is a regular Bitcoin Core contributor, works
   on Bitcoin Optech, started PR Review Club, and mentors new bitcoin core

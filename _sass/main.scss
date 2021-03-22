@@ -346,6 +346,29 @@ header {
   .post-description {
     font-style: italic;
   }
+
+  .media-list-row {
+    @media screen and (min-width: 800px) {
+      display: flex;
+    }
+
+    margin-bottom: 0.8em;
+
+    .image-column {
+      flex: 5%;
+
+      img {
+        max-width: 200px;
+        border: 1px solid darkgray;
+        background-color: white;
+      }
+    }
+
+    .text-column {
+      padding-left: 10px;
+      flex: 75%
+    }
+  }
 }
 
 .sponsors-container {
