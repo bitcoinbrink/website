@@ -12,4 +12,12 @@ glozow:
   link: http://twitter.com/glozow
   bio: Brink fellow
   image: /assets/images/gloria-zhao.jpg
-  alt: Brink
+  alt: Gloria
+
+antonie:
+  name: "Antonie Hodge"
+  handle: "@antoniehodge"
+  link: http://twitter.com/antoniehodge
+  bio: Director of Operations
+  image: /assets/images/antonie-hodge.jpg
+  alt: Antonie
