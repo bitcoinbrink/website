@@ -365,6 +365,13 @@ header {
       padding-left: 10px;
       flex: 75%
     }
+
+    @media screen and (max-width: 800px) {
+      text-align: center;
+      .image-column img {
+        max-width: 125px;
+      }
+    }
   }
 }
 
