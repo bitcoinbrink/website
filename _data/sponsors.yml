@@ -66,3 +66,23 @@ grants:
     website: https://www.silvergatebank.com/
     amount: 50000
     amount_formatted: $50,000
+
+providers:
+  -
+    name: Silvergate
+    image: assets/images/sponsors/silvergate.jpg
+    alt: Silvergate logo
+    website: https://www.silvergatebank.com/
+    type: "Banking Services"
+  -
+    name: River Financial
+    image: assets/images/sponsors/river.png
+    alt: River Financial logo
+    website: https://river.com/
+    type: "Exchange Services"
+  -
+    name: Casa
+    image: assets/images/sponsors/casa.png
+    alt: Casa logo
+    website: https://keys.casa/
+    type: "Self-Custody Services"

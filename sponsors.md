@@ -41,3 +41,18 @@ description: Thank you to all of our generous donors who make our work possible.
   </div>
   {% endfor %}
 </div>
+
+<div class="sponsors-providers-container">
+  <h2>Service Providers</h2>
+  <p>Brink thanks our service provider partners for their generous donations.</p>
+  <div class="sponsors-row">
+    {% for sponsor in site.data.sponsors.providers %}
+    <div class="sponsors-col">
+      <a href="{{ sponsor.website }}">
+        <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" />
+        <br /><span>{{ sponsor.name }} - {{ sponsor.type }}</span>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
