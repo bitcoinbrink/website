@@ -23,9 +23,36 @@ selling and donating the proceeds:
 - Your tax deduction will be for the full market value of the Bitcoin, rather
   than the amount after paying capital gains tax.
 
-The two common ways to donate Bitcoin to nonprofits are through a donor-advised
-fund, or directly (which may require a value appraisal). This post describes
-both methods.
+The two common ways to donate Bitcoin to nonprofits are directly (which may
+require a value appraisal), or through a donor-advised fund. This post
+describes both methods.
+
+### Donate Bitcoin Directly to Brink
+
+If you'd like to donate Bitcoin directly to Brink, while receiving the tax
+benefit, then here are some general steps needed to complete the process.
+Please note that is for information purposes only and is not tax advice!
+
+1. Consult with a tax professional who is familiar with your individual tax
+   situation. They can guide you through this process such as completing the
+   required [IRS Form 8283][IRS Form 8283].
+
+2. Email [donate@brink.dev][donate email] to let us know the amount you'd like
+   to donate and your contact information (necessary for our bookkeeping and
+   compliance requirements).
+
+3. We will email you an invoice with payment options.
+
+4. If the donation amount exceeds $5,000, contact a qualified appraiser before
+   the completion of Part 1 of Form 8283. Two firms that offer appraisal of
+   cryptocurrency assets are [Charitable Solutions LLC][Charitable Solutions LLC]
+   and [Crypto Appraisers][Crypto Appraisers]. This is not an endorsement of these
+   firms! As with any financial transaction, you should consult a professional to
+   guide you.
+
+5. Once the form has been completed by the appraiser, send it to
+   [donate@brink.dev][donate email]. We'll fill out part V of the form and
+   return to you. Your tax professional can guide you on next steps.
 
 ### Donor-Advised Funds
 
@@ -64,33 +91,6 @@ you can [donate directly to Brink through your DAF][Brink DAF].
 If you’d like to learn more about the ways a DAF fund might be useful
 in your giving portfolio, contact [donate@brink.dev][donate email] or the
 investment manager of your DAF.
-
-### Donate Bitcoin Directly to Brink
-
-If you'd like to donate Bitcoin directly to Brink, while receiving the tax
-benefit, then here are some general steps needed to complete the process.
-Please note that is for information purposes only and is not tax advice!
-
-1. Consult with a tax professional who is familiar with your individual tax
-   situation. They can guide you through this process such as completing the
-   required [IRS Form 8283][IRS Form 8283].
-
-2. Email [donate@brink.dev][donate email] to let us know the amount you'd like
-   to donate and your contact information (necessary for our bookkeeping and
-   compliance requirements).
-
-3. We will email you an invoice with payment options.
-
-4. If the donation amount exceeds $5,000, contact a qualified appraiser before
-   the completion of Part 1 of Form 8283. Two firms that offer appraisal of
-   cryptocurrency assets are [Charitable Solutions LLC][Charitable Solutions LLC]
-   and [Crypto Appraisers][Crypto Appraisers]. This is not an endorsement of these
-   firms! As with any financial transaction, you should consult a professional to
-   guide you.
-
-5. Once the form has been completed by the appraiser, send it to
-   [donate@brink.dev][donate email]. We'll fill out part V of the form and
-   return to you. Your tax professional can guide you on next steps.
 
 ### Anonymous Donations
 
