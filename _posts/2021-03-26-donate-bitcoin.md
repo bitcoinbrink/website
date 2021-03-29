@@ -49,6 +49,10 @@ There are several benefits to donating through a DAF:
 
 * It's easy to donate [Bitcoin][Fidelity BTC] (or other appreciated assets) to the
   fund while not incurring capital gains tax.
+  
+By donating Bitcoin through your DAF, you will receive the tax-deductible
+benefit for the value of the Bitcoin, but Brink will receive USD, not Bitcoin.
+For more details, please contact your DAF portfolio manager.
 
 The three largest DAFs are [Fidelity Charitable][Fidelity], [Schwab
 Charitable][Schwab] and [BNY Mellon Charitable Gift Fund][BNY]. All three can accept
@@ -75,7 +79,7 @@ Please note that is for information purposes only and is not tax advice!
    to donate and your contact information (necessary for our bookkeeping and
    compliance requirements).
 
-3. She will email you an invoice with payment options.
+3. We will email you an invoice with payment options.
 
 4. If the donation amount exceeds $5,000, contact a qualified appraiser before
    the completion of Part 1 of Form 8283. Two firms that offer appraisal of
