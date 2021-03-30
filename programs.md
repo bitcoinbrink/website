@@ -128,6 +128,30 @@ religion, gender, sexual orientation, gender identity, disability, genetic
 information, veteran status, military status, application for military
 service or any other class per local, state or federal law._
 
+<h2 id="brink_grantees">Brink Grantees</h2>
+
+<div class="team-container">
+  {% for item in site.data.team.grantees %}
+  <div class="team-row">
+    <div class="image-column">
+      <img src="{{ item.image }}" alt="{{ item.alt }}"/>
+    </div>
+    <div class="text-column">
+      <h3 class="team-name">{{ item.name }}</h3>
+      <h4 class="item-title">{{ item.title | upcase }}</h4>
+      <p class="item-description">
+        {{ item.description }}
+      </p>
+      {% if item.social %}
+      <div class="team-social">
+        <a href="{{ item.link }}" target="_blank">{{ item.social }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 ## Stay updated
 
 Follow [@bitcoinbrink](https://twitter.com/bitcoinbrink) on Twitter or subscribe to our
