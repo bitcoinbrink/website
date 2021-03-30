@@ -51,7 +51,7 @@ updates on what else we are working on.
   {% endfor %}
 </div>
 <div class="team-container">
-  <h1>Board</h1>
+  <h1 id="board">Board</h1>
   <p>John and Mike serve on the board, along with the following independent board members:</p>
   {% for item in site.data.team.board %}
   <div class="team-row">

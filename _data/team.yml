@@ -105,3 +105,36 @@ fellows:
   link: https://twitter.com/glozow
   image: assets/images/gloria-zhao.jpg
   alt: Picture of Gloria Zhao
+
+grantees:
+- name: Jesse Posner
+  description: >-
+    Jesse’s funding supports his work on adaptor signatures and an
+    implementation of the FROST threshold signature scheme. These technologies
+    bring additional security, privacy and functionality to multisignature and
+    second layer protocols.
+  social: "@jesseposner"
+  link: https://twitter.com/jesseposner
+  image: assets/images/jesse-posner.jpg
+  alt: Picture of Jesse Posner
+
+- name: Alekos Filini
+  description: >-
+    Alekos’s funding supports his work as maintainer of the Bitcoin Dev
+    Kit. BDK is a lightweight and modular collection of tools for use by wallets
+    and other Bitcoin applications.
+  social: "@afilini"
+  link: https://twitter.com/afilini
+  image: assets/images/alekos-filini.jpg
+  alt: Picture of Alekos Filini
+
+- name: Hennadii Stepanov
+  description: >-
+    Hennadii has been contributing code and review to Bitcoin Core since 2018.
+    In that time he has become one of the most prolific contributors to the
+    project. Hennadii’s funding allows him to work full time on Bitcoin Core
+    development and review.
+  social: "@hhebasto"
+  link: https://twitter.com/hhebasto
+  image: assets/images/hennadii-stepanov.jpg
+  alt: Picture of Hennadii Stepanov
