@@ -49,7 +49,7 @@ darkgray;margin-right:25px;width:150px;" />
 Hennadii has been contributing code and review to Bitcoin Core since 2018. In that time he
 has become [one of the most prolific contributors to the project][hebasto]. Hennadii’s funding allows
 him to work full time on Bitcoin Core development and review. Hennadii has previously
-received support from [CoinCards][coincards] and [Payvant][payvant].
+received support from [CardCoins][] and [Payvant][payvant].
 
 [@hhebasto][hennadii twitter]
 
@@ -72,7 +72,7 @@ apply now for the next funding round.
 [frost]: https://crysp.uwaterloo.ca/software/frost/
 [bdk]: https://bitcoindevkit.org/
 [hebasto]: https://github.com/bitcoin/bitcoin/commits?author=hebasto
-[coincards]: https://www.cardcoins.co/
+[cardcoins]: https://www.cardcoins.co/
 [payvant]: https://payvant.com/
 [donate]: mailto:donate@brink.dev
 [programs]: /programs
