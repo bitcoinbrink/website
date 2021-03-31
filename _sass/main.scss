@@ -14,6 +14,13 @@
   font-display: swap;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 110px; /* fixed header height*/
+  margin: -110px 0 0; /* negative fixed header height */
+}
+
 $yellow: #feda09;
 $cream: #f1ede9;
 
