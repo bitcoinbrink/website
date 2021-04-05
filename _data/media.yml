@@ -1,3 +1,29 @@
+- date: "2021-03-31"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "Brink Awards Three Bitcoin Development Grants"
+  description: "Brink, a nonprofit focused on financial support and mentorship
+  for Bitcoin developers, has announced three new grant recipients."
+  url: https://bitcoinmagazine.com/business/brink-awards-three-bitcoin-development-grants
+
+- date: "2021-03-31"
+  outlet: BTC Times
+  image: btc-times.jpg
+  title: "Brink Awards Grants to Three Developers to Support Open-Source Development"
+  description: "The three open-source developers Jesse Posner, Alekos Filini,
+  and Hennadii Stepanov are receiving a grant from independent organization
+  Brink, according to a press release shared with the BTC Times."
+  url: https://www.btctimes.com/news/brink-awards-three-developer-grants
+
+- date: "2021-03-30"
+  outlet: Bitcoin Magazine Podcast
+  image: bitcoin-magazine-podcast.jpg
+  title: "Optimizing Bitcoin with Gloria Zhao"
+  description: "This time on the “Bitcoin Magazine Podcast” host Christian
+  Keroles talked with developer Gloria Zhao about her contributions to Bitcoin
+  Core."
+  url: https://bitcoinmagazine.com/culture/optimizing-bitcoin-with-gloria-zhao
+
 - date: "2021-03-05"
   outlet: Coinscrum
   image: coinscrum.png
