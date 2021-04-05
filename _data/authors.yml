@@ -21,3 +21,11 @@ antonie:
   bio: Director of Operations
   image: /assets/images/antonie-hodge.jpg
   alt: Antonie
+
+alekos:
+  name: "Alekos Filini"
+  handle: "@afilini"
+  link: http://twitter.com/afilini
+  bio: Brink Grantee
+  image: /assets/images/alekos-filini.jpg
+  alt: Alekos Filini
