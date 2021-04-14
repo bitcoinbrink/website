@@ -29,3 +29,11 @@ alekos:
   bio: Brink Grantee
   image: /assets/images/alekos-filini.jpg
   alt: Alekos Filini
+
+jesse:
+  name: "Jesse Posner"
+  handle: "@jesseposner"
+  link: http://twitter.com/jesseposner
+  bio: Brink Grantee
+  image: /assets/images/jesse-posner.jpg
+  alt: Jesse Posner
