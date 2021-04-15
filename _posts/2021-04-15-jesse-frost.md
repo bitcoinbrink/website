@@ -8,6 +8,8 @@ category: "technical"
 description: "Jesse Posner explains the FROST signature scheme."
 ---
 
+_Jesse’s grant is generously supported by [Nexo][nexo website]._
+
 The promise of Bitcoin is only as secure as the cryptographic keys that
 authenticate its operations: they are the keys to freedom in the digital age.
 However, the requirements for Bitcoin key management are becoming more demanding
@@ -79,3 +81,4 @@ newsletter][brink newsletter signup] for updates, and follow me on
 [brink twitter]: https://twitter.com/bitcoinbrink
 [brink newsletter signup]: https://dev.us7.list-manage.com/subscribe/post?u=51fa227f2f3d1d13916156e4f&id=d139d52c54
 [jesse github]: https://github.com/jesseposner
+[nexo website]: https://nexo.io/
