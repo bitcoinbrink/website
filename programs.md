@@ -40,14 +40,16 @@ expect for a software engineering job. The fellowship takes place in our London
 office, so applicants must be prepared to relocate. We may be able to help with
 travel and visas on a case-by-case basis.
 
-To apply for the fellowship, please fill out the [fellowship application
-form](https://forms.gle/hhsAFmot8PKd3SQE8) with some information about
+To apply for the fellowship, click on the button below and tell us some information about
 yourself:
 
 - Describe some contributions you’ve made to open source projects, or any other
   projects you’re particularly proud of.
 - Are there any projects that you’re particularly interested in working on?
 - What do you want to do with the experience that you gain at the fellowship?
+
+<a href="https://brink.homerun.co/fellowship/en/apply?&step=1"><button>Apply for
+a Fellowship</button></a>
 
 Good luck!
 
@@ -111,8 +113,8 @@ The grant program is open to developers anywhere in the world. Grant applicants 
 - be committed to increasing the impact of their contributions, growing the
   developer ecosystem and scaling Bitcoin and related projects.
 
-To apply for a Brink grant, please fill out the [grant application
-form](https://forms.gle/zr5QKoV59pkUfBL47) with the following information:
+To apply for a Brink grant, click on the button below and tell us some information about
+yourself:
 
 - A description of the contributions you've made to Bitcoin Core or other
   Bitcoin-related projects.
@@ -120,6 +122,8 @@ form](https://forms.gle/zr5QKoV59pkUfBL47) with the following information:
   any other grants of funding for your open-source work.
 - What project you intend to work on, including expected deliverables and
   timeline.
+  
+  <a href="https://brink.homerun.co/grants/en/apply?&step=1"><button>Apply for a Grant</button></a>
 
 _Brink is an equal opportunity employer and does
 not discriminate in its hiring process with applicants, whether internal or
