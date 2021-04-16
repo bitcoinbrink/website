@@ -16,7 +16,7 @@ Residencies](https://residency.chaincode.com/) and [PR Review
 Club](https://bitcoincore.reviews/), and mentoring many Bitcoin open source
 contributors.
 
-As a Brink fellow, you’ll spend a year working alongside John and the other
+As a Brink fellow, you’ll spend a year working alongside our engineering team and the other
 Brink fellows. You’ll learn about all aspects of the Bitcoin Core system,
 including consensus, peer-to-peer networking, wallets and cryptography. You’ll
 become an effective open source contributor, and will start making
@@ -40,25 +40,8 @@ expect for a software engineering job. The fellowship takes place in our London
 office, so applicants must be prepared to relocate. We may be able to help with
 travel and visas on a case-by-case basis.
 
-To apply for the fellowship, click on the button below and tell us some information about
-yourself:
-
-- Describe some contributions you’ve made to open source projects, or any other
-  projects you’re particularly proud of.
-- Are there any projects that you’re particularly interested in working on?
-- What do you want to do with the experience that you gain at the fellowship?
-
-<a href="https://brink.homerun.co/fellowship/en/apply?&step=1"><button>Apply for
-a Fellowship</button></a>
-
-Good luck!
-
-_Brink is an equal opportunity employer and does
-not discriminate in its hiring process with applicants, whether internal or
-external, because of race, creed, color, age, national origin, ancestry,
-religion, gender, sexual orientation, gender identity, disability, genetic
-information, veteran status, military status, application for military
-service or any other class per local, state or federal law._
+<a href="https://brink.homerun.co/fellowship"><button>Apply for
+the Fellowship</button></a>
 
 <h2 id="brink_fellows">Brink Fellows</h2>
 
@@ -113,24 +96,7 @@ The grant program is open to developers anywhere in the world. Grant applicants 
 - be committed to increasing the impact of their contributions, growing the
   developer ecosystem and scaling Bitcoin and related projects.
 
-To apply for a Brink grant, click on the button below and tell us some information about
-yourself:
-
-- A description of the contributions you've made to Bitcoin Core or other
-  Bitcoin-related projects.
-- Your current funding situation, and whether you've been the recipient of
-  any other grants of funding for your open-source work.
-- What project you intend to work on, including expected deliverables and
-  timeline.
-  
-  <a href="https://brink.homerun.co/grants/en/apply?&step=1"><button>Apply for a Grant</button></a>
-
-_Brink is an equal opportunity employer and does
-not discriminate in its hiring process with applicants, whether internal or
-external, because of race, creed, color, age, national origin, ancestry,
-religion, gender, sexual orientation, gender identity, disability, genetic
-information, veteran status, military status, application for military
-service or any other class per local, state or federal law._
+<a href="https://brink.homerun.co/grants"><button>Apply for a Grant</button></a>
 
 <h2 id="brink_grantees">Brink Grantees</h2>
 
