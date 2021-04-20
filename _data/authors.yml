@@ -37,3 +37,11 @@ jesse:
   bio: Brink Grantee
   image: /assets/images/jesse-posner.jpg
   alt: Jesse Posner
+
+hennadii:
+  name: "Hennadii Stepanov"
+  handle: "@hhebasto"
+  link: http://twitter.com/hhebasto
+  bio: Brink Grantee
+  image: /assets/images/hennadii-stepanov.jpg
+  alt: Hennadii Stepanov
