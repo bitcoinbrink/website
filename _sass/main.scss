@@ -28,6 +28,8 @@ body {
   background-color: $cream;
   font-family: Avenir-Light;
   color: black;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .background-image {
   background-color: $cream;
@@ -78,7 +80,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1200px;
   background-color: $cream;
   z-index: 999;
 }
@@ -94,7 +96,6 @@ header {
 .nav-items {
   text-align: center;
   a {
-    color: red;
     font-weight: bold;
     font-size: 120%;
     text-decoration: none;
@@ -179,9 +180,6 @@ header {
 .team-container {
   .team-row {
     margin-top: 1rem;
-    a {
-      color: red;
-    }
     a:hover {
       color: black;
     }
@@ -215,7 +213,6 @@ header {
   padding-bottom: 1rem;
   margin-top: 2rem;
   a {
-    color: white;
     text-decoration: none;
   }
 }
@@ -401,10 +398,6 @@ header {
         height: auto;
         border: 1px solid darkgray;
       }
-      a {
-        text-decoration: none;
-	      color: black;
-      }
 
     }
   }
@@ -415,15 +408,12 @@ header {
   margin-bottom: 25px;
 
   a {
-    color: red;
     font-weight: bold;
   }
 }
 
 .post-container {
   margin-top: 10rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
   .author-name {
     font-family: Avenir-Black;
     font-size: 0.75rem;
@@ -434,7 +424,6 @@ header {
   }
   a {
     text-decoration: none;
-    color: red;
     transition: all 0.2s ease-in-out;
   }
 
@@ -443,7 +432,6 @@ header {
   }
   .author-link {
     text-decoration: none;
-    color: red;
   }
   .author-link:hover {
     text-decoration: none;
@@ -1556,4 +1544,28 @@ header {
 	line-height: 60px;
   display: inline;
   color: #fff;
+}
+
+button, .button {
+  background-color:#ff7f7f;
+  border: 2px solid #ff7f7f;
+  padding: 8px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+button:hover, .button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+input
+{
+  padding: 8px 20px;
 }
