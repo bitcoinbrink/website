@@ -28,6 +28,8 @@ body {
   background-color: $cream;
   font-family: Avenir-Light;
   color: black;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .background-image {
   background-color: $cream;
@@ -78,7 +80,7 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1200px;
   background-color: $cream;
   z-index: 999;
 }
