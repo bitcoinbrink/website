@@ -1557,3 +1557,27 @@ header {
   display: inline;
   color: #fff;
 }
+
+button, .button {
+  background-color:#007bff; /* Green */
+  border: 2px solid #007bff;
+  padding: 8px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+button:hover, .button:hover {
+  background-color: transparent; /* Green */
+  color: black;
+}
+
+input
+{
+  padding: 8px 20px;
+}
