@@ -43,7 +43,7 @@ body {
 
 a {
   font-family: Avenir-Light;
-  color: #007bff;
+  color: red;
   cursor: pointer;
 }
 
@@ -1547,7 +1547,7 @@ header {
 }
 
 button, .button {
-  background-color:#007bff; /* Green */
+  background-color:#007bff;
   border: 2px solid #007bff;
   padding: 8px 20px;
   color: white;
@@ -1561,7 +1561,7 @@ button, .button {
 }
 
 button:hover, .button:hover {
-  background-color: transparent; /* Green */
+  background-color: transparent;
   color: black;
 }
 
