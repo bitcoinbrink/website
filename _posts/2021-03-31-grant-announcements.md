@@ -1,5 +1,5 @@
 ---
-title: "Announcing Brink's first round of developer grants"
+title: "Announcing Brink's First Round of Developer Grants"
 permalink: /blog/2021/03/31/grantees/
 layout: post
 author: brink
