@@ -37,9 +37,15 @@ Donations to Brink from U.S. taxpayers can be deducted under IRC section 170.</p
 
 <a href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=ODUyOTE5MTM2XzIxMTFfYWJlNTBiNDItY2EyMC00YjYxLThhODctZDk0ZDZhMTRjZmIz&designatedText=UHJvZ3JhbXM="><button>Donor-Advised Fund Donation</button></a> 
 
-Learn more <a href="https://brink.dev/blog/2021/03/26/donate-bitcoin/">here</a>.
+Learn more [here](/blog/2021/03/26/donate-bitcoin/)
 
-<p><em>For donations greater than $2500.00 USD, or if you'd like to <a href="https://brink.dev/blog/2021/03/26/donate-bitcoin/#donate-bitcoin-directly-to-brink">donate Bitcoin directly as a tax-deductible donation</a>, please email <a href="mailto:donate@brink.dev">donate@brink.dev</a>.</em></p>
+<h4>Donate through AmazonSmile</h4>
+
+<a href="https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect?ie=UTF8&ein=85-2919136&ref_=smi_ext_ch_85-2919136_cl="><button>AmazonSmile Donation</button></a> 
+
+Learn more [here](/blog/2021/04/30/donate-through-amazonsmile/)
+
+<p><em>For donations greater than $2500.00 USD, or if you'd like to <a href="/blog/2021/03/26/donate-bitcoin/#donate-bitcoin-directly-to-brink">donate Bitcoin directly as a tax-deductible donation</a>, please email <a href="mailto:donate@brink.dev">donate@brink.dev</a>.</em></p>
 
 <h2>Keep in touch</h2>
 <p>Follow <a href="https://twitter.com/bitcoinbrink">@bitcoinbrink</a> on Twitter or subscribe to the Brink newsletter which includes fellow and grantee contribution updates as a result of your donations.</p>
