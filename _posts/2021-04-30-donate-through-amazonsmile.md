@@ -20,7 +20,11 @@ Only purchases made at smile.amazon.com will result in donations.
 
 * On desktop: [Bookmark this link][AmazonSmile], select Brink Technology Inc as
   your chosen charity, and use smile.amazon.com for your future Amazon
-  purchases.
+  purchases.  You may also want to install a browser extension that
+  automatically redirects any Amazon links you click to the Smile
+  subdomain.  See extensions for [Firefox][ff smile] and [Chrome][chrome
+  smile].
+
 * On mobile: turn on AmazonSmile by going to “Settings” in the main menu,
   select “AmazonSmile,” and following the on-screen instructions. Search for
   the Brink Technology Inc when choosing a charity.
@@ -35,3 +39,5 @@ advance that mission. Thank you for your interest in supporting Brink!
 [donate email]: mailto:donate@brink.dev
 [grant]: /programs#grants
 [fellowship]: /programs#fellowship
+[ff smile]: https://addons.mozilla.org/en-US/firefox/search/?q=amazon%20smile
+[chrome smile]: https://chrome.google.com/webstore/search/amazon%20smile
