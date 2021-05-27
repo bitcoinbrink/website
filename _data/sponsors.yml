@@ -66,6 +66,13 @@ grants:
     website: https://www.silvergatebank.com/
     amount: 50000
     amount_formatted: $50,000
+  -  
+    name: BlockFi
+    image: assets/images/sponsors/blockfi.png
+    alt: BlockFi logo
+    website: https://blockfi.com/
+    amount: 150000
+    amount_formatted: $150,000
 
 providers:
   -
