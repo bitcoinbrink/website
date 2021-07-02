@@ -73,6 +73,13 @@ grants:
     website: https://blockfi.com/
     amount: 150000
     amount_formatted: $150,000
+  -  
+    name: Okcoin
+    image: assets/images/sponsors/okcoin.png
+    alt: Okcoin logo
+    website: https://www.okcoin.com/
+    amount: 100000
+    amount_formatted: $100,000
 
 providers:
   -
