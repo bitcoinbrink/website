@@ -138,3 +138,23 @@ grantees:
   link: https://twitter.com/hhebasto
   image: assets/images/hennadii-stepanov.jpg
   alt: Picture of Hennadii Stepanov
+
+- name: Larry Ruane
+  description: >-
+    Larry reviews and tests Bitcoin Core PRs focusing on correctness,
+    thread-safety, code organization and maintainability, test coverage, logging
+    for problem analysis, and related areas. 
+  social: "@larryruane"
+  link: https://twitter.com/larryruane
+  image: assets/images/larry-ruane.jpg
+  alt: Picture of Larry Ruane
+
+- name: Sebastian Falbesoner
+  description: >-
+    Sebastian's funding supports his code review and testing,
+    improving test coverage, extending the test framework, and
+    improving the networking/P2P and wallet codebases. 
+  social: "@theStack"
+  link: https://twitter.com/theStack
+  image: assets/images/sebastian-falbesoner.jpg
+  alt: Picture of Sebastian Falbesoner
