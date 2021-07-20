@@ -33,6 +33,11 @@ defaults:
     values:
       image: /assets/images/b_logo_whitebg.png
 
+  - scope:
+      path: _posts/
+    values:
+      permalink: /:year/:month/:day/:title
+
 # Build settings
 theme: minima
 plugins:
