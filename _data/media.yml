@@ -1,3 +1,28 @@
+- date: "2021-07-26"
+  outlet: Okcoin
+  image: okcoin.png
+  title: "Giving back to Bitcoin e-book"
+  description: "Brink partered with Okcoin to publish an e-book covering common
+  Bitcoin development misconceptions, how developers are funded, and ways to
+  contribute to Bitcoin development."
+  url: http://bit.ly/376CXwg
+
+- date: "2021-07-22"
+  outlet: CopperCasts
+  image: coppercasts.jpg
+  title: "Episode 015: John Newbery – Founder and Director, Brink"
+  description: "John Newbery describes the inner workings of the Bitcoin development
+  community, explains why he founded Brink and also covers all things Taproot."
+  url: https://copper.co/insights/coppercasts-episode-015
+
+- date: "2021-07-21"
+  outlet: The B Word Conference
+  image: thebword.jpg
+  title: "The B Word: Supporting the Developer Ecosystem"
+  description: "Brink co-founders John Newbery and Mike Schmidt present at the
+  Crypto Council for Innovation's institutional Bitcoin conference."
+  url: https://www.thebword.org/c/track-3-Supporting-the-Developer-Ecosystem
+
 - date: "2021-06-05"
   outlet: Bitcoin 2021 Conference
   image: bitcoin2021.jpg
