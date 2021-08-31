@@ -106,6 +106,16 @@ fellows:
   image: assets/images/gloria-zhao.jpg
   alt: Picture of Gloria Zhao
 
+- name: Martin Zumsande
+  description: >-
+    Martin has been contributing to Bitcoin Core since early 2019. His focus is
+    on Bitcoin Core's peer-to-peer and address relay code. Martin will join as our
+    second fellow in December 2021.
+  social: "@lightlike1"
+  link: https://twitter.com/lightlike1
+  image: assets/images/martin-zumsande.jpg
+  alt: Picture of Martin Zumsande
+
 grantees:
 - name: Jesse Posner
   description: >-

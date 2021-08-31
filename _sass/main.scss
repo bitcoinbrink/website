@@ -473,6 +473,15 @@ header {
       margin-left: auto;
       margin-right: auto;
     }
+
+    .header-images {
+      text-align: center;
+      margin: 10px;
+  
+      img {
+        display: inline;
+      }
+    }
   }
   .post-social {
     color: red;
