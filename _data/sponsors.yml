@@ -80,6 +80,13 @@ grants:
     website: https://www.okcoin.com/
     amount: 100000
     amount_formatted: $100,000
+  -  
+    name: CMS Holdings
+    image: assets/images/sponsors/cms.png
+    alt: CMS Holdings logo
+    website: http://cmsholdings.io/
+    amount: 200000
+    amount_formatted: $200,000
 
 providers:
   -
