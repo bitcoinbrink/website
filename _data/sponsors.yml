@@ -88,6 +88,14 @@ grants:
     amount: 200000
     amount_formatted: $200,000
 
+  -  
+    name: FTX
+    image: assets/images/sponsors/ftx.jpeg
+    alt: FTX logo
+    website: https://ftx.com/
+    amount: 450000
+    amount_formatted: $450,000 over 3 years
+
 providers:
   -
     name: Silvergate
