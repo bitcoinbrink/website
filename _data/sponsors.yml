@@ -96,6 +96,14 @@ grants:
     amount: 450000
     amount_formatted: $450,000 over 3 years
 
+  -  
+    name: Stacks Foundation
+    image: assets/images/sponsors/stacks.png
+    alt: Stacks Foundation logo
+    website: https://stacks.org/
+    amount: 150000
+    amount_formatted: $150,000
+
 providers:
   -
     name: Silvergate
