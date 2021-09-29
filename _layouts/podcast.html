@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+<div class="post-container">
+  <div class="post-head">
+    <a href="/podcast.html" class="post-back-button">Back to all podcasts</a>
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="post-row">
+    <div class="post-content">
+      <em>Posted on {{ page.date | date: "%-d %B %Y" }}</em>
+      {{ content }}
+
+      <h2>Keep in touch</h2>
+      
+      <p>Subscribe to The Bitcoin Development Podcast <a href="https://anchor.fm/s/6bf36dec/podcast/rss">RSS feed</a>.</p>
+
+      <p>Subscribe to the Brink newsletter for our blog posts.</p>
+      {% include newsletter-signup.html %}
+    </div>
+  </div>
+</div>
