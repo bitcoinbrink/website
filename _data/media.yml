@@ -1,3 +1,23 @@
+- date: "2021-08-15"
+  outlet: CriptoNoticias
+  image: criptonoticias.png
+  title: "¿Te gustaría desarrollar el código de Bitcoin? Este exchange financiará becas"
+  description: "El exchange FTX ha firmado un acuerdo con la asociación sin
+  fines de lucro Brink, que se empleará para otorgar becas y subvenciones a
+  desarrolladores de Bitcon. El acuerdo firmado por un total de 450 mil dólares
+  en un periodo de 3 años, tienen como objetivo incentivar el crecimiento dentro
+  de la comunidad de programadores de Bitcoin Core."
+  url: https://www.criptonoticias.com/comunidad/gustaria-desarrollar-codigo-bitcoin-exchange-financiara-becas/amp/
+
+
+- date: "2021-08-13"
+  outlet: Coindesk
+  image: coindesk.png
+  title: "Bitcoin Development Boost: FTX Is Donating $450K to Brink"
+  description: "Sam Bankman-Fried's FTX exchange is committing to a
+  three-year sponsorship of Brink's developer funding efforts at $150,000/yr."
+  url: https://www.coindesk.com/tech/2021/08/13/bitcoin-development-boost-ftx-is-donating-450k-to-brink/
+
 - date: "2021-07-26"
   outlet: Okcoin
   image: okcoin.png
