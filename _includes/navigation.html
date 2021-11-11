@@ -2,68 +2,52 @@
   <div class="nav-logo">
     <a href="/"><img src="/assets/images/brink_logo_small.png" alt="brink logo"/></a>
   </div>
-    <nav class="nav-items">
-      <a href="/" {% if page.url == "/" %}class="nav-active"{% endif %}>
-       About
-      </a>
-      <a href="/programs" {% if page.url == "/programs.html" %}class="nav-active"{% endif %}>
-       Programs
-      </a>
-      <a href="/donate" {% if page.url == "/donate.html" %}class="nav-active"{% endif %}>
-       Donate
-      </a>
-      <a href="/sponsors" {% if page.url == "/sponsors.html" %}class="nav-active"{% endif %}>
-       Sponsors
-      </a>
-      <a href="/blog" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
-       Blog
-      </a>
-      <a href="/media" {% if page.url == "/media.html" %}class="nav-active"{% endif %}>
-       Media
-      </a>
-      <a href="/podcast" {% if page.url == "/podcast.html" %}class="nav-active"{% endif %}>
-       Podcast
-      </a>
-    </nav>
+  <nav class="nav-items">
+    <a href="/" {% if page.url == "/" %}class="nav-active"{% endif %}>About</a>
+    <a href="/programs" {% if page.url == "/programs.html" %}class="nav-active"{% endif %}>Programs</a>
+    <a href="/donate" {% if page.url == "/donate.html" %}class="nav-active"{% endif %}>Donate</a>
+    <a href="/sponsors" {% if page.url == "/sponsors.html" %}class="nav-active"{% endif %}>Sponsors</a>
+    <a href="/blog" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>Blog</a>
+    <a href="/media" {% if page.url == "/media.html" %}class="nav-active"{% endif %}>Media</a>
+    <a href="/podcast" {% if page.url == "/podcast.html" %}class="nav-active"{% endif %}>Podcast</a>
+  </nav>
 <div class="theme-toggle"></div>
 </header>
 <header {% if page.url == "/" %}class="header-mobile index"{% endif %}{% if page.url != "/" %}class="header-mobile"{% endif %}>
   <div {% if page.url == "/" %}class="hidden"{% endif %}{% if page.url != "/" %}class="nav-logo-mobile"{% endif %}>
     <a href="/"><img src="/assets/images/b_logo.png" alt="b logo"/></a>
   </div>
-<div class="nav-button-mobile">
-  <input id="burger" type="checkbox" />
-
-
-<nav class="nav-items">
-  <label for="burger">
-    <img class="toggle-on"src="/assets/images/menu.png" alt="menu icon">
-    <img class="toggle-off" src="/assets/images/add-1.png" alt="black x icon">
-  </label>
-  <a href="/" {% if page.url == "/" %}class="nav-active"{% endif %}>
-    <span class="mobile-nav-number">01</span>
-    <span class="mobile-nav-title">About</span>
-  </a>
-  <a href="/programs" {% if page.url == "/programs.html" %}class="nav-active"{% endif %}>
-    <span class="mobile-nav-number">02</span>
-    <span class="mobile-nav-title">Programs</span>
-  </a>
-  <a href="/donate" {% if page.url == "/donate.html" %}class="nav-active"{% endif %}>
-    <span class="mobile-nav-number">03</span>
-    <span class="mobile-nav-title">Donate</span>
-  </a>
-  <a href="/sponsors" {% if page.url == "/sponsors.html" %}class="nav-active"{% endif %}>
-    <span class="mobile-nav-number">04</span>
-    <span class="mobile-nav-title">Sponsors</span>
-  </a>
-  <a href="/blog" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
-    <span class="mobile-nav-number">05</span>
-    <span class="mobile-nav-title">Blog</span>
-  </a>
-  <a href="/media" {% if page.url == "/media.html" %}class="nav-active"{% endif %}>
-    <span class="mobile-nav-number">06</span>
-    <span class="mobile-nav-title">Media</span>
-  </a>
-</nav> 
-</div>
+  <div class="nav-button-mobile">
+    <input id="burger" type="checkbox" />
+    <nav class="nav-items">
+      <label for="burger">
+        <img class="toggle-on"src="/assets/images/menu.png" alt="menu icon">
+        <img class="toggle-off" src="/assets/images/add-1.png" alt="black x icon">
+      </label>
+      <a href="/" {% if page.url == "/" %}class="nav-active"{% endif %}>
+        <span class="mobile-nav-number">01</span>
+        <span class="mobile-nav-title">About</span>
+      </a>
+      <a href="/programs" {% if page.url == "/programs.html" %}class="nav-active"{% endif %}>
+        <span class="mobile-nav-number">02</span>
+        <span class="mobile-nav-title">Programs</span>
+      </a>
+      <a href="/donate" {% if page.url == "/donate.html" %}class="nav-active"{% endif %}>
+        <span class="mobile-nav-number">03</span>
+        <span class="mobile-nav-title">Donate</span>
+      </a>
+      <a href="/sponsors" {% if page.url == "/sponsors.html" %}class="nav-active"{% endif %}>
+        <span class="mobile-nav-number">04</span>
+        <span class="mobile-nav-title">Sponsors</span>
+      </a>
+      <a href="/blog" {% if page.url == "/blog.html" %}class="nav-active"{% endif %}>
+        <span class="mobile-nav-number">05</span>
+        <span class="mobile-nav-title">Blog</span>
+      </a>
+      <a href="/media" {% if page.url == "/media.html" %}class="nav-active"{% endif %}>
+        <span class="mobile-nav-number">06</span>
+        <span class="mobile-nav-title">Media</span>
+      </a>
+    </nav> 
+  </div>
 </header>
