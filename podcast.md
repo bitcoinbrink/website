@@ -10,6 +10,8 @@ description: Join Brink as we talk with our fellows, grantees, and friends in th
 
   <p>Join Brink as we talk with our fellows, grantees, and friends in the Bitcoin space about Bitcoin and Lightning technology.</p>
 
+  {% include podcast-links.html %}
+
   <ul class="post-list">
     {% for pod in site.podcasts %}
     <li>
