@@ -1428,68 +1428,12 @@ header {
   .header-mobile {
     display: none;
   }
-  .index-container {
-    margin-top: 25rem;
-  }
-  .team-container {
-    .team-row {
-      .image-column {
-        flex: 20%;
-        img {
-          border: 1px solid darkgray;
-        }
-      }
-      .text-column {
-        flex: 80%;
-      }
-    }
-  }
 
-  .projects-container {
-    margin-left: 25%;
-    margin-right: 25%;
-    .projects-row {
-      .text-column {
-        .item-description {
-          width: 40rem;
-        }
-      }
-    }
-  }
-
-  .blog-container {
-    .archive-title {
-      margin-left: 7%;
-    }
-    .blog-row {
-      .blog-col {
-        flex: 0 0 16%;
-      }
-    }
-    .post-title {
-      a:link {
-        text-decoration: none;
-      }
-    }
-  }
   .sponsors-container {
     .sponsors-row {
       .sponsors-col {
 	      text-align: center;
         flex: 0 0 16%;
-      }
-    }
-  }
-  .post-container {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
-  .about-container {
-    margin-left: 20rem;
-    margin-right: 20rem;
-    .about-row {
-      .about-text {
-        width: 70rem;
       }
     }
   }
