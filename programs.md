@@ -9,12 +9,7 @@ description: Brink supports and mentors new contributors to open source Bitcoin 
 # <span id="fellowship">Fellowship</span>
 
 The Brink fellowship is an intensive one-year program to onboard exceptional
-software engineers into Bitcoin protocol development. Developed and coordinated
-by Brink director John Newbery, the fellowship draws on John’s four years
-experience of contributing to Bitcoin Core, running the [Chaincode
-Residencies](https://residency.chaincode.com/) and [PR Review
-Club](https://bitcoincore.reviews/), and mentoring many Bitcoin open source
-contributors.
+software engineers into Bitcoin protocol development.
 
 As a Brink fellow, you’ll spend a year working alongside our engineering team and the other
 Brink fellows. You’ll learn about all aspects of the Bitcoin Core system,
