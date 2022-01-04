@@ -103,6 +103,14 @@ grants:
     website: https://stacks.org/
     amount: 150000
     amount_formatted: $150,000
+  
+  -  
+    name: Exodus
+    image: assets/images/sponsors/exodus.png
+    alt: Exodus logo
+    website: https://www.exodus.com/
+    amount: 350000
+    amount_formatted: $350,000
 
 providers:
   -
