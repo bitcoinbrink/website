@@ -112,6 +112,14 @@ grants:
     amount: 350000
     amount_formatted: $350,000
 
+  -  
+    name: Coinbase
+    image: assets/images/sponsors/coinbase.png
+    alt: Coinbase logo
+    website: https://www.coinbase.com/
+    amount: 300000
+    amount_formatted: $300,000
+
 providers:
   -
     name: Silvergate
