@@ -149,3 +149,42 @@ grantees:
   link: https://twitter.com/theStack
   image: assets/images/sebastian-falbesoner.jpg
   alt: Picture of Sebastian Falbesoner
+
+- name: "0xB10C"
+  description: >-
+    0xB10C's funding supports his current and upcoming Bitcoin network monitoring
+    efforts, his work on Bitcoin Core development and review, his educational
+    efforts maintaining bitcoin-dev.blog and his work on reorgs on Signet.
+  social: "@0xB10C"
+  link: https://twitter.com/0xB10C
+  image: assets/images/0xb10c.png
+  alt: Picture of 0xB10C
+
+- name: "Vincenzo Palazzo"
+  description: >-
+    Vincenzo's funding supports his work adding new features to Core Lightning and
+    reviewing others' pull requests, as well as his ongoing contributions to the
+    Lightning specification.
+  social: "@palazzovincenzo"
+  link: https://twitter.com/palazzovincenzo
+  image: assets/images/vincenzo-palazzo.jpg
+  alt: Picture of Vincenzo Palazzo
+
+- name: "Niklas Gögge"
+  description: >-
+    Niklas’ funding supports his work on Bitcoin Core, including an implementation
+    of Utreexo. Utreexo aims to reduce the hardware requirements of running a Bitcoin
+    full node by introducing a hash based accumulator for the UTXO set.
+  social: "@dergoegge"
+  link: https://twitter.com/dergoegge
+  image: assets/images/niklas-goegge.jpg
+  alt: Picture of Niklas Gögge
+
+- name: "Bruno Garcia"
+  description: >-
+    Bruno's funding supports his review and testing Bitcoin Core PRs, extending
+    and improving test coverage, and P2P/wallet work.
+  social: "@brrrunog"
+  link: https://twitter.com/brrrunog
+  image: assets/images/bruno-garcia.jpg
+  alt: Picture of Bruno Garcia
