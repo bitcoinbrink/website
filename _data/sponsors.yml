@@ -94,7 +94,7 @@ grants:
     alt: FTX logo
     website: https://ftx.com/
     amount: 450000
-    amount_formatted: $450,000 over 3 years
+    amount_formatted: $450,000
 
   -  
     name: Stacks Foundation
@@ -120,6 +120,14 @@ grants:
     amount: 300000
     amount_formatted: $300,000
 
+  -  
+    name: Craig Hammell
+    image: assets/images/sponsors/craig-hammell.png
+    alt: Craig Hammell picture
+    website: https://twitter.com/craighammell
+    amount: 1000000
+    amount_formatted: $1,000,000
+ 
 providers:
   -
     name: Silvergate
