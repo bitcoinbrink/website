@@ -188,3 +188,12 @@ grantees:
   link: https://twitter.com/brrrunog
   image: assets/images/bruno-garcia.jpg
   alt: Picture of Bruno Garcia
+
+- name: "Michael Ford (fanquake)"
+  description: >-
+    Michael's funding supports his work as a maintainer as well as his work on the build
+    system, security, and reducing the number of dependencies used in the codebase.
+  social: "@fanquake"
+  link: https://twitter.com/fanquake
+  image: assets/images/michael-ford.jpg
+  alt: Picture of Michael Ford
