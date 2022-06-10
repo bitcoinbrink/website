@@ -13,7 +13,7 @@ layout: default
   <ul class="media-list">
     <div class="media-list-row">
       <div class="image-column">
-        <img src="https://dl.dropbox.com/s/j929y3iy43i4aic/brink.jpg?dl=1" />
+        <img src="assets/images/coincenter/brink.jpg" />
       </div>
       <div class="text-column">
         <h2 class="post-title">Brink is funding 12 Bitcoin developers</h2>
@@ -29,7 +29,7 @@ layout: default
     </div>
     <div class="media-list-row">
       <div class="image-column">
-        <img src="https://softr-prod.imgix.net/applications/5abf9a13-d06f-44d6-b50c-187328a34a81/assets/c44fe3ae-957b-45e6-b30f-37986cc291f3.png" />
+        <img src="assets/images/coincenter/sob.png" />
       </div>
       <div class="text-column">
         <h2 class="post-title">Brink is onboarding new Bitcoin developers</h2>
@@ -45,7 +45,7 @@ layout: default
     </div>
     <div class="media-list-row">
       <div class="image-column">
-        <img src="https://dl.dropbox.com/s/7tat58u8qm2eonc/Screen%20Shot%202022-06-09%20at%2010.21.22%20AM.png?dl=1" />
+        <img src="assets/images/coincenter/optech-site.png" />
       </div>
       <div class="text-column">
         <h2 class="post-title">Brink runs the community's premier technical resource, Bitcoin Optech</h2>
@@ -60,7 +60,7 @@ layout: default
     </div>
     <div class="media-list-row">
       <div class="image-column">
-        <img src="https://dl.dropbox.com/s/7x3kyeu1idsmgvu/Screen%20Shot%202022-06-09%20at%2011.39.15%20AM.png?dl=1" />
+        <img src="assets/images/coincenter/sponsors.png" />
       </div>
       <div class="text-column">
         <h2 class="post-title">Brink is entirely community funded</h2>
