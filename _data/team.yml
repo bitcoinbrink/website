@@ -77,6 +77,9 @@ board:
   alt: Picture of Jerry Brito
 
 fellows:
+
+grantees:
+
 - name: Gloria Zhao
   description: >-
     Gloria has been contributing to Bitcoin Core since March 2020. Her focus is
@@ -86,28 +89,6 @@ fellows:
   link: https://twitter.com/glozow
   image: assets/images/gloria-zhao.jpg
   alt: Picture of Gloria Zhao
-
-- name: Martin Zumsande
-  description: >-
-    Martin has been contributing to Bitcoin Core since early 2019. His focus is
-    on Bitcoin Core's peer-to-peer and address relay code. Martin will join as our
-    second fellow in December 2021.
-  social: "@lightlike1"
-  link: https://twitter.com/lightlike1
-  image: assets/images/martin-zumsande.jpg
-  alt: Picture of Martin Zumsande
-
-grantees:
-- name: Jesse Posner
-  description: >-
-    Jesse’s funding supports his work on adaptor signatures and an
-    implementation of the FROST threshold signature scheme. These technologies
-    bring additional security, privacy and functionality to multisignature and
-    second layer protocols.
-  social: "@jesseposner"
-  link: https://twitter.com/jesseposner
-  image: assets/images/jesse-posner.jpg
-  alt: Picture of Jesse Posner
 
 - name: Alekos Filini
   description: >-
@@ -197,3 +178,25 @@ grantees:
   link: https://twitter.com/fanquake
   image: assets/images/michael-ford.jpg
   alt: Picture of Michael Ford
+
+previous_grantees:
+
+- name: Jesse Posner
+  description: >-
+    Jesse’s funding supported his work on adaptor signatures and an
+    implementation of the FROST threshold signature scheme. These technologies
+    bring additional security, privacy and functionality to multisignature and
+    second layer protocols.
+  social: "@jesseposner"
+  link: https://twitter.com/jesseposner
+  image: assets/images/jesse-posner.jpg
+  alt: Picture of Jesse Posner
+
+- name: Martin Zumsande
+  description: >-
+    Martin has been contributing to Bitcoin Core since early 2019. His grant
+    focus was on Bitcoin Core's peer-to-peer and address relay code. 
+  social: "@lightlike1"
+  link: https://twitter.com/lightlike1
+  image: assets/images/martin-zumsande.jpg
+  alt: Picture of Martin Zumsande

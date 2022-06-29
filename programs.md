@@ -38,7 +38,10 @@ travel and visas on a case-by-case basis.
 <a href="https://brink.homerun.co/fellowship"><button>Apply for
 the Fellowship</button></a>
 
-<h2 id="brink_fellows">Brink Fellows</h2>
+{% assign fellow_size = site.data.team.fellows | size %}
+{% if fellow_size > 0 %}
+  <h2 id="brink_fellows">Brink Fellows</h2>
+{% endif %}
 
 <div class="team-container">
   {% for item in site.data.team.fellows %}
@@ -97,6 +100,30 @@ The grant program is open to developers anywhere in the world. Grant applicants 
 
 <div class="team-container">
   {% for item in site.data.team.grantees %}
+  <div class="team-row">
+    <div class="image-column">
+      <img src="{{ item.image }}" alt="{{ item.alt }}"/>
+    </div>
+    <div class="text-column">
+      <h3 class="team-name">{{ item.name }}</h3>
+      <h4 class="item-title">{{ item.title | upcase }}</h4>
+      <p class="item-description">
+        {{ item.description }}
+      </p>
+      {% if item.social %}
+      <div class="team-social">
+        <a href="{{ item.link }}" target="_blank">{{ item.social }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 id="previous_brink_grantees">Previous Brink Grantees</h2>
+
+<div class="team-container">
+  {% for item in site.data.team.previous_grantees %}
   <div class="team-row">
     <div class="image-column">
       <img src="{{ item.image }}" alt="{{ item.alt }}"/>
