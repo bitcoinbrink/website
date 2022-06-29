@@ -179,6 +179,17 @@ grantees:
   image: assets/images/michael-ford.jpg
   alt: Picture of Michael Ford
 
+- name: Tadge Dryja
+  description: >-
+    Tadge is co-author of the Lightning Network whitepaper, developed Discreet
+    Log Contracts on Bitcoin, and works with the MIT Digital Currency Initiative.
+    His grant enables him to continue his work on Utreexo, as well as mentorship
+    with junior Bitcoin developers.
+  social: "@tdryja"
+  link: https://twitter.com/tdryja
+  image: assets/images/tadge-dryja.jpg
+  alt: Picture of Tadge Dryja
+
 previous_grantees:
 
 - name: Jesse Posner
