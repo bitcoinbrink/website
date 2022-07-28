@@ -161,15 +161,6 @@ grantees:
   image: assets/images/niklas-goegge.jpg
   alt: Picture of Niklas Gögge
 
-- name: "Bruno Garcia"
-  description: >-
-    Bruno's funding supports his review and testing Bitcoin Core PRs, extending
-    and improving test coverage, and P2P/wallet work.
-  social: "@brrrunog"
-  link: https://twitter.com/brrrunog
-  image: assets/images/bruno-garcia.jpg
-  alt: Picture of Bruno Garcia
-
 - name: "Michael Ford (fanquake)"
   description: >-
     Michael's funding supports his work as a maintainer as well as his work on the build
@@ -189,6 +180,15 @@ grantees:
   link: https://twitter.com/tdryja
   image: assets/images/tadge-dryja.jpg
   alt: Picture of Tadge Dryja
+
+- name: Stéphan Vuylsteke
+  description: >-
+    Stéphan's grant enables him to continue his review and testing of changes to
+    Bitcoin Core, contribute to Miniscript, and his educational efforts of new Bitcoin developers.
+  social: "@stphnvlstk"
+  link: https://twitter.com/stphnvlstk
+  image: assets/images/stephan-vuylsteke.jpg
+  alt: Picture of Stéphan Vuylsteke
 
 previous_grantees:
 
@@ -211,3 +211,12 @@ previous_grantees:
   link: https://twitter.com/lightlike1
   image: assets/images/martin-zumsande.jpg
   alt: Picture of Martin Zumsande
+
+- name: "Bruno Garcia"
+  description: >-
+    Bruno's funding supported his review and testing Bitcoin Core PRs, extending
+    and improving test coverage, and P2P/wallet work.
+  social: "@brrrunog"
+  link: https://twitter.com/brrrunog
+  image: assets/images/bruno-garcia.jpg
+  alt: Picture of Bruno Garcia
