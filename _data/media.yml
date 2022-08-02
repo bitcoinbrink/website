@@ -1,3 +1,97 @@
+- date: "2022-07-01"
+  outlet: Coindesk
+  image: coindesk.png
+  title: "So You Want to Be a Bitcoin Developer?"
+  description: "Brink co-founder Mike Schmidt and Bitcoin Core developer Larry
+  Ruane discuss the ins and outs of funding Bitcoin research and development as
+  part of CoinDesk's Future of Work Week."
+  url: https://www.coindesk.com/layer2/futureofworkweek/2022/07/01/so-you-want-to-be-a-bitcoin-developer/
+
+- date: "2022-06-09"
+  outlet: btc++
+  image: btcplusplus.jpg
+  title: "Tracing Bitcoin Core v23.0 - btc++ Conference 2022"
+  description: "Brink grantee 0xB10C presents and coordinates a hands-on
+  workshop about using tracepoints in Bitcoin Core at the btc++ Conference in
+  Austin, TX."
+  url: https://www.youtube.com/watch?v=XuRnL393pSk&ab_channel=Base58%E2%9B%93%EF%B8%8F%F0%9F%94%93
+
+- date: "2022-04-19"
+  outlet: Okcoin Live
+  image: okcoin.png
+  title: "Meet Gloria Zhao, Bitcoin Core Developer"
+  description: "As part of Okcoin's Developer Grant Program, we contributed $150,000
+  to Brink and Gloria Zhao to support her open source work. Learn more about her
+  work and views on what’s next for Bitcoin in our Okcoin Live with her, hosted
+  by our COO Jason Lau."
+  url: https://blog.okcoin.com/meet-gloria-zhao-bitcoin-core-developer-and-okcoin-grantee/
+
+- date: "2022-04-08"
+  outlet: Bitcoin 2022 Conference
+  image: bitcoin2022.png
+  title: "Funding Open Source Bitcoin Developers - Bitcoin 2022 Conference"
+  description: "Brink Executive Director Mike Schmidt hosts Bitcoin 2022's panel on funding
+  open source developers with Adi Shankara (Summer of Bitcoin), Ben Price
+  (OpenSats), and Conor Okus (Sprial)."
+  url: https://www.youtube.com/watch?v=ng3dRbm2PHs&ab_channel=BitcoinMagazine
+
+- date: "2022-04-07"
+  outlet: Bitcoin 2022 Conference
+  image: bitcoin2022.png
+  title: "Bitcoin Core Development Process - Bitcoin 2022 Conference"
+  description: "Brink grantee Gloria Zhao joins Bitcoin 2022's panel covering
+  the Bitcoin Core Development process."
+  url: https://www.youtube.com/watch?v=L5fVz2n9IiI&ab_channel=BitcoinMagazine
+
+- date: "2022-04-07"
+  outlet: Bitcoin 2022 Conference
+  image: bitcoin2022.png
+  title: "Mempool Panel - Bitcoin 2022 Conference"
+  description: "Gloria Zhao joins the mempool panel at the Open Source Stage during
+  the Bitcoin 2022 Conference."
+  url: https://www.youtube.com/watch?v=fdRyaQGF0Yk&ab_channel=BitcoinMagazine
+
+- date: "2022-03-06"
+  outlet: Advancing Bitcoin
+  image: advancing-bitcoin.jpg
+  title: "Censorship and DoS Attacks: An intro to Mempool Policy - Advancing
+  Bitcoin 2022"
+  description: "Video of Brink Grantee Gloria Zhao presenting on 'Censorship and DoS
+  Attacks: An intro to Mempool Policy' at the Advancing Bitcoin Conference March 2022 in London."
+  url: https://vimeo.com/704956163
+
+- date: "2021-11-17"
+  outlet: Adopting Bitcoin
+  image: adopting-bitcoin.jpg
+  title: "Transaction Relay Policy for L2 Developers - Adopting Bitcoin 2021"
+  description: "Brink grantee Gloria Zhao presents about Bitcoin mempool policy
+  and transaction relay guarantees at Adopting Bitcoin 2021 in El Salvador."
+  url: https://www.youtube.com/watch?v=-uJSdfo4z7c&ab_channel=AdoptingBitcoin
+
+- date: "2021-11-16"
+  outlet: Adopting Bitcoin
+  image: adopting-bitcoin.jpg
+  title: "Onboarding Bitcoin and Lightning Developers - Adopting Bitcoin 2021"
+  description: "Gloria Zhao joins a panel to discuss challenges and opportunites
+  for newer developers and companies in the Bitcoin space at Adopting Bitcoin 2021."
+  url: https://www.youtube.com/watch?v=-uJSdfo4z7c&ab_channel=AdoptingBitcoin
+
+- date: "2021-11-06"
+  outlet: The Atlanta Bitcoin Conference
+  image: tabconf-2021.png
+  title: "Supporting Bitcoin - Charity Panel - TABConf 2021"
+  description: "Brink co-founder Mike Schmidt joins Alex Li from HRF and Ben
+  Price from OpenSats to discuss supporting Bitcoin open source development at TABConf 2021."
+  url: https://www.youtube.com/watch?v=tT1Ac8gwVlQ&ab_channel=TABConf%28TheAtlantaBitcoinConference%29
+
+- date: "2021-11-05"
+  outlet: The Atlanta Bitcoin Conference
+  image: tabconf-2021.png
+  title: "Research and Improvements for Bitcoin - TABConf 2021"
+  description: "Mike Schmidt, Gloria Zhao, Jesse Posner, and Larry Ruane present
+  on Research and Improvements for Bitcoin at TABConf 2021."
+  url: https://www.youtube.com/watch?v=UFro74sS8q0&ab_channel=TABConf%28TheAtlantaBitcoinConference%29
+
 - date: "2021-08-15"
   outlet: CriptoNoticias
   image: criptonoticias.png
@@ -8,7 +102,6 @@
   en un periodo de 3 años, tienen como objetivo incentivar el crecimiento dentro
   de la comunidad de programadores de Bitcoin Core."
   url: https://www.criptonoticias.com/comunidad/gustaria-desarrollar-codigo-bitcoin-exchange-financiara-becas/amp/
-
 
 - date: "2021-08-13"
   outlet: Coindesk
