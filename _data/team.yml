@@ -29,6 +29,20 @@ officers:
   image: assets/images/antonie-hodge.jpg
   alt: Picture of Antonie Hodge
 
+- name: Emily Kee
+  title: Operations Manager & UK Office Manager
+  description: >-
+    Emily Kee brings with her 10+ years of combined experience in operations, 
+    project management, and marketing. Emily’s foundation in Bitcoin Operations 
+    began when she contributed her organizational efforts to projects for 
+    Chaincode Labs and Qala. She is committed to supporting the Bitcoin developer 
+    community as Brink’s Operations Manager as well being the onsite Office Manager 
+    for Brink’s office in London.
+  social: "@emilymkee"
+  link: https://twitter.com/emilymkee
+  image: assets/images/emily_kee_blog_photo.jpg
+  alt: Picture of Emily Kee
+
 board:
 - name: Carla Kirk-Cohen
   description: >-
