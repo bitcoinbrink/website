@@ -1,3 +1,10 @@
+- date: "2022-10-27"
+  outlet: Coindesk
+  image: coindesk.png
+  title: "Brink Emerges as the Top Funder of Bitcoin Core Development, BitMex Research Says"
+  description: "The nonprofit has funded the highest number of active Bitcoin Core developers and reviewers"
+  url: https://www.coindesk.com/tech/2022/10/27/brink-emerges-as-the-top-funder-of-bitcoin-core-development-bitmex-research-says/
+
 - date: "2022-09-26"
   outlet: Bitcoin Magazine
   image: bitcoin-magazine.png
