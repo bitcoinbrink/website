@@ -120,10 +120,10 @@ The grant program is open to developers anywhere in the world. Grant applicants 
   {% endfor %}
 </div>
 
-<h2 id="previous_brink_grantees">Previous Brink Grantees</h2>
+<h2 id="brink_alumni">Brink Alumni</h2>
 
 <div class="team-container">
-  {% for item in site.data.team.previous_grantees %}
+  {% for item in site.data.team.alumni %}
   <div class="team-row">
     <div class="image-column">
       <img src="{{ item.image }}" alt="{{ item.alt }}"/>
