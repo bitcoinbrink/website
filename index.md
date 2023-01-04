@@ -73,6 +73,29 @@ updates on what else we are working on.
   {% endfor %}
 </div>
 
+<div class="team-container">
+  <h1 id="board">Grant Committee</h1>
+  <p>Mike serves on the grant committee, along with leading Bitcoin technologists:</p>
+  {% for item in site.data.team.grant_committee %}
+  <div class="team-row">
+    <div class="image-column">
+      <img src="{{ item.image }}" alt="{{ item.alt }}"/>
+    </div>
+    <div class="text-column">
+      <h2 class="team-name">{{ item.name }}</h2>
+      <p class="item-description">
+        {{ item.description }}
+      </p>
+      {% if item.social %}
+      <div class="team-social">
+        <a href="{{ item.link }}" target="_blank">{{ item.social }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 <!-- <div class="about-container"> -->
 <!--   <div class="contact-row"> -->
 <!--     <div class="about-icon"> -->

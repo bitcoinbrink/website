@@ -15,20 +15,6 @@ officers:
   image: assets/images/mike-schmidt.png
   alt: Picture of Mike Schmidt
 
-- name: Antonie Hodge
-  title: Director of Operations
-  description: >-
-    Antonie Hodge has worked at the intersection of cryptocurrencies and
-    nonprofits for over six years and brings a wealth of operational experience
-    to the Brink executive team. She is the Operations Director at <a
-    href="https://coincenter.org">Coin Center</a>, the leading nonprofit
-    focused on the policy issues facing cryptocurrencies. Antonie leads our
-    operations, finance, logistics and administration efforts.
-  social: "@antoniehodge"
-  link: https://twitter.com/antoniehodge
-  image: assets/images/antonie-hodge.jpg
-  alt: Picture of Antonie Hodge
-
 - name: Emily Kee
   title: Operations Manager & UK Office Manager
   description: >-
@@ -44,33 +30,6 @@ officers:
   alt: Picture of Emily Kee
 
 board:
-- name: Carla Kirk-Cohen
-  description: >-
-    Carla is a software engineer at <a
-    href="https://lightning.engineering/">Lightning Labs</a>, where she works
-    on the lnd Lightning Network implementation and associated infrastructure
-    projects.  She was onboarded to full time work on Lightning at the <a
-    href="https://residency.chaincode.com/">Chaincode 2019 residency</a>, and
-    has joined the Brink board with the goal of helping other developers find
-    their way to Bitcoin.
-  social: "@actuallyCarlaKC"
-  link: https://twitter.com/actuallyCarlaKC
-  image: assets/images/carla-kirk-cohen.jpg
-  alt: Picture of Carla Kirk-Cohen
-
-- name: Dave Harding
-  description: >-
-    Dave co-wrote the <a href="https://bitcoin.org">Bitcoin.org</a> developer
-    documentation in 2014 and 2015. In 2016, he created a section of
-    Bitcoin.org dedicated to the Bitcoin Core project before joining the
-    startup 21.co, where he wrote a series of Bitcoin developer tutorials.
-    Since 2018 he has been co-writing a <a
-    href="https://bitcoinops.org/en/newsletters">weekly newsletter</a> for
-    Bitcoin Optech. He joined Brink as a founding member of the board in 2020.
-  social: "@hrdng"
-  link: https://twitter.com/hrdng
-  image: assets/images/dave-harding.png
-  alt: Picture of Dave Harding
 
 - name: Jerry Brito
   description: >-
@@ -89,6 +48,19 @@ board:
   link: https://twitter.com/jerrybrito
   image: assets/images/jerry-brito.jpg
   alt: Picture of Jerry Brito
+
+- name: Christian Decker
+  description: >-
+    Christian serves on Brink's board as well as grant committee. He works at
+    Blockstream, wrote the world's first dissertation on Bitcoin and focuses on
+    improving the understanding of underlying consensus
+    mechanisms while making Bitcoin scalable and his research has resulted in
+    numerous publications. Christian brings with him Bitcoin and Lightning technical expertise and
+    insight to both the board as well as the grant committee.
+  social: "@Snyke"
+  link: https://twitter.com/Snyke
+  image: assets/images/christian-decker.png
+  alt: Picture of Christian Decker
 
 fellows:
 
@@ -204,7 +176,37 @@ grantees:
   image: assets/images/stephan-vuylsteke.jpg
   alt: Picture of Stéphan Vuylsteke
 
-previous_grantees:
+grant_committee:
+
+- name: Dave Harding
+  description: >-
+    Dave co-wrote the <a href="https://bitcoin.org">Bitcoin.org</a> developer
+    documentation in 2014 and 2015. In 2016, he created a section of
+    Bitcoin.org dedicated to the Bitcoin Core project before joining the
+    startup 21.co, where he wrote a series of Bitcoin developer tutorials.
+    Since 2018 he has been co-writing a <a
+    href="https://bitcoinops.org/en/newsletters">weekly newsletter</a> for
+    Bitcoin Optech. He joined Brink as a founding member of the board in 2020
+    and now serves on Brink's grant committee.
+  social: "@hrdng"
+  link: https://twitter.com/hrdng
+  image: assets/images/dave-harding.png
+  alt: Picture of Dave Harding
+
+- name: Christian Decker
+  description: >-
+    Christian serves on Brink's board as well as grant committee. He works at
+    Blockstream, wrote the world's first dissertation on Bitcoin and focuses on
+    improving the understanding of underlying consensus
+    mechanisms while making Bitcoin scalable and his research has resulted in
+    numerous publications. Christian brings with him Bitcoin and Lightning technical expertise and
+    insight to both the board as well as the grant committee.
+  social: "@Snyke"
+  link: https://twitter.com/Snyke
+  image: assets/images/christian-decker.png
+  alt: Picture of Christian Decker
+
+alumni:
 
 - name: Jesse Posner
   description: >-
@@ -234,3 +236,49 @@ previous_grantees:
   link: https://twitter.com/brrrunog
   image: assets/images/bruno-garcia.jpg
   alt: Picture of Bruno Garcia
+
+- name: John Newbery
+  title: Co-founder
+  description: >-
+    John has been contributing to Bitcoin Core since 2016. He co-founded <a
+    href="https://bitcoinops.org/" target="_blank" rel="noopener">Bitcoin
+    Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He
+    helped organize the <a href="https://bitdevs.org/" target="_blank"
+    rel="noopener">bitdevs NYC meetups</a>, the <a
+    href="https://residency.chaincode.com/" target="_blank"
+    rel="noopener">Chaincode Residency programs</a> and the <a
+    href="https://bitcoincore.reviews/" target="_blank" rel="noopener">weekly
+    Bitcoin Core PR review club</a>. John co-founded Brink in 2020 to support
+    Bitcoin protocol development and onboard future Bitcoin protocol
+    developers and served on the board and as Executive Director.
+  social: "@jfnewbery"
+  link: https://twitter.com/jfnewbery
+  image: assets/images/john-newbery.jpg
+  alt: Picture of John Newbery
+
+- name: Carla Kirk-Cohen
+  title: Board Member, Grant Committee
+  description: >-
+    Carla is a software engineer at Chaincode Labs.  She was onboarded to full
+    time work on Lightning at the <a
+    href="https://residency.chaincode.com/">Chaincode 2019 residency</a>, and
+    has served on the Brink board with the goal of helping other developers find
+    their way to Bitcoin.
+  social: "@actuallyCarlaKC"
+  link: https://twitter.com/actuallyCarlaKC
+  image: assets/images/carla-kirk-cohen.jpg
+  alt: Picture of Carla Kirk-Cohen
+
+- name: Antonie Hodge
+  title: Director of Operations
+  description: >-
+    Antonie Hodge has worked at the intersection of cryptocurrencies and
+    nonprofits for over six years and brought a wealth of operational experience
+    to the Brink executive team. She is the Operations Director at <a
+    href="https://coincenter.org">Coin Center</a>, the leading nonprofit
+    focused on the policy issues facing cryptocurrencies. Antonie previously led our
+    operations, finance, logistics and administration efforts.
+  social: "@antoniehodge"
+  link: https://twitter.com/antoniehodge
+  image: assets/images/antonie-hodge.jpg
+  alt: Picture of Antonie Hodge
