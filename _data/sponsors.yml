@@ -89,14 +89,6 @@ grants:
     amount_formatted: $200,000
 
   -  
-    name: FTX
-    image: assets/images/sponsors/ftx.jpeg
-    alt: FTX logo
-    website: https://ftx.com/
-    amount: 450000
-    amount_formatted: $450,000
-
-  -  
     name: Stacks Foundation
     image: assets/images/sponsors/stacks.png
     alt: Stacks Foundation logo
@@ -128,6 +120,14 @@ grants:
     amount: 1000000
     amount_formatted: $1,000,000
  
+  -  
+    name: Lightspark
+    image: assets/images/sponsors/lightspark.png
+    alt: Lightspark logo
+    website: https://www.lightspark.com/
+    amount: 150000
+    amount_formatted: $150,000
+
 providers:
   -
     name: Silvergate
