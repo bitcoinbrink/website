@@ -127,6 +127,14 @@ grants:
     website: https://www.lightspark.com/
     amount: 150000
     amount_formatted: $150,000
+ 
+  -  
+    name: Chun Wang
+    image: assets/images/sponsors/chun.jpg
+    alt: Chun Wang
+    website: https://twitter.com/satofishi
+    amount: 100000
+    amount_formatted: $100,000
 
 providers:
   -
