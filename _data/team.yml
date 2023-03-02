@@ -31,24 +31,6 @@ officers:
 
 board:
 
-- name: Jerry Brito
-  description: >-
-    Jerry is executive director of Coin Center, the leading non-profit
-    research and advocacy group focused on the public policy issues facing
-    cryptocurrency technologies. He has <a
-    href="https://jerrybrito.com/testimony">testified</a> several times before
-    the U.S. Congress about cryptocurrencies, holds briefings for policy
-    makers, and has presented to the CFTC, SEC, Treasury Department, State
-    Department, the White House and elsewhere. His scholarly <a
-    href="https://jerrybrito.com/research">research</a> has been published in
-    the Harvard Journal of Law & Public Policy and the Stanford Technology Law
-    Review, and his <a href="https://jerrybrito.com/opeds">articles</a> have
-    appeared in the Wall Street Journal, the New York Times, and elsewhere.
-  social: "@jerrybrito"
-  link: https://twitter.com/jerrybrito
-  image: assets/images/jerry-brito.jpg
-  alt: Picture of Jerry Brito
-
 - name: Christian Decker
   description: >-
     Christian serves on Brink's board as well as grant committee. He works at
@@ -61,6 +43,17 @@ board:
   link: https://twitter.com/Snyke
   image: assets/images/christian-decker.png
   alt: Picture of Christian Decker
+
+- name: Jonathan Bier
+  description: >-
+    Jonathan serves on Brink's board and brings experience administering the
+    BitMEX Open Source Developer Grant Program. He has authored two books:
+    The Blocksize War and Reckless: The Story Of Cryptocurrency Interest Rates.
+    He has also written a series of research articles for BitMEX. 
+  social: "@jonathanbier"
+  link: https://twitter.com/jonathanbier
+  image: assets/images/jonathan-bier.png
+  alt: Picture of Jonathan Bier
 
 fellows:
 
@@ -282,3 +275,22 @@ alumni:
   link: https://twitter.com/antoniehodge
   image: assets/images/antonie-hodge.jpg
   alt: Picture of Antonie Hodge
+
+- name: Jerry Brito
+  title: Board Member
+  description: >-
+    Jerry is executive director of Coin Center, the leading non-profit
+    research and advocacy group focused on the public policy issues facing
+    cryptocurrency technologies. He has <a
+    href="https://jerrybrito.com/testimony">testified</a> several times before
+    the U.S. Congress about cryptocurrencies, holds briefings for policy
+    makers, and has presented to the CFTC, SEC, Treasury Department, State
+    Department, the White House and elsewhere. His scholarly <a
+    href="https://jerrybrito.com/research">research</a> has been published in
+    the Harvard Journal of Law & Public Policy and the Stanford Technology Law
+    Review, and his <a href="https://jerrybrito.com/opeds">articles</a> have
+    appeared in the Wall Street Journal, the New York Times, and elsewhere.
+  social: "@jerrybrito"
+  link: https://twitter.com/jerrybrito
+  image: assets/images/jerry-brito.jpg
+  alt: Picture of Jerry Brito
