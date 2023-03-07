@@ -132,9 +132,9 @@ grantees:
 
 - name: "Niklas Gögge"
   description: >-
-    Niklas’ funding supports his work on Bitcoin Core, including an implementation
-    of Utreexo. Utreexo aims to reduce the hardware requirements of running a Bitcoin
-    full node by introducing a hash based accumulator for the UTXO set.
+    Niklas’ funding supports his work on Bitcoin Core. His focus is on making
+    Bitcoin Core's peer-to-peer code more robust through review, testing and
+    fuzzing.
   social: "@dergoegge"
   link: https://twitter.com/dergoegge
   image: assets/images/niklas-goegge.jpg
