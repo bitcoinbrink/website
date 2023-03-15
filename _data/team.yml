@@ -110,16 +110,6 @@ grantees:
   image: assets/images/sebastian-falbesoner.jpg
   alt: Picture of Sebastian Falbesoner
 
-- name: "0xB10C"
-  description: >-
-    0xB10C's funding supports his current and upcoming Bitcoin network monitoring
-    efforts, his work on Bitcoin Core development and review, his educational
-    efforts maintaining bitcoin-dev.blog and his work on reorgs on Signet.
-  social: "@0xB10C"
-  link: https://twitter.com/0xB10C
-  image: assets/images/0xb10c.png
-  alt: Picture of 0xB10C
-
 - name: "Vincenzo Palazzo"
   description: >-
     Vincenzo's funding supports his work adding new features to Core Lightning and
@@ -229,6 +219,16 @@ alumni:
   link: https://twitter.com/brrrunog
   image: assets/images/bruno-garcia.jpg
   alt: Picture of Bruno Garcia
+
+- name: "0xB10C"
+  description: >-
+    0xB10C's funding supported his Bitcoin network monitoring
+    efforts, his work on Bitcoin Core development and review, his educational
+    efforts maintaining bitcoin-dev.blog and his work on reorgs on Signet.
+  social: "@0xB10C"
+  link: https://twitter.com/0xB10C
+  image: assets/images/0xb10c.png
+  alt: Picture of 0xB10C
 
 - name: John Newbery
   title: Co-founder
