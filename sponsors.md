@@ -26,10 +26,14 @@ description: Thank you to all of our generous donors who make our work possible.
   {% for sponsor in grants_sorted %}
   <div class="program-sponsors-row">
     <div class="image-column">
-      <a href="{{ sponsor.website }}">
+      {% if sponsor.website %}
+        <a href="{{ sponsor.website }}">
+      {% endif %}
         <img src="{{ sponsor.image }}" alt="{{ sponsor.alt }}" />
         <br /><span>{{ sponsor.name }}</span>
-      </a>
+      {% if sponsor.website %}
+        </a>
+      {% endif %}
     </div>
     <div class="text-column">
       <div class="progress-bg">

@@ -136,6 +136,14 @@ grants:
     amount: 100000
     amount_formatted: $100,000
 
+  -  
+    name: The Draper Foundation
+    image: assets/images/sponsors/draper.jpg
+    alt: The Draper Foundation
+    website: 
+    amount: 100000
+    amount_formatted: $100,000
+
 providers:
   -
     name: Silvergate
