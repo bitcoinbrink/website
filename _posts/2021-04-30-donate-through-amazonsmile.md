@@ -7,6 +7,8 @@ category: "Donating"
 description: Support Bitcoin Developers while shopping on Amazon.
 ---
 
+_As of February 2023, AmazonSmile has been discontinued._
+
 If you shop on Amazon, you can support Brink at the same time by using
 [AmazonSmile][]. When using [AmazonSmile][], 0.5% of eligible purchases will be donated
 to a charitable organization of your choice.

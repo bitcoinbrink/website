@@ -12,38 +12,43 @@ sponsorship from Bitcoin businesses.</p>
 <p>Brink Technology, Inc is a 501(c)(3) organization (EIN 85-2919136).
 Donations to Brink from U.S. taxpayers can be deducted under IRC section 170.</p>
 
-<h4>One-time Donation</h4>
+<h2>One-time Donation</h2>
 
-<button data-checkout-mode="payment" data-price-id="price_1HqkSyArUr4rAMAltEjPznBR">$50.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkT8ArUr4rAMAlvENz60HJ">$100.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTEArUr4rAMAlqd2g9EEa">$500.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTLArUr4rAMAlJkNGfFrZ">$1000.00</button>
-<button data-checkout-mode="payment" data-price-id="price_1HqkTQArUr4rAMAllr5igJQ9">$2500.00</button>
+<a href="https://buy.stripe.com/9AQ4gA91a7Ts2mQfZ1"><button>Custom</button></a>
+<button data-checkout-mode="payment" class="stripe" data-price-id="price_1HqkSyArUr4rAMAltEjPznBR">$50.00</button>
+<button data-checkout-mode="payment" class="stripe" data-price-id="price_1HqkT8ArUr4rAMAlvENz60HJ">$100.00</button>
+<button data-checkout-mode="payment" class="stripe" data-price-id="price_1HqkTEArUr4rAMAlqd2g9EEa">$500.00</button>
+<button data-checkout-mode="payment" class="stripe" data-price-id="price_1HqkTLArUr4rAMAlJkNGfFrZ">$1000.00</button>
+<button data-checkout-mode="payment" class="stripe" data-price-id="price_1HqkTQArUr4rAMAllr5igJQ9">$2500.00</button>
+<button data-checkout-mode="payment" class="stripe" data-price-id="price_1HqkTWArUr4rAMAl22eRfvDi">$5000.00</button>
 
-<h4>Monthly Recurring Donation</h4>
+<h2>Monthly Recurring Donation</h2>
 
-<button data-checkout-mode="subscription" data-price-id="price_1Hph47ArUr4rAMAlxD7hYXMa">$5.00/mo</button>
-<button data-checkout-mode="subscription" data-price-id="price_1HqkScArUr4rAMAl5H0staN4">$20.00/mo</button>
-<button data-checkout-mode="subscription" data-price-id="price_1HqkSjArUr4rAMAlEt5w8qMk">$50.00/mo</button>
-<button data-checkout-mode="subscription" data-price-id="price_1HqkSqArUr4rAMAl6yTaoLt1">$100.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1Hph47ArUr4rAMAlxD7hYXMa">$5.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1HqkScArUr4rAMAl5H0staN4">$20.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1HqkSjArUr4rAMAlEt5w8qMk">$50.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1HqkSqArUr4rAMAl6yTaoLt1">$100.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1MZykdArUr4rAMAlsC0PEpet">$250.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1MZykdArUr4rAMAl13jojzYv">$500.00/mo</button>
+<button data-checkout-mode="subscription" class="stripe" data-price-id="price_1MZykeArUr4rAMAlANbXog0U">$1000.00/mo</button>
+
+_If you'd like to donate more than $1,000/mo, please send us an email <a href="mailto:donate@brink.dev">donate@brink.dev</a>._
 
 <div id="error-message"></div>
 
-<h4>Bitcoin/Lightning Donation</h4>
+<h2>Bitcoin/Lightning Donation</h2>
 
 <a href="https://checkout.opennode.com/p/5698f840-83ae-4226-a68c-9cfa3005bdbd"><button>Donate with bitcoin</button></a>
 
-<h4>Donate through your Donor-Advised Fund</h4>
+<h2>Donate through your Donor-Advised Fund</h2>
 
 <a href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=ODUyOTE5MTM2XzIxMTFfYWJlNTBiNDItY2EyMC00YjYxLThhODctZDk0ZDZhMTRjZmIz&designatedText=UHJvZ3JhbXM="><button>Donor-Advised Fund Donation</button></a> 
 
 Learn more [here](/blog/2021/03/26/donate-bitcoin/)
 
-<h4>Donate through AmazonSmile</h4>
+<h2>Questions?</h2>
 
-<a href="https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect?ie=UTF8&ein=85-2919136&ref_=smi_ext_ch_85-2919136_cl="><button>AmazonSmile Donation</button></a> 
-
-Learn more [here](/blog/2021/04/30/donate-through-amazonsmile/)
+<p>Questions or curious about what we are working on? Feel free to email us to discuss <a href="mailto:donate@brink.dev">donate@brink.dev</a>.
 
 <p><em>For donations greater than $2500.00 USD, or if you'd like to <a href="/blog/2021/03/26/donate-bitcoin/#donate-bitcoin-directly-to-brink">donate Bitcoin directly as a tax-deductible donation</a>, please email <a href="mailto:donate@brink.dev">donate@brink.dev</a>.</em></p>
 
@@ -66,7 +71,7 @@ Learn more [here](/blog/2021/04/30/donate-through-amazonsmile/)
         }
       };
 
-      document.querySelectorAll('button').forEach(function (button) {
+      document.querySelectorAll('button.stripe').forEach(function (button) {
         button.addEventListener('click', function (e) {
           var mode = e.target.dataset.checkoutMode;
           var priceId = e.target.dataset.priceId;
