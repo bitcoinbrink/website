@@ -74,7 +74,7 @@ updates on what else we are working on.
 </div>
 
 <div class="team-container">
-  <h1 id="board">Grant Committee</h1>
+  <h1 id="grant-committee">Grant Committee</h1>
   <p>Mike serves on the grant committee, along with leading Bitcoin technologists:</p>
   {% for item in site.data.team.grant_committee %}
   <div class="team-row">
