@@ -189,6 +189,16 @@ grant_committee:
   image: assets/images/christian-decker.png
   alt: Picture of Christian Decker
 
+- name: Gloria Zhao
+  description: >-
+    Gloria's in-depth experience as a Bitcoin Core developer and maintainer as
+    well as Brink grantee led to her joining Brink's grant committee where she
+    lends her expertise in evaluating grant applications.
+  social: "@glozow"
+  link: https://twitter.com/glozow
+  image: assets/images/gloria-zhao.jpg
+  alt: Picture of Gloria Zhao
+
 alumni:
 
 - name: Jesse Posner
