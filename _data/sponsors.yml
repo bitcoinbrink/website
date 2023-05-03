@@ -144,6 +144,14 @@ grants:
     amount: 100000
     amount_formatted: $100,000
 
+  -  
+    name: Samara Asset Group
+    image: assets/images/sponsors/samara-ag.jpg
+    alt: Samara Asset Group
+    website: https://samara-ag.com/
+    amount: 450000
+    amount_formatted: $450,000
+
 providers:
   -
     name: Silvergate
