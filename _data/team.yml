@@ -75,9 +75,11 @@ grantees:
 
 - name: Gloria Zhao
   description: >-
-    Gloria has been contributing to Bitcoin Core since March 2020. Her focus is
-    on Bitcoin Core's peer-to-peer code, and she is currently implementing mempool
-    package acceptance.
+    Gloria is one of the maintainers of Bitcoin Core, primarily focused on
+    mempool and P2P. She is currently working on package relay (BIP331) and
+    transaction relay policy changes to make pinning attacks more difficult. She
+    also co-runs <a href="https://bitcoincore.reviews/">Bitcoin Core PR Review Club</a> aimed at
+    helping newcomers learn about the codebase and PR review process.
   social: "@glozow"
   link: https://twitter.com/glozow
   image: assets/images/gloria-zhao.jpg
