@@ -59,6 +59,20 @@ fellows:
 
 grantees:
 
+- name: "Michael Ford (fanquake)"
+  description: >-
+    Michael's funding supports his work as a maintainer as well as his work on the build
+    system, security, and reducing the number of dependencies used in the codebase.
+  social: "@fanquake"
+  link: https://twitter.com/fanquake
+  image: assets/images/michael-ford.jpg
+  alt: Picture of Michael Ford
+  quote: >-
+    "Brink has created the ideal working environment for Bitcoin protocol
+    engineers to learn and collaborate. Providing full time, long term
+    sponsorship, also means I can focus 100% of my time on contributing to, and
+    maintaining, Bitcoin Core."
+
 - name: Gloria Zhao
   description: >-
     Gloria has been contributing to Bitcoin Core since March 2020. Her focus is
@@ -68,6 +82,15 @@ grantees:
   link: https://twitter.com/glozow
   image: assets/images/gloria-zhao.jpg
   alt: Picture of Gloria Zhao
+  quote: >-
+    "Brink's grant committee includes engineers who understand the maintenance
+    required of Bitcoin Core and can tell the difference between frankensteining
+    flashy features and architecting a robust protocol. The decision-making
+    process and stability gives me the confidence to spend my time digging into
+    bugs, reviewing large projects, and working on protocol changes like package
+    relay. In addition to supporting educational content like Optech and the PR
+    Review Club, I feel Brink makes an effort foster an internal culture of
+    teaching and learning from each other." 
 
 - name: Hennadii Stepanov
   description: >-
@@ -79,6 +102,12 @@ grantees:
   link: https://twitter.com/hhebasto
   image: assets/images/hennadii-stepanov.jpg
   alt: Picture of Hennadii Stepanov
+  quote: >-
+    "I am deeply grateful to Brink for their unwavering support in enabling me to
+    work on the Bitcoin Core project, review pull requests, and maintain Bitcoin
+    Core GUI and translations. Their consistent support is invaluable to me and
+    has allowed me to contribute to the Bitcoin Core project with confidence and
+    enthusiasm."
 
 - name: Larry Ruane
   description: >-
@@ -89,6 +118,13 @@ grantees:
   link: https://twitter.com/larryruane
   image: assets/images/larry-ruane.jpg
   alt: Picture of Larry Ruane
+  quote: >-
+    "I give Brink enormous credit and respect for beating the bushes to find
+    talent among those who are more on the quiet or humble side, nurturing and
+    supporting us both financially and socially, and turning us into productive
+    contributors. I can't say enough good things about how professional and,
+    honestly, caring everyone I've interacted with at Brink has been to me.
+    Sometimes dreams do come true."
 
 - name: Sebastian Falbesoner
   description: >-
@@ -99,6 +135,12 @@ grantees:
   link: https://twitter.com/theStack
   image: assets/images/sebastian-falbesoner.jpg
   alt: Picture of Sebastian Falbesoner
+  quote: >-
+    "Thanks to Brink's funding I can work a dedicated time per week purely
+    focused on improving Bitcoin Core. In addition to the financial support, the
+    organization allows me to be part of a great community of like-minded
+    "Brinkies" by holding regular tech engineering calls and events, which is a
+    valuable experience to learn from each other."
 
 - name: "Vincenzo Palazzo"
   description: >-
@@ -109,6 +151,13 @@ grantees:
   link: https://twitter.com/palazzovincenzo
   image: assets/images/vincenzo-palazzo.jpg
   alt: Picture of Vincenzo Palazzo
+  quote: >-
+    "The Brink grant program has enabled me to fully concentrate on my work without
+    any financial worries. Moreover, Brink has provided me with the freedom to
+    work independently towards my goals while still keeping me closely connected
+    with the Lightning community. This level of support has made my experience
+    with Brink truly exceptional and has been instrumental in my progress as a
+    developer."
 
 - name: "Niklas Gögge"
   description: >-
@@ -119,15 +168,10 @@ grantees:
   link: https://twitter.com/dergoegge
   image: assets/images/niklas-goegge.jpg
   alt: Picture of Niklas Gögge
-
-- name: "Michael Ford (fanquake)"
-  description: >-
-    Michael's funding supports his work as a maintainer as well as his work on the build
-    system, security, and reducing the number of dependencies used in the codebase.
-  social: "@fanquake"
-  link: https://twitter.com/fanquake
-  image: assets/images/michael-ford.jpg
-  alt: Picture of Michael Ford
+  quote: >-
+    "Thanks to Brink's support, I have the incredible opportunity to dedicate
+    myself full-time to Bitcoin Core, allowing me to contribute more effectively
+    and collaborate with the other Brinkies in the London office."
 
 - name: Stéphan Vuylsteke
   description: >-
@@ -137,6 +181,13 @@ grantees:
   link: https://twitter.com/stphnvlstk
   image: assets/images/stephan-vuylsteke.jpg
   alt: Picture of Stéphan Vuylsteke
+  quote: >- 
+    "For many including myself, being able to work together with people
+    makes a significant difference for creativity and productivity. Besides
+    allowing me to work on Bitcoin Core and related education projects full time
+    through the grant program, Brink has gone through significant lengths in
+    enabling developers from across the world to meet and work with each other
+    in-person, whether on a permanent or ad-hoc basis."
 
 - name: Fabian Jahr
   description: >-
@@ -147,6 +198,10 @@ grantees:
   link: https://twitter.com/fjahr
   image: assets/images/fabian-jahr.jpg
   alt: Picture of Fabian Jahr
+  quote: >-
+    "A full-time grant enables me to concentrate on thoroughly reviewing
+    intricate proposals and code modifications, allowing me to grasp their full
+    implications and potential impact on the network."
 
 grant_committee:
 
