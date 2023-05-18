@@ -1530,3 +1530,50 @@ input
     display: inline;
   }
 }
+
+#donate-container {
+  h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  h2#countdown {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f6f956;
+    padding: 1rem 0rem;
+  }
+  p {
+    margin-top: .25rem;
+  }
+  h3 {
+    margin-bottom: 0rem;
+  }
+  .donate-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .donate-col {
+      margin: 1rem;
+      text-align: center;
+      flex: 0 0 45%;
+      
+      @media screen and (max-width: 800px) {
+        flex: 0 0 100%;
+      }
+
+      button {
+        padding: 1rem 3rem;
+        font-size: large;
+      }
+      em {
+        font-size: small;
+      }
+    }
+  }
+  .progress-bar {
+    min-width: 30px;
+    background-color: #009933 !important;
+  }
+}
