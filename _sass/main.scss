@@ -43,7 +43,7 @@ body {
 
 a {
   font-family: Avenir-Light;
-  color: red;
+  color: #f96603;
   cursor: pointer;
 }
 
@@ -60,7 +60,6 @@ main {
   margin-right: 8rem;
   margin-bottom: 5rem;
   font-size: 1.1rem;
-  line-height: 1.7rem
 }
 .index-container {
   position: static;
@@ -207,11 +206,10 @@ header {
 }
 
 .team-social {
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding-top: 1rem;
+  padding-top: .25rem;
   padding-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: .25rem;
   a {
     text-decoration: none;
   }
@@ -1501,8 +1499,8 @@ header {
 }
 
 button, .button {
-  background-color:#ff7f7f;
-  border: 2px solid #ff7f7f;
+  background-color:#f96603;
+  border: 2px solid #f96603;
   padding: 8px 20px;
   color: white;
   text-align: center;
@@ -1512,6 +1510,7 @@ button, .button {
   cursor: pointer;
   font-weight: bold;
   transition-duration: 0.4s;
+  margin: 2px;
 }
 
 button:hover, .button:hover {
