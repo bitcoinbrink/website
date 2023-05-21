@@ -10,7 +10,7 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
 
 <h1>Let's Raise $1,000,000 for Bitcoin Development</h1>
 
-<p>Brink and Marathon Digital Holdings (MARA) have partnered to raise <em>$1,000,000</em> for Bitcoin developers. Marathon will match donations up to <b><em>$500,000</em></b>. All donations to Brink are 501(c)(3) tax-deductible and 100% of donations will support the Bitcoin developers <em>building</em>, <em>securing</em>, <em>testing</em>, and <em>reviewing</em> the Bitcoin Core software underpinning the Bitcoin network.</p>
+<p>Brink and Marathon Digital Holdings (MARA) have partnered to raise <em>$1,000,000</em> for Bitcoin developers. Marathon has matched donations up to $500,000 &#x2713;. All donations to Brink are 501(c)(3) tax-deductible and 100% of donations will support the Bitcoin developers <em>building</em>, <em>securing</em>, <em>testing</em>, and <em>reviewing</em> the Bitcoin Core software underpinning the Bitcoin network.</p>
 
 <div class="text-column">
   <div class="progress-bg" style="background-color:lightgray;">
@@ -19,8 +19,6 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
     </div>
   </div>
 </div>
-
-<h2 id="countdown">Bitcoin 2023 Conference $2 for $1 donation match: <span id="counter"></span></h2>
 
 <div class="donate-row">
 
@@ -164,28 +162,6 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
             .then(handleResult);
         });
       });
-
-      // countdown
-      // Set the date we're counting down to
-      var countDownDate = Date.UTC(2023, 4, 22, 4, 59, 59)
-
-      // Update the count down every 1 second
-      var x = setInterval(function() {
-
-        // Get today's date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("counter").innerHTML = days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ";
-      }, 1000);
 
   var url = 'https://docs.google.com/spreadsheets/d/1TImxWQG1NLyAtTJo74F4vCZd_BeKuh4jnzYhOQcso58/gviz/tq?tqx=out:json&tq&gid=0';
   fetch(url)
