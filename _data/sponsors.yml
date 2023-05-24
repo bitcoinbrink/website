@@ -152,6 +152,14 @@ grants:
     amount: 450000
     amount_formatted: $450,000
 
+  -  
+    name: BitMEX
+    image: assets/images/sponsors/bitmex.jpg
+    alt: BitMEX
+    website: https://www.bitmex.com/
+    amount: 50000
+    amount_formatted: $50,000
+
 providers:
   -
     name: Silvergate
