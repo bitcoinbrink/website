@@ -60,13 +60,6 @@ grants:
     amount: 210000
     amount_formatted: $210,000
   -  
-    name: Silvergate
-    image: assets/images/sponsors/silvergate.jpg
-    alt: Silvergate logo
-    website: https://www.silvergatebank.com/
-    amount: 150000
-    amount_formatted: $150,000
-  -  
     name: BlockFi
     image: assets/images/sponsors/blockfi.png
     alt: BlockFi logo
@@ -160,13 +153,15 @@ grants:
     amount: 50000
     amount_formatted: $50,000
 
+  -  
+    name: Stakwork
+    image: assets/images/sponsors/stakwork.jpg
+    alt: Stakwork
+    website: https://stakwork.com/
+    amount: 180000
+    amount_formatted: $180,000
+
 providers:
-  -
-    name: Silvergate
-    image: assets/images/sponsors/silvergate.jpg
-    alt: Silvergate logo
-    website: https://www.silvergatebank.com/
-    type: "Banking Services"
   -
     name: River Financial
     image: assets/images/sponsors/river.png
