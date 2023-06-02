@@ -111,23 +111,6 @@ grantees:
     has allowed me to contribute to the Bitcoin Core project with confidence and
     enthusiasm."
 
-- name: Larry Ruane
-  description: >-
-    Larry reviews and tests Bitcoin Core PRs focusing on correctness,
-    thread-safety, code organization and maintainability, test coverage, logging
-    for problem analysis, and related areas. 
-  social: "@larryruane"
-  link: https://twitter.com/larryruane
-  image: assets/images/larry-ruane.jpg
-  alt: Picture of Larry Ruane
-  quote: >-
-    "I give Brink enormous credit and respect for beating the bushes to find
-    talent among those who are more on the quiet or humble side, nurturing and
-    supporting us both financially and socially, and turning us into productive
-    contributors. I can't say enough good things about how professional and,
-    honestly, caring everyone I've interacted with at Brink has been to me.
-    Sometimes dreams do come true."
-
 - name: Sebastian Falbesoner
   description: >-
     Sebastian's funding supports his code review and testing,
@@ -371,3 +354,20 @@ alumni:
   link: https://twitter.com/afilini
   image: assets/images/alekos-filini.jpg
   alt: Picture of Alekos Filini
+
+- name: Larry Ruane
+  description: >-
+    Larry's funding supported his work on reviewing and testing Bitcoin Core PRs focusing on correctness,
+    thread-safety, code organization and maintainability, test coverage, logging
+    for problem analysis, and related areas. 
+  social: "@larryruane"
+  link: https://twitter.com/larryruane
+  image: assets/images/larry-ruane.jpg
+  alt: Picture of Larry Ruane
+  quote: >-
+    "I give Brink enormous credit and respect for beating the bushes to find
+    talent among those who are more on the quiet or humble side, nurturing and
+    supporting us both financially and socially, and turning us into productive
+    contributors. I can't say enough good things about how professional and,
+    honestly, caring everyone I've interacted with at Brink has been to me.
+    Sometimes dreams do come true."
