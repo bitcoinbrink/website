@@ -51,7 +51,7 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
  <h3>Why Brink?</h3>
   <ul style="list-style-type:disc;margin-left:2em;text-align:left">
     <li>We fund <a href="https://www.coindesk.com/tech/2022/10/27/brink-emerges-as-the-top-funder-of-bitcoin-core-development-bitmex-research-says/">leading contributors</a> to the Bitcoin Core software</li>
-    <li>9 independent Bitcoin developers across 5 countries</li>
+    <li>8 independent Bitcoin developers across 4 countries</li>
     <li>Trusted by Marathon, John Pfeffer, Wences Casares, Tim Draper, Coinbase, Okcoin, and <a href="/sponsors">more</a></li>
     <li>Non-profit 501c3 tax-deductible donations</li>
     <li>London office for in-person collaboration</li>
