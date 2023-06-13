@@ -161,6 +161,14 @@ grants:
     amount: 180000
     amount_formatted: $180,000
 
+  -  
+    name: "#startsmall"
+    image: assets/images/sponsors/startsmall.png
+    alt: "#startsmall"
+    website: https://docs.google.com/spreadsheets/d/1-eGxq2mMoEGwgSpNVL5j2sa6ToojZUZ-Zun8h2oBAR4/edit#gid=0 
+    amount: 5000000
+    amount_formatted: $5,000,000 over 5yrs
+
 providers:
   -
     name: River Financial
