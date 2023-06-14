@@ -5,20 +5,8 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
 ---
 
 <div id="donate-container">
-  
-<img style="width:100%" src="/assets/images/marathon-brink.png" />
 
-<h1>Let's Raise $1,000,000 for Bitcoin Development</h1>
-
-<p>Brink and Marathon Digital Holdings (MARA) have partnered to raise <em>$1,000,000</em> for Bitcoin developers. Marathon has matched donations up to $500,000 &#x2713;. All donations to Brink are 501(c)(3) tax-deductible and 100% of donations will support the Bitcoin developers <em>building</em>, <em>securing</em>, <em>testing</em>, and <em>reviewing</em> the Bitcoin Core software underpinning the Bitcoin network.</p>
-
-<div class="text-column">
-  <div class="progress-bg" style="background-color:lightgray;">
-    <div class="progress-bar" id="progress-bar" style="width:0%">
-      <h3 class="raised" id="raised">$0</h3>
-    </div>
-  </div>
-</div>
+<p>Brink is a nonprofit supporting Bitcoin developers through our grants program. All donations to Brink are 501(c)(3) tax-deductible and 100% of donations will support the Bitcoin developers <em>building</em>, <em>securing</em>, <em>testing</em>, and <em>reviewing</em> the Bitcoin Core software underpinning the Bitcoin network.</p>
 
 <div class="donate-row">
 
@@ -162,18 +150,4 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
             .then(handleResult);
         });
       });
-
-  var url = 'https://docs.google.com/spreadsheets/d/1TImxWQG1NLyAtTJo74F4vCZd_BeKuh4jnzYhOQcso58/gviz/tq?tqx=out:json&tq&gid=0';
-  fetch(url)
-    .then(response => response.text())
-    .then(data => updateData(data.substring(47).slice(0, -2))  
-    );
-
-  function updateData(jsonString){
-    var json = JSON.parse(jsonString);
-    raised = json.table.rows[0].c[0].v
-    percent = json.table.rows[0].c[1].v
-    document.getElementById('raised').innerHTML = "$" + raised.toLocaleString("en-US");
-    document.getElementById('progress-bar').style.width = percent*100+"%";
-  }
 </script>
