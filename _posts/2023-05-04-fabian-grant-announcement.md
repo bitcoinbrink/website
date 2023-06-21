@@ -13,6 +13,9 @@ Brink is proud to announce a developer grant for [Fabian Jahr][fabian
 github]. He has joined Brink as a remote grantee to
 continue his work as a Bitcoin Core developer.
 
+_Update: Listen to our discussion with Fabian about his plans on [our
+Twitter Space][fabian twitter space]_
+
 ## About Fabian
 
 Fabian writes of his Bitcoin experience and goals:
@@ -83,3 +86,4 @@ Developers interested in the grant [program][programs] can apply now.
 [fabian twitter]: https://twitter.com/fjahr
 [donate]: mailto:donate@brink.dev
 [programs]: /programs
+[fabian twitter space]: https://twitter.com/i/spaces/1kvJpmOlvlPxE
