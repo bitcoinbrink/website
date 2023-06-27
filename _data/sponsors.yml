@@ -169,6 +169,14 @@ grants:
     amount: 5000000
     amount_formatted: $5,000,000 over 5yrs
 
+  -  
+    name: Marathon Digital Holdings
+    image: assets/images/sponsors/marathon.png
+    alt: Marathon Digital Holdings
+    website: https://www.mara.com/
+    amount: 500000
+    amount_formatted: $500,000
+
 providers:
   -
     name: River Financial
