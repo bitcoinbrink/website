@@ -1,3 +1,32 @@
+- date: "2023-06-20"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "Brink Renews Grant for Sebastian Falbesoner's Review of BIP324 to Enhance Bitcoin's Censorship-Resistance"
+  description: "The focus of Falbesoner’s work seeks to bring greater privacy to Bitcoin node operators through encryption."
+  url: https://bitcoinmagazine.com/technical/brink-renews-grant-for-sebastian-falbesoners-review-of-bip324
+
+- date: "2023-06-14"
+  outlet: BTC Times
+  image: btc-times.jpg
+  title: "Jack Dorsey Commits $5 Million to Bitcoin Nonprofit Brink Through #startsmall Initiative"
+  description: "The substantial support from #startsmall will greatly contribute to Brink's mission of nurturing Bitcoin development and fostering decentralized open-source systems."
+  url: https://www.btctimes.com/news/jack-dorsey-commits-5-million-to-bitcoin-nonprofit-brink-through-startsmall-initiative
+
+- date: "2023-05-29"
+  outlet: Bitcoin 2023 Conference
+  image: bitcoin2023.png
+  title: "The Role of Bitcoin Core Maintainers & the Path Forward - Bitcoin 2023 Conference"
+  description: "Gloria Zhao takes the Open Source Stage at Bitcoin 2023 to
+  discuss The Role of Bitcoin Core Maintainers & the Path Forward with Steve Myers, Niftynei, and Jess Jonas."
+  url: https://www.youtube.com/watch?v=mdnkZunIphA&ab_channel=BitcoinMagazine
+
+- date: "2023-05-18"
+  outlet: Bitcoin 2023 Conference
+  image: bitcoin2023.png
+  title: "Brink Announces $1 Million Donation-Matching Campaign From Marathon Digital Holdings For Bitcoin Development - Bitcoin 2023 Conference"
+  description: "Marathon Digital Holdings will match donations made to Brink to support Bitcoin development, for as much as a $1 million total this year."
+  url: https://bitcoinmagazine.com/business/brink-million-dollar-bitcoin-donation-campaign
+
 - date: "2023-04-28"
   outlet: Bitcoin Magazine
   image: bitcoin-magazine.png
@@ -22,6 +51,13 @@
   reorganizing leadership for Bitcoin projects, and onboarding new developers 
   into the ecosystem."
   url: https://bitcoinmagazine.com/business/bitcoin-non-profit-brink-funds-11-bitcoin-lightning-developers
+
+- date: "2022-08-11"
+  outlet: The Stephan Livera Podcast
+  image: stephan-livera-podcast.png
+  title: "Gloria Zhao - What Do Bitcoin Core Maintainers Do?"
+  description: "Gloria Zhao joins Stephan Livera to chat about what Bitcoin Core maintainers do."
+  url: https://stephanlivera.com/episode/404/
 
 - date: "2022-07-01"
   outlet: Coindesk
