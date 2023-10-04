@@ -1,3 +1,10 @@
+- date: "2023-09-13"
+  outlet: The Stephan Livera Podcast
+  image: stephan-livera-podcast.png
+  title: "Gloria Zhao - v3 Transactions and Package Relay"
+  description: "Gloria Zhao joins Stephan Livera to talk about updates coming to Bitcoin’s transactions and mempool policy."
+  url: https://stephanlivera.com/episode/511/
+
 - date: "2023-06-20"
   outlet: Bitcoin Magazine
   image: bitcoin-magazine.png
