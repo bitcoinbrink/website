@@ -16,7 +16,7 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
 </div>
 
 <div class="donate-col">
-<a href="https://buy.stripe.com/9AQ4gA91a7Ts2mQfZ1"><button>$ Donate fiat</button></a>
+<a href="https://donate.stripe.com/7sI28sfpyb5Ee5y7sz"><button>$ Donate fiat</button></a>
 <br /><em>Credit card, Cash App, Apple Pay, Google Pay. <a href="#other-fiat">Other options</a></em>
 </div>
 
