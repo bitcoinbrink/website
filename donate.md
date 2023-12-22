@@ -93,8 +93,12 @@ description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin d
 <button data-checkout-mode="subscription" class="stripe" data-price-id="price_1MZykdArUr4rAMAlsC0PEpet">$250.00/mo</button>
 <button data-checkout-mode="subscription" class="stripe" data-price-id="price_1MZykdArUr4rAMAl13jojzYv">$500.00/mo</button>
 <button data-checkout-mode="subscription" class="stripe" data-price-id="price_1MZykeArUr4rAMAlANbXog0U">$1000.00/mo</button>
-<br />
-<em>If you'd like to donate more than $1,000/mo, please send us an email <a href="mailto:donate@brink.dev">donate@brink.dev</a>.</em></p>
+</p>
+<p>
+<em>If you'd like to donate more than $1,000/mo, please send us an email <a href="mailto:donate@brink.dev">donate@brink.dev</a>.</em>
+</p>
+<p>To manage your recurring donation to Brink visit <a href="https://billing.stripe.com/p/login/bIY6q11Vwddu1gYaEE">here</a>.
+</p>
 
 <h3 id="other-fiat">How else can I donate fiat?</h3>
 <p>In addition to credit card donations including Apple Pay and Google Pay we can accept donations via:
