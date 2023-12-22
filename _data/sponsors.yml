@@ -131,11 +131,11 @@ grants:
 
   -  
     name: The Draper Foundation
-    image: assets/images/sponsors/draper.jpg
+    image: assets/images/sponsors/draper.png
     alt: The Draper Foundation
     website: 
-    amount: 100000
-    amount_formatted: $100,000
+    amount: 250000
+    amount_formatted: $250,000
 
   -  
     name: Samara Asset Group
