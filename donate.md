@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Donate | Brink
-description: Brink and Marathon are partnering to raise $1,000,000 for Bitcoin developers.
+description: Brink is a nonprofit supporting Bitcoin developers building, securing, testing, and reviewing the Bitcoin Core software underpinning the Bitcoin network.
 ---
 
 <div id="donate-container">
