@@ -40,6 +40,6 @@ Developers interested in the grant [program][programs] can apply now.
 [Robin Linus]: https://twitter.com/robin_linus
 [BitVM]: https://bitvm.org/
 [BitVM transaction graph]: https://raw.githubusercontent.com/BitVM/BitVM/b196b4ea83c899264137342a5f75f0ec89456857/docs/bitVM_graph_v2.svg
-[robin bitvm pdf]: /assets/files/2024-01-17-eng-bitvm-slides.pdf
+[robin bitvm pdf]: /assets/files/2024-01-16-eng-bitvm-slides.pdf
 [donate]: mailto:donate@brink.dev
 [programs]: /programs
