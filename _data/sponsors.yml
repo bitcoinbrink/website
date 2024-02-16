@@ -102,8 +102,8 @@ grants:
     image: assets/images/sponsors/coinbase.png
     alt: Coinbase logo
     website: https://www.coinbase.com/
-    amount: 300000
-    amount_formatted: $300,000
+    amount: 3900000
+    amount_formatted: $3,900,000
 
   -  
     name: Craig Hammell
