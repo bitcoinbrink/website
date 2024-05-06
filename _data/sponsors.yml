@@ -177,6 +177,14 @@ grants:
     amount: 500000
     amount_formatted: $500,000
 
+  -  
+    name: Ledger
+    image: assets/images/sponsors/ledger.png
+    alt: Ledger
+    website: https://www.ledger.com/
+    amount: 60000
+    amount_formatted: $60,000
+
 providers:
   -
     name: River Financial
