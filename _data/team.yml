@@ -188,6 +188,17 @@ grant_committee:
   image: assets/images/dave-harding.png
   alt: Picture of Dave Harding
 
+- name: Cory Fields
+  description: >-
+    Cory is a long-time Bitcoin Core developer with over 11 years of experience
+    contributing hundreds of commits and nearly 4,000 review comments to the
+    project. He is focused on the build system, continuous integration, code
+    security, modularization, and long-term code maintainability.
+  social: "@theuni"
+  link: https://github.com/theuni
+  image: assets/images/cory-fields.jpg
+  alt: Picture of Cory Fields
+
 - name: Christian Decker
   description: >-
     Christian serves on Brink's board as well as grant committee. He works at
