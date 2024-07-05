@@ -31,19 +31,6 @@ officers:
 
 board:
 
-- name: Christian Decker
-  description: >-
-    Christian serves on Brink's board as well as grant committee. He works at
-    Blockstream, wrote the world's first dissertation on Bitcoin and focuses on
-    improving the understanding of underlying consensus
-    mechanisms while making Bitcoin scalable and his research has resulted in
-    numerous publications. Christian brings with him Bitcoin and Lightning technical expertise and
-    insight to both the board as well as the grant committee.
-  social: "@Snyke"
-  link: https://twitter.com/Snyke
-  image: assets/images/christian-decker.png
-  alt: Picture of Christian Decker
-
 - name: Jonathan Bier
   description: >-
     Jonathan serves on Brink's board and brings experience administering the
@@ -54,6 +41,15 @@ board:
   link: https://twitter.com/jonathanbier
   image: assets/images/jonathan-bier.png
   alt: Picture of Jonathan Bier
+
+- name: Alex Leishman
+  description: >-
+    Alex Leishman serves on Brink's board. He is the CEO of River Financial and
+    brings years of experience building engineering teams and leading a Bitcoin organization. 
+  social: "@Leishman"
+  link: https://twitter.com/Leishman
+  image: assets/images/alex-leishman.jpg
+  alt: Picture of Alex Leishman
 
 fellows:
 
@@ -198,19 +194,6 @@ grant_committee:
   link: https://github.com/theuni
   image: assets/images/cory-fields.jpg
   alt: Picture of Cory Fields
-
-- name: Christian Decker
-  description: >-
-    Christian serves on Brink's board as well as grant committee. He works at
-    Blockstream, wrote the world's first dissertation on Bitcoin and focuses on
-    improving the understanding of underlying consensus
-    mechanisms while making Bitcoin scalable and his research has resulted in
-    numerous publications. Christian brings with him Bitcoin and Lightning technical expertise and
-    insight to both the board as well as the grant committee.
-  social: "@Snyke"
-  link: https://twitter.com/Snyke
-  image: assets/images/christian-decker.png
-  alt: Picture of Christian Decker
 
 - name: Gloria Zhao
   description: >-
@@ -382,3 +365,16 @@ alumni:
     with the Lightning community. This level of support has made my experience
     with Brink truly exceptional and has been instrumental in my progress as a
     developer."
+
+- name: Christian Decker
+  description: >-
+    Christian served on Brink's board as well as grant committee. He works at
+    Blockstream, wrote the world's first dissertation on Bitcoin and focuses on
+    improving the understanding of underlying consensus
+    mechanisms while making Bitcoin scalable and his research has resulted in
+    numerous publications. Christian brought with him Bitcoin and Lightning technical expertise and
+    insight to both the board as well as the grant committee.
+  social: "@Snyke"
+  link: https://twitter.com/Snyke
+  image: assets/images/christian-decker.png
+  alt: Picture of Christian Decker
