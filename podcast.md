@@ -13,7 +13,7 @@ description: Join Brink as we talk with our fellows, grantees, and friends in th
   {% include podcast-links.html %}
 
   <ul class="post-list">
-    {% for pod in site.podcasts %}
+    {% for pod in site.podcasts reversed %}
     <li>
       <span class="post-meta">{{ pod.date | date_to_string }}</span>
       <h2 class="post-title"><a href="{{ pod.permalink }}">{{ pod.title }}</a></h2>
