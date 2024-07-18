@@ -1,3 +1,38 @@
+- date: "2024-06-14"
+  outlet: Ledger Blog
+  image: ../sponsors/ledger.png
+  title: "Ledger partners with Brink to support Bitcoin Developers"
+  description: "Ledger announces its collaboration with Brink. As part of this partnership, Ledger is donating $5 to Brink for each Ledger Bitcoin hardware wallet sold."
+  url: https://www.ledger.com/blog-ledger-partners-with-brink-to-support-bitcoin-developers
+
+- date: "2024-05-08"
+  outlet: What Bitcoin Did
+  image: what-bitcoin-did.png
+  title: "The Power of Bitcoin with Gloria Zhao"
+  description: "Gloria Zhao joins Peter McCormack to discuss upgrading Bitcoin vs ossifying the protocol, ordinals and mempool “spam”, and the theory & ‘power’ of core developers."
+  url: https://www.whatbitcoindid.com/podcast/the-power-of-bitcoin
+
+- date: "2024-02-16"
+  outlet: BTC Times
+  image: btc-times.jpg
+  title: "Brink Receives a $3.6 Million Donation From Coinbase’s GiveCrypto To Support Bitcoin Developers"
+  description: "GiveCrypto, an initiative founded by Brian Armstrong, CEO of Coinbase, has recently donated $3.6 million to Brink, a non-profit organization committed to providing financial support to developers working on Bitcoin."
+  url: https://btctimes.com/brink-receives-a-36-million-donation-from-coinbases-givecrypto-to-support-bitcoin-developers/
+
+- date: "2024-01-10"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "Spot Bitcoin ETF Issuer Bitwise Pledges 10% of Profits To Fund Open-Source BTC Development"
+  description: "Bitwise Asset Management unveiled a new initiative, pledging to allocate 10% of profits from the Bitwise Bitcoin ETF (BITB) towards supporting Bitcoin open-source development."
+  url: https://bitcoinmagazine.com/business/spot-bitcoin-etf-issuer-bitwise-pledges-10-of-profits-to-fund-open-source-btc-development
+
+- date: "2024-01-05"
+  outlet: The Block
+  image: the-block.png
+  title: "VanEck pledges 5% of potential spot BTC ETF profits to Bitcoin core developers at Brink"
+  description: "Investment firm VanEck pledged 5% of the profits from a potential spot bitcoin ETF to support Bitcoin core developers at Brink."
+  url: https://www.theblock.co/post/270644/vaneck-pledges-5-of-potential-spot-btc-etf-profits-to-bitcoin-core-developers-at-brink
+
 - date: "2023-09-13"
   outlet: The Stephan Livera Podcast
   image: stephan-livera-podcast.png
