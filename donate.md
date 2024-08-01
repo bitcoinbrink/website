@@ -70,6 +70,27 @@ description: Brink is a nonprofit supporting Bitcoin developers building, securi
   {% endfor %}
 </div>
 
+<h2 id="current-fellows">Brink Fellows</h2>
+
+<div class="team-container">
+  {% for item in site.data.team.fellows %}
+  <div class="team-row">
+    <div class="image-column">
+      <img src="{{ item.image }}" alt="{{ item.alt }}"/>
+    </div>
+    <div class="text-column">
+      <h3 class="team-name">{{ item.name }}</h3>
+      <p class="item-description">
+        {{ item.description }}
+      </p>
+      <p class="item-description">
+        <em>{{ item.quote }}</em>
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 <h2>FAQ</h2>
 
 <h3>How is Brink funded?</h3>

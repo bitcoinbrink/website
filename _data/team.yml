@@ -53,6 +53,20 @@ board:
 
 fellows:
 
+- name: "Marco De Leon"
+  description: >-
+    Marco De Leon is a Brink fellow mentored by Niklas Gögge. His focus
+    is on Bitcoin Core fuzz testing, with the goal of expanding test coverage, adding useful
+    oracles, and identifying vulnerabilities.
+  social: "@marcofleon"
+  link: https://github.com/marcofleon
+  image: assets/images/marco-de-leon.png
+  alt: Picture of Marco De Leon
+  quote: >-
+    "I’m excited and thankful for the opportunity from Brink to learn about
+    Bitcoin this next year. And shoutout to Niklas, who’s been awesome so far,
+    for being willing to mentor me during the fellowship."
+
 grantees:
 
 - name: "Michael Ford (fanquake)"
