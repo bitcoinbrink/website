@@ -9,6 +9,7 @@ SOURCES_IN_ORDER="""
   stepanov.md
   vuylsteke.md
   zhao.md
+  brink.md
 """
 
 #  --variable mainfont="DejaVu Sans" \
