@@ -1,3 +1,24 @@
+- date: "2024-09-25"
+  outlet: Bitcoin Magazine
+  image: bitcoin-magazine.png
+  title: "Brink Donates Over $1 Million To Bitcoin Developers Last Year"
+  description: "Non-profit organisation, Brink published its annual report, detailing over $1 million in donations to open source developers in 2023. The report highlighted achievements from Brink-sponsored contributors improving Bitcoin's protocol."
+  url: https://bitcoinmagazine.com/business/brink-donates-over-1-million-to-bitcoin-developers-last-year
+
+- date: "2024-09-03"
+  outlet: Bitcoin 2024 Conference
+  image: bitcoin2024.png
+  title: "Why Open Source Development Matters - Bitcoin 2024 Conference"
+  description: "Mike Schmidt joins Christian Keroles, Aaron Daniel & Hong Kim to discuss funding in a decentralized ecosystem."
+  url: https://www.youtube.com/watch?v=Pxj8XZa_zwc&ab_channel=BitcoinMagazine
+
+- date: "2024-08-29"
+  outlet: Bitcoin 2024 Conference
+  image: bitcoin2024.png
+  title: "Making Bitcoin More Private With CISA - Bitcoin 2024 Conference"
+  description: "Fabian Jahr discusses Cross-Input Signature Aggregation (CISA) with Lisa Neigut, Craig Raw, and Jameson Lopp."
+  url: https://www.youtube.com/watch?v=HvI7NPI_Pk0&ab_channel=BitcoinMagazine
+
 - date: "2024-06-14"
   outlet: Ledger Blog
   image: ../sponsors/ledger.png
