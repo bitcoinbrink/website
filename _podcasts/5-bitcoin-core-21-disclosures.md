@@ -1,9 +1,9 @@
 ---
-title: "Episode 5: Discussing 0.21.0 Bitcoin Core Vulnerability Disclosures"
+title: "Episode 5: Discussing Pre-22.0 Bitcoin Core Vulnerability Disclosures"
 permalink: /podcast/5-bitcoin-core-21-disclosures/
 layout: podcast
 date: 2024-07-31
-description: Gloria Zhao and Niklas Gögge discuss the recently disclosed Bitcoin Core 0.21.0 vulnerabilities.
+description: Gloria Zhao and Niklas Gögge discuss the recently disclosed Bitcoin Core pre-22.0 vulnerabilities.
 ---
 
 Brink engineers [Gloria Zhao][] and [Niklas Gögge][] talk through the recently
