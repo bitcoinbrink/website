@@ -37,7 +37,7 @@ description: Thank you to all of our generous donors who make our work possible.
     </div>
     <div class="text-column">
       <div class="progress-bg">
-        <div class="progress-bar" style="width:{{ sponsor.amount| divided_by: grant_largest }}%">
+        <div class="progress-bar" style="width:100%">
         	<h3 class="raised">{{ sponsor.amount_formatted }}</h3>
         </div>
       </div>
