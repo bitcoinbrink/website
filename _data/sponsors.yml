@@ -49,7 +49,7 @@ grants:
     name: Nexo
     image: assets/images/sponsors/nexo.png
     alt: Nexo logo
-    website: https://nexo.io/
+    website: https://nexo.com/
     amount: 150000
     amount_formatted: $150,000
   -
