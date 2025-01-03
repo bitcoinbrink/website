@@ -50,8 +50,8 @@ grants:
     image: assets/images/sponsors/nexo.png
     alt: Nexo logo
     website: https://nexo.com/
-    amount: 150000
-    amount_formatted: $150,000
+    amount: 250000
+    amount_formatted: $250,000
   -
     name: BtcTurk
     image: assets/images/sponsors/btcturk.jpg
