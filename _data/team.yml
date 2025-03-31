@@ -83,27 +83,6 @@ grantees:
     sponsorship, also means I can focus 100% of my time on contributing to, and
     maintaining, Bitcoin Core."
 
-- name: Gloria Zhao
-  description: >-
-    Gloria is one of the maintainers of Bitcoin Core, primarily focused on
-    mempool and P2P. She is currently working on package relay (BIP331) and
-    transaction relay policy changes to make pinning attacks more difficult. She
-    also co-runs <a href="https://bitcoincore.reviews/">Bitcoin Core PR Review Club</a> aimed at
-    helping newcomers learn about the codebase and PR review process.
-  social: "@glozow"
-  link: https://twitter.com/glozow
-  image: assets/images/gloria-zhao.jpg
-  alt: Picture of Gloria Zhao
-  quote: >-
-    "Brink's grant committee includes engineers who understand the maintenance
-    required of Bitcoin Core and can tell the difference between frankensteining
-    flashy features and architecting a robust protocol. The decision-making
-    process and stability gives me the confidence to spend my time digging into
-    bugs, reviewing large projects, and working on protocol changes like package
-    relay. In addition to supporting educational content like Optech and the PR
-    Review Club, I feel Brink makes an effort foster an internal culture of
-    teaching and learning from each other." 
-
 - name: Hennadii Stepanov
   description: >-
     Hennadii has been contributing code and review to Bitcoin Core since 2018.
@@ -181,6 +160,20 @@ grantees:
     intricate proposals and code modifications, allowing me to grasp their full
     implications and potential impact on the network."
 
+- name: Eugene Siegel
+  description: >-
+    Eugene's grant supports his security engineering work including fuzz
+    testing, code review, and building out fuzzing infrastructure, with a focus
+    on the P2P networking code.
+  social: "@Crypt-iQ"
+  link: https://github.com/Crypt-iQ
+  image: assets/images/eugene-siegel.jpg
+  alt: Picture of Eugene Siegel
+  quote: >-
+    "I think Bitcoin Core is leading the way in fuzzing in the industry, and I
+    hope to contribute to its role as a model for other projects looking to
+    apply fuzzing techniques effectively in their own domains."
+
 grant_committee:
 
 - name: Dave Harding
@@ -208,16 +201,6 @@ grant_committee:
   link: https://github.com/theuni
   image: assets/images/cory-fields.jpg
   alt: Picture of Cory Fields
-
-- name: Gloria Zhao
-  description: >-
-    Gloria's in-depth experience as a Bitcoin Core developer and maintainer as
-    well as Brink grantee led to her joining Brink's grant committee where she
-    lends her expertise in evaluating grant applications.
-  social: "@glozow"
-  link: https://twitter.com/glozow
-  image: assets/images/gloria-zhao.jpg
-  alt: Picture of Gloria Zhao
 
 alumni:
 
@@ -392,3 +375,25 @@ alumni:
   link: https://twitter.com/Snyke
   image: assets/images/christian-decker.png
   alt: Picture of Christian Decker
+
+- name: Gloria Zhao
+  description: >-
+    Gloria is one of the maintainers of Bitcoin Core, primarily focused on
+    mempool and P2P. As a Brink fellow and grantee, she worked on package relay
+    (BIP331) and transaction relay policy changes to make pinning attacks more
+    difficult. She also served on Brink's grant commitee while running the <a
+    href="https://bitcoincore.reviews/">Bitcoin Core PR Review Club</a> aimed at
+    helping newcomers learn about the codebase and PR review process.
+  social: "@glozow"
+  link: https://twitter.com/glozow
+  image: assets/images/gloria-zhao.jpg
+  alt: Picture of Gloria Zhao
+  quote: >-
+    "Brink's grant committee includes engineers who understand the maintenance
+    required of Bitcoin Core and can tell the difference between frankensteining
+    flashy features and architecting a robust protocol. The decision-making
+    process and stability gives me the confidence to spend my time digging into
+    bugs, reviewing large projects, and working on protocol changes like package
+    relay. In addition to supporting educational content like Optech and the PR
+    Review Club, I feel Brink makes an effort foster an internal culture of
+    teaching and learning from each other." 
