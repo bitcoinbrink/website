@@ -12,7 +12,7 @@ description: Brink is a nonprofit supporting Bitcoin developers building, securi
 
 <div class="donate-col">
 <a href="https://checkout.opennode.com/p/5698f840-83ae-4226-a68c-9cfa3005bdbd"><button>₿ Donate bitcoin</button></a>
-<br /><em>Lightning, onchain</em>
+<br /><em>Lightning, onchain. <a href="#other-bitcoin">Other options</a> </em>
 </div>
 
 <div class="donate-col">
@@ -121,10 +121,18 @@ description: Brink is a nonprofit supporting Bitcoin developers building, securi
 <p>To manage your recurring donation to Brink visit <a href="https://billing.stripe.com/p/login/bIY6q11Vwddu1gYaEE">here</a>.
 </p>
 
+<h3 id="other-bitcoin">How else can I donate bitcoin?</h3>
+<p>
+  <ul>
+    <li>Bitcoin Donor-Advised Funds (Learn more <a href="/blog/2021/03/26/donate-bitcoin/#bitcoin-donor-advised-funds">here</a>): <a href="https://www.unchained.com/donor-advised-funds">Unchained</a></li>
+    <li>Reach out to <a href="mailto:donate@brink.dev">donate@brink.dev</a> for other options</li>
+  </ul>
+</p>
+
 <h3 id="other-fiat">How else can I donate fiat?</h3>
 <p>In addition to credit card donations including Apple Pay and Google Pay we can accept donations via:
   <ul>
-    <li><a href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=ODUyOTE5MTM2XzIxMTFfYWJlNTBiNDItY2EyMC00YjYxLThhODctZDk0ZDZhMTRjZmIz&designatedText=UHJvZ3JhbXM=">Donor-Advised Funds</a> (Learn more <a href="/blog/2021/03/26/donate-bitcoin/">here</a>)</li>
+    <li><a href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=ODUyOTE5MTM2XzIxMTFfYWJlNTBiNDItY2EyMC00YjYxLThhODctZDk0ZDZhMTRjZmIz&designatedText=UHJvZ3JhbXM=">Donor-Advised Funds</a> (Learn more <a href="/blog/2021/03/26/donate-bitcoin/#traditional-donor-advised-funds">here</a>)</li>
     <li>Stablecoins: 
     <a href="https://etherscan.io/address/0x04A0455D3529B383e32C80aF746B8438da5F873e">USDC, USDT, BUSD</a>
     </li>
