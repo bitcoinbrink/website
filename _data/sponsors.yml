@@ -22,8 +22,8 @@ grants:
     image: assets/images/sponsors/hrf.jpg
     alt: Human Rights Foundation logo
     website: https://hrf.org/
-    amount: 50000
-    amount_formatted: $50,000
+    amount: 100000
+    amount_formatted: $100,000
   -
     name: Square Crypto
     image: assets/images/sponsors/sqcrypto.png
@@ -134,8 +134,8 @@ grants:
     image: assets/images/sponsors/draper.png
     alt: The Draper Foundation
     website: 
-    amount: 500000
-    amount_formatted: $500,000
+    amount: 700000
+    amount_formatted: $700,000
 
   -  
     name: Samara Asset Group
@@ -182,16 +182,16 @@ grants:
     image: assets/images/sponsors/ledger.png
     alt: Ledger
     website: https://www.ledger.com/
-    amount: 90000
-    amount_formatted: $90,000
+    amount: 245000
+    amount_formatted: $245,000
 
   -  
     name: River Financial
     image: assets/images/sponsors/river.png
     alt: River Financial
     website: https://river.com/
-    amount: 50000
-    amount_formatted: $50,000
+    amount: 100000
+    amount_formatted: $100,000
 
   -  
     name: Core Scientific
@@ -202,9 +202,9 @@ grants:
     amount_formatted: $68,164
 
   -  
-    name: Xapo Bitcoin Trust
+    name: Xapo Bank
     image: assets/images/sponsors/xapo-bitcoin-trust.png
-    alt: Xapo Bitcoin Trust
+    alt: Xapo Bank
     website: https://www.xapobank.com/
     amount: 1400000
     amount_formatted: $1,400,000 over 4yrs
