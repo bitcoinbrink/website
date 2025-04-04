@@ -76,17 +76,26 @@ There are several benefits to donating through a DAF:
 
 * It's easy to donate [Bitcoin][Fidelity BTC] (or other appreciated assets) to the
   fund while not incurring capital gains tax.
-  
-By donating Bitcoin through your DAF, you will receive the tax-deductible
-benefit for the value of the Bitcoin, but Brink will receive USD, not Bitcoin.
-For more details, please contact your DAF portfolio manager.
 
-The three largest DAFs are [Fidelity Charitable][Fidelity], [Schwab
+#### Traditional Donor-Advised Funds
+
+The three largest traditional DAFs are [Fidelity Charitable][Fidelity], [Schwab
 Charitable][Schwab] and [BNY Mellon Charitable Gift Fund][BNY]. All three can accept
 Bitcoin donations.
 
+By donating Bitcoin through your DAF, you will receive the tax-deductible
+benefit for the value of the Bitcoin, and for traditional DAFs, Brink will receive USD, not Bitcoin.
+For more details, please contact your DAF portfolio manager.
+
 If you have an established account with one of the above-mentioned funds, then
 you can [donate directly to Brink through your DAF][Brink DAF].
+
+#### Bitcoin Donor-Advised Funds
+
+Bitcoin Donor-Advised Funds like [Unchained][uc btc daf] offer similar tax
+benefits to traditional DAFs but with added privacy, transparency, and
+streamlined paperwork.  These funds hold bitcoin in a multisig wallet and allow
+for direct on-chain donations.
 
 If you’d like to learn more about the ways a DAF fund might be useful
 in your giving portfolio, contact [donate@brink.dev][donate email] or the
@@ -109,6 +118,7 @@ advance that mission. Thank you for your interest in supporting Brink!
 [Schwab]: https://www.schwabcharitable.org/
 [BNY]: https://bnymelloncharitablegiftfund.org/bnym/
 [Brink DAF]: https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=ODUyOTE5MTM2XzIxMTFfYWJlNTBiNDItY2EyMC00YjYxLThhODctZDk0ZDZhMTRjZmIz&designatedText=UHJvZ3JhbXM=
+[uc btc daf]: https://www.unchained.com/donor-advised-funds
 [IRS Form 8283]:  https://www.irs.gov/forms-pubs/about-form-8283
 [Charitable Solutions LLC]: https://charitablesolutionsllc.com/virtual-currency-appraisals/
 [Crypto Appraisers]: https://cryptoappraisers.com/
