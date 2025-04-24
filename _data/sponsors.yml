@@ -233,6 +233,14 @@ grants:
     amount: 60000
     amount_formatted: $60,000
 
+  -  
+    name: Mark Casey
+    image: assets/images/sponsors/mark-casey.jpg
+    alt: Mark Casey
+    website: 
+    amount: 200000
+    amount_formatted: $200,000 over 4 years
+
 providers:
   -
     name: River Financial
