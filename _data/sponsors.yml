@@ -22,8 +22,8 @@ grants:
     image: assets/images/sponsors/hrf.jpg
     alt: Human Rights Foundation logo
     website: https://hrf.org/
-    amount: 100000
-    amount_formatted: $100,000
+    amount: 150000
+    amount_formatted: $150,000
   -
     name: Square Crypto
     image: assets/images/sponsors/sqcrypto.png
@@ -182,8 +182,8 @@ grants:
     image: assets/images/sponsors/ledger.png
     alt: Ledger
     website: https://www.ledger.com/
-    amount: 245000
-    amount_formatted: $245,000
+    amount: 300000
+    amount_formatted: $300,000
 
   -  
     name: River Financial
