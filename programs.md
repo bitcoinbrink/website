@@ -35,7 +35,7 @@ expect for a software engineering job. The fellowship takes place in our London
 office, so applicants must be prepared to relocate. We may be able to help with
 travel and visas on a case-by-case basis.
 
-<a href="https://brink.homerun.co/fellowship"><button>Apply for
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdr7s5UhhxmNCApL1USOow608tOaifwx7XGZT5-mLLocjQvSg/viewform"><button>Apply for
 the Fellowship</button></a>
 
 {% assign fellow_size = site.data.team.fellows | size %}
@@ -94,7 +94,7 @@ The grant program is open to developers anywhere in the world. Grant applicants 
 - be committed to increasing the impact of their contributions, growing the
   developer ecosystem and scaling Bitcoin and related projects.
 
-<a href="https://brink.homerun.co/grants"><button>Apply for a Grant</button></a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSenuE_EXfLSM6uzMr89I_7HZkSG8_GndMjlsq5vIAvh2FpF4w/viewform"><button>Apply for a Grant</button></a>
 
 <h2 id="brink_grantees">Brink Grantees</h2>
 
