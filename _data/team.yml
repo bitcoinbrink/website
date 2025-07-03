@@ -176,21 +176,6 @@ grantees:
 
 grant_committee:
 
-- name: Dave Harding
-  description: >-
-    Dave co-wrote the <a href="https://bitcoin.org">Bitcoin.org</a> developer
-    documentation in 2014 and 2015. In 2016, he created a section of
-    Bitcoin.org dedicated to the Bitcoin Core project before joining the
-    startup 21.co, where he wrote a series of Bitcoin developer tutorials.
-    Since 2018 he has been co-writing a <a
-    href="https://bitcoinops.org/en/newsletters">weekly newsletter</a> for
-    Bitcoin Optech. He joined Brink as a founding member of the board in 2020
-    and now serves on Brink's grant committee.
-  social: "@hrdng"
-  link: https://twitter.com/hrdng
-  image: assets/images/dave-harding.png
-  alt: Picture of Dave Harding
-
 - name: Cory Fields
   description: >-
     Cory is a long-time Bitcoin Core developer with over 11 years of experience
@@ -201,6 +186,16 @@ grant_committee:
   link: https://github.com/theuni
   image: assets/images/cory-fields.jpg
   alt: Picture of Cory Fields
+
+- name: "Niklas Gögge"
+  description: >-
+    In addition to his work on Bitcoin security including finding, fixing, and
+    responsibly disclosing bugs and his efforts building out Bitcoin
+    Core's testing infrastructure, Niklas serves on Brink's grant committee.
+  social: "@dergoegge"
+  link: https://twitter.com/dergoegge
+  image: assets/images/niklas-goegge.jpg
+  alt: Picture of Niklas Gögge
 
 alumni:
 
@@ -397,3 +392,16 @@ alumni:
     relay. In addition to supporting educational content like Optech and the PR
     Review Club, I feel Brink makes an effort foster an internal culture of
     teaching and learning from each other." 
+
+- name: Dave Harding
+  description: >-
+    Dave co-wrote the <a href="https://bitcoin.org">Bitcoin.org</a> developer
+    documentation in 2014 and 2015. He is the author of Mastering Bitcoin 3rd
+    Edition and since 2018 he has been co-writing a <a
+    href="https://bitcoinops.org/en/newsletters">weekly newsletter</a> for
+    Bitcoin Optech. He served Brink as a founding member of the board in 2020
+    and also served on Brink's grant committee.
+  social: "@hrdng"
+  link: https://twitter.com/hrdng
+  image: assets/images/dave-harding.png
+  alt: Picture of Dave Harding
