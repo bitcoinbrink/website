@@ -51,6 +51,33 @@ board:
   image: assets/images/alex-leishman.jpg
   alt: Picture of Alex Leishman
 
+interns:
+
+- name: "Dongjia Zhang"
+  description: >-
+    Dongjia Zhang is a Ph.D. researcher focusing on software security and
+    fuzzing. He is the maintainer of LibAFL, a state-of-the-art fuzzing
+    framework written in Rust. His internship under the mentorship of Niklas
+    Gögge involves fuzz testing Bitcoin Core.
+  social: "@tokatoka"
+  link: https://github.com/tokatoka
+  image: assets/images/dongjia-zhang.jpg
+  alt: Picture of Dongjia Zhang
+  quote: >-
+    ""
+
+- name: "Stratos"
+  description: >-
+    Stratos is a vulnerability researcher approaching Bitcoin Core
+    security and fuzzing through a different lens. His internship work under Niklas
+    Gögge will focus on fuzz testing Bitcoin Core.
+  social: "@5tratan"
+  link: https://x.com/5tratan
+  image: assets/images/stratos.png
+  alt: Picture of Stratos
+  quote: >-
+    ""
+
 fellows:
 
 - name: "Marco De Leon"

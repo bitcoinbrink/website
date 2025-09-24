@@ -120,6 +120,33 @@ The grant program is open to developers anywhere in the world. Grant applicants 
   {% endfor %}
 </div>
 
+{% assign intern_size = site.data.team.interns | size %}
+{% if intern_size > 0 %}
+  <h2 id="brink_interns">Brink Interns</h2>
+{% endif %}
+
+<div class="team-container">
+  {% for item in site.data.team.interns %}
+  <div class="team-row">
+    <div class="image-column">
+      <img src="{{ item.image }}" alt="{{ item.alt }}"/>
+    </div>
+    <div class="text-column">
+      <h3 class="team-name">{{ item.name }}</h3>
+      <h4 class="item-title">{{ item.title | upcase }}</h4>
+      <p class="item-description">
+        {{ item.description }}
+      </p>
+      {% if item.social %}
+      <div class="team-social">
+        <a href="{{ item.link }}" target="_blank">{{ item.social }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 <h2 id="brink_alumni">Brink Alumni</h2>
 
 <div class="team-container">
