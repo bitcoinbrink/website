@@ -5,8 +5,8 @@ description: Thank you to all of our generous donors who make our work possible.
 ---
 
 <div class="sponsors-container">
-  <h2>Founding Sponsors</h2>
-  <p>Our founding sponsors generously funded our start-up costs as well as our ongoing costs.</p>
+  <h2>Founding Partners</h2>
+  <p>Our founding partners generously contributed to our start-up and ongoing operational costs, so that all other donations are directed towards our projects.</p>
   <div class="sponsors-row">
     {% for sponsor in site.data.sponsors.founding %}
     <div class="sponsors-col">
