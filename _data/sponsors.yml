@@ -134,8 +134,8 @@ grants:
     image: assets/images/sponsors/draper.png
     alt: The Draper Foundation
     website: 
-    amount: 700000
-    amount_formatted: $700,000
+    amount: 800000
+    amount_formatted: $800,000
 
   -  
     name: Samara Asset Group
@@ -182,8 +182,8 @@ grants:
     image: assets/images/sponsors/ledger.png
     alt: Ledger
     website: https://www.ledger.com/
-    amount: 300000
-    amount_formatted: $300,000
+    amount: 414700
+    amount_formatted: $414,700
 
   -  
     name: River Financial
