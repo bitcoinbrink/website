@@ -45,3 +45,11 @@ hennadii:
   bio: Brink Grantee
   image: /assets/images/hennadii-stepanov.jpg
   alt: Hennadii Stepanov
+
+niklas:
+  name: "Niklas Gögge"
+  handle: "@dergoegge"
+  link: https://twitter.com/dergoegge
+  bio: Brink Grantee
+  image: /assets/images/niklas-goegge.jpg
+  alt: Niklas Gögge
