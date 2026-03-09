@@ -178,17 +178,17 @@ us][].
 
 [niklas github]: https://github.com/dergoegge
 [niklas x]: https://x.com/dergoegge/
-[niklas grant]: https://brink.dev/blog/2022/04/04/grantees/#niklas-g%C3%B6gge
-[lnd-dos]: https://brink.dev/blog/2023/12/22/dos-bugs-lnd/
+[niklas grant]: /blog/2022/04/04/grantees/#niklas-g%C3%B6gge
+[lnd-dos]: /blog/2023/12/22/dos-bugs-lnd/
 [responsible disclosures optech]: https://bitcoinops.org/en/topics/responsible-disclosures/
-[fuzzing blog]: https://brink.dev/blog/2023/07/14/fuzzing/
-[fuzzamoto blog]: https://brink.dev/blog/2026/01/07/fuzzamoto-introduction/
+[fuzzing blog]: /blog/2023/07/14/fuzzing/
+[fuzzamoto blog]: /blog/2026/01/07/fuzzamoto-introduction/
 [disclosure policy]: https://bitcoinops.org/en/newsletters/2024/06/07/#upcoming-disclosure-of-vulnerabilities-affecting-old-versions-of-bitcoin-core
-[brink podcast]: https://brink.dev/podcast
+[brink podcast]: /podcast
 [cve-2024-35202]: https://bitcoinops.org/en/newsletters/2024/10/11/#cve-2024-35202-remote-crash-vulnerability
-[security audit blog]: https://brink.dev/blog/2025/11/19/bitcoin-core-security-audit/
-[marco fellow blog]: https://brink.dev/blog/2024/08/01/marco/
-[marco results blog]: https://brink.dev/blog/2025/07/31/marco-fuzzing-fellowship/
+[security audit blog]: /blog/2025/11/19/bitcoin-core-security-audit/
+[marco fellow blog]: /blog/2024/08/01/marco/
+[marco results blog]: /blog/2025/07/31/marco-fuzzing-fellowship/
 [fuzz interns]: https://x.com/bitschmidty/status/1971530899050086722
 [grants]: /programs#grants
 [fellowship]: /programs#fellowship
