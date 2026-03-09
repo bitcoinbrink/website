@@ -46,7 +46,7 @@ initiative Niklas tackled.
 When Niklas started contributing, Bitcoin Core already had a body of unit-level
 fuzz tests, but significant testing gaps remained in the P2P code. Niklas set to
 work expanding the number of fuzz-testable targets and refactoring P2P net
-processing to be more fuzzer-friendly. By 2023, [he had grown Bitcoin Core's
+processing to be more fuzzer-friendly. By 2023, [he helped grow Bitcoin Core's
 fuzz targets to approximately 200][fuzzing blog].
 
 But Niklas also ran into (a common) friction when trying to improve testing in a
