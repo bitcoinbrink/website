@@ -1,6 +1,6 @@
 ---
 title: "Celebrating Niklas’s First Brink Epoch"
-permalink: /blog/2026/03/10/niklas-brink-epoch/
+permalink: /blog/2026/03/11/niklas-brink-epoch/
 layout: post
 author: brink
 name: "brink"
@@ -15,85 +15,90 @@ description: This month, we're proud to celebrate Niklas Gögge's four years of 
 
 This month, we're proud to celebrate a significant milestone for Brink engineer
 Niklas Gögge ([GitHub][niklas github], [X][niklas x]): four years of dedicated,
-security-focused work on Bitcoin Core at Brink. From his earliest days working
-on Utreexo, to hardening Bitcoin Core's P2P code through fuzzing, to becoming
-the architect of an entirely new approach to full-system Bitcoin security
+security-focused work on Bitcoin Core at Brink. Whether Niklas was working
+on Utreexo, hardening Bitcoin Core's P2P code through fuzzing, or developing
+an entirely new approach to full-system Bitcoin security
 testing, Niklas has persistently (and quietly) made Bitcoin harder to break by
-breaking it himself, and we are grateful for it.
+breaking it himself. We’re grateful to have him doing it.  
 
 ## **Finding the Bugs Before Attackers Do**
 
-Niklas [joined Brink][niklas grant] as a grantee in early 2022, coming from
-Technische Universität Berlin with a background in computer science and a good
+Niklas [began his journey with Brink][niklas grant] as a grantee in early 2022, after studying computer science at
+Technische Universität Berlin. He arrived with a strong
 intuition of where Bitcoin Core was most vulnerable: its peer-to-peer networking
-layer. His focus was to make Bitcoin Core's P2P layer more robust through
-review, testing, and fuzzing. What followed was four years of security work that
-has demonstrably improved the resilience of Bitcoin's reference implementation
-among other projects in the Bitcoin ecosystem.
+layer.
 
-In 2021, he discovered and responsibly disclosed [two denial-of-service
+His focus was to make Bitcoin Core's P2P layer more robust through
+review, testing, and fuzzing. What followed were four years of security work that
+demonstrably improved the resilience of Bitcoin's reference implementation
+and influenced other projects in the Bitcoin ecosystem.
+
+Even before joining Brink, Niklas was already discovering vulnerabilities. In 2021, he discovered and subsequently responsibly disclosed [two denial-of-service
 vulnerabilities in LND][lnd-dos], finding that an attacker could crash nodes by
 exhausting their memory with premature channel updates, and separately censor
 channel updates from propagating across the network. These and other bugs were
-[responsibly disclosed][responsible disclosures optech].
+[responsibly disclosed][responsible disclosures optech] through appropriate channels.
 
 ## **Building the Testing Infrastructure**
 
-In addition to individuals manually finding bugs, mature projects find bugs
-systematically, hopefully before they reach end users. This is another
+In mature software projects, bugs are not only discovered manually by developers, but they are also found
+systematically through automated testing, ideally before they reach end users. Improving this testing infrastructure was another
 initiative Niklas tackled.
 
 When Niklas started contributing, Bitcoin Core already had a body of unit-level
-fuzz tests, but significant testing gaps remained in the P2P code. Niklas set to
-work expanding the number of fuzz-testable targets and refactoring P2P net
-processing to be more fuzzer-friendly. By 2023, [he helped grow Bitcoin Core's
+fuzz tests. However, significant testing gaps remained in the P2P networking code. Niklas worked to
+expand the number of fuzz-testable targets and refactored parts of the P2P network
+processing to be more compatible with fuzz tezting. By 2023, [he had helped grow Bitcoin Core's
 fuzz targets to approximately 200][fuzzing blog].
 
-But Niklas also ran into (a common) friction when trying to improve testing in a
-conservative project. Refactoring code to make it more testable requires
-significant reviewer time, a notoriously bottlenecked resource in open source
-and Bitcoin development. It is a bit of a chicken-and-egg problem in that
-additional tests would help de-risk refactoring, but adding tests requires
-refactoring. And all of it requires review time. Rather than push forever
-against that, Niklas began to approach the problem differently...
+But Niklas also encountered a common challenge when trying to improve testing in a
+conservative project. Refactoring code to make it easier to test requires
+significant reviewer time, a notoriously scarce resource in open source
+and Bitcoin development. This creates a chicken-and-egg problem:
+additional tests would help make refactoring safer, but adding tests often requires
+refactoring the code first. And all of it requires review time. Rather than pushing indefinitely
+against that bottleneck, Niklas began approaching the problem differently.
 
 ## **Fuzzamoto**
 
-The result of that thinking is [Fuzzamoto][fuzzamoto blog]. Started in early
+The result of that thinking is [Fuzzamoto][fuzzamoto blog].
+
+Started in early
 2025, Fuzzamoto is a fuzz testing framework for Bitcoin full nodes that takes a
 different approach from Bitcoin's historical in-process fuzz harnesses.
 
 Bitcoin Core already had functional tests capable of creating and running live
 Bitcoin Core instances and then running tests through the node's existing
-interfaces like RPC, P2P, IPC. These tests already achieved broad code coverage
-and caught real bugs. But they only test specific individual known scenarios,
-not the broader space of possible inputs and sequences. What if we could take
-the same approach as the functional tests, but replace the individual hard-coded
-scenarios with a tool that can throw a huge volume of (quasi) random inputs at
+interfaces such as RPC, P2P, and IPC. These tests already achieved broad code coverage
+and caught real bugs. However, they only tested specific, known scenarios rather than exploring
+the broader space of possible inputs and sequences. What if we took
+the same approach as the functional tests, but replaced the individual hard-coded
+scenarios with a tool capable of throwing a massive volume of quasi-random inputs at
 Bitcoin Core?
 
 Mining for bugs.
 
 That's what Fuzzamoto does. It runs Bitcoin nodes inside a specialized virtual
-machine that can take a snapshot of all its state, run a test, and rapidly reset
-to it after each fuzzing iteration. This means you can set up a desired node
-state once (say, mine a few blocks and then broadcast a couple transactions),
-take a snapshot, then execute tests from that snapshot state. This can result in
-thousands of test iterations per second against a running Bitcoin node without
-any refactoring in Bitcoin Core.
+machine that can take a snapshot of the entire system, run a test, and rapidly reset
+to to the snapshotted state after each fuzzing iteration. This means any desired initial test
+state can be set up once (say, mine a few blocks and then broadcast a couple transactions),
+take a snapshot, then execute tests from that snapshot state. The result is
+thousands of test iterations per second against a live Bitcoin node.
 
-Best of all, Fuzzamoto requires no changes to the Bitcoin Core code. It can work
-against the actual production binaries. This sidesteps the review-burden problem
-entirely and means it can be applied continuously to any new release or even
-individual pull requests in the future. The tool is also
-Bitcoin-implementation-agnostic meaning it can test Bitcoin Core, btcd, or other
-implementations simultaneously for differential testing, finding bugs that only
-manifest as differences in behavior between implementations, especially
+Perhaps most importantly, Fuzzamoto requires no changes to the Bitcoin Core code. It tests
+against the actual production binaries. This sidesteps the review-bottleneck problem
+entirely and makes it possible to continuously test new releases or even
+individual pull requests in the future.
+
+The tool is also
+Bitcoin-implementation-agnostic, meaning it can test Bitcoin Core, btcd, or other
+implementations simultaneously. This enables _differential testing_, finding bugs that appear
+as differences in behavior between implementations, which is especially
 important for consensus.
 
-Early results validated the approach as Fuzzamoto found a bug in Bitcoin Core's
+Early results validated the approach when Fuzzamoto found a bug in Bitcoin Core's
 block index data structure. When a bug is found, Fuzzamoto's test cases can be
-directly converted back into Bitcoin Core functional tests, making it easy for
+converted directly back into Bitcoin Core functional tests, making it easy for
 maintainers to easily reproduce and triage issues using familiar tools and preventing
 future bugs.
 
@@ -102,24 +107,26 @@ public third-party audit of Bitcoin Core in 2025 described Fuzzamoto as *"likely
 the most valuable path to pursue in order to trigger deeper and more complex
 bugs*" in Bitcoin Core.
 
+Niklas reflects on his evolving approach to Bitcoin Core development:
+
 "*My approach to Bitcoin Core development has changed over the years. In my
 opinion, 'the most important problem' to work on does not exist, but there is a
 rather short list of very important things that should be prioritised. That is
-why I went from prototyping a large changes or features to focusing solely on
-security work. 
+why I went from prototyping large changes or features to focusing solely on
+security work.*
 
-I realised this is an important area where I can make
+*I realised this is an important area where I can make
 meaningful contributions. We like to say 'tick tock, next block' and leave out
 the fine print: 'except when the whole network goes down, or the chain splits, or
-the supply inflates…' 
+the supply inflates…'*
 
-Software doesn’t mature through time like fine
+*Software doesn’t mature through time like fine
 wine, it becomes robust because people continuously test and improve it.*"
 
 ## **Responsible Disclosure and Other Security Initiatives**
 
-A consistent theme in Niklas's first four years of Bitcoin work has been a strong commitment to 
-responsible security disclosure. 
+A consistent theme in Niklas's first four years of Bitcoin work has been a strong commitment to
+responsible security disclosure.
 
 Niklas became one of the key contributors to
 Bitcoin Core's updated [vulnerability disclosure process][disclosure policy],
@@ -132,20 +139,18 @@ His own disclosed findings include [CVE-2024-35202][cve-2024-35202], a crash bug
 nodes on the Bitcoin network essentially at will. Had an attacker discovered this
 bug before Niklas, the potential damage and consequences to Bitcoin could have been severe.
 
-
 When Brink helped initiate the [first public third-party audit of Bitcoin
 Core][security audit blog], commissioning Quarkslab via the Open Source Technology
 Improvement Fund (OSTIF) to conduct a security assessment focused on the P2P
 networking layer, Niklas served as Brink's primary technical liaison.
 
-
 ## **Mentorship**
 
 Beyond his own contributions, Niklas has increasingly taken on a mentorship role within
-Brink. 
+Brink.
 
 He now serves on Brink's grant committee, bringing his technical
-expertise and security focus to the evaluation of funding applications. 
+expertise and security focus to the evaluation of funding applications.
 
 He also
 mentored [Brink fellow Marco De Leon][marco fellow blog], who worked directly on
@@ -153,17 +158,17 @@ Bitcoin Core fuzz testing under Niklas's guidance. The collaboration produced [t
 results][marco results blog], and ultimately led to Marco transitioning to full-time work as a
 Bitcoin Core developer.
 
-Niklas also continued mentoring new contributors, acting as 
-a resource to for two fuzz testing interns. [two Bitcoin Core fuzz testing interns][fuzz interns].
+Niklas also continued mentoring new contributors, acting as
+a resource for [two Bitcoin Core fuzz testing interns][fuzz interns].
 
 Niklas summed up his mentorship philosophy with the idea of "working to replace yourself". As he puts it, "I saw this quote in a book and I think it’s a good
 philosophy to work by. I always try to automate what I would otherwise do
 manually, and spend time mentoring new contributors through the Brink fellowship
-or internships.*"
+or internships."
 
 ## **Looking Ahead**
 
-Niklas's work on Fuzzamoto continues, 
+Niklas's work on Fuzzamoto continues,
 running around the clock to probe Bitcoin Core codebase for bugs and strengthen Bitcoin's security posture.
 Future plans include making the software more user friendly to
 increase adoption, simplifying test creation, and working toward
