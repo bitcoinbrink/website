@@ -94,57 +94,67 @@ important for consensus.
 Early results validated the approach as Fuzzamoto found a bug in Bitcoin Core's
 block index data structure. When a bug is found, Fuzzamoto's test cases can be
 directly converted back into Bitcoin Core functional tests, making it easy for
-maintainers to reproduce and triage bugs using familiar tools and preventing
+maintainers to easily reproduce and triage issues using familiar tools and preventing
 future bugs.
 
-Quarkslab's independent security auditors, who worked with us on the first-ever
+Quarkslab's independent security auditors, who conducted the first-ever
 public third-party audit of Bitcoin Core in 2025 described Fuzzamoto as *"likely
 the most valuable path to pursue in order to trigger deeper and more complex
 bugs*" in Bitcoin Core.
 
 "*My approach to Bitcoin Core development has changed over the years. In my
-opinion, “the most important problem” to work on does not exist, but there is a
-rather short list of very important things that should be prioritised, which is
-why I went from prototyping a large change/feature to solely focusing on
-security work. I realised that this is an important area where I can make
-meaningful contributions. We like to say “tick tock, next block” and leave out
-the fine print “except when the whole network goes down, or the chain splits, or
-the supply inflates, or …”. Software doesn’t mature through time like a fine
-wine, it gets robust because people continuously test and improve it.*"
+opinion, 'the most important problem' to work on does not exist, but there is a
+rather short list of very important things that should be prioritised. That is
+why I went from prototyping a large changes or features to focusing solely on
+security work. 
+
+I realised this is an important area where I can make
+meaningful contributions. We like to say 'tick tock, next block' and leave out
+the fine print: 'except when the whole network goes down, or the chain splits, or
+the supply inflates…' 
+
+Software doesn’t mature through time like fine
+wine, it becomes robust because people continuously test and improve it.*"
 
 ## **Responsible Disclosure and Other Security Initiatives**
 
 One consistency in his first four years of Bitcoin work is a commitment to
-responsible security disclosure. Niklas became one of the key contributors to
+responsible security disclosure. 
+
+Niklas became one of the key contributors to
 Bitcoin Core's updated [vulnerability disclosure process][disclosure policy],
 helping lead the publication of security advisories for bugs fixed in older
 versions of Bitcoin Core. He has hosted multiple episodes of our [Brink
 podcast][brink podcast] walking through these historical disclosures.
 
 His own disclosed findings include [CVE-2024-35202][cve-2024-35202], a crash bug
-he discovered in Bitcoin Core that allowed an attacker to crash Bitcoin Core
+ in Bitcoin Core that allowed an attacker to crash
 nodes on the Bitcoin network basically at will. Had an attacker discovered the
-bug before Niklas, we can only imagine the damages to Bitcoin that could have
-occurred.
+bug before Niklas, the potential damage and consequences to Bitcoin could have been severe.
+
 
 When Brink helped initiate the [first public third-party audit of Bitcoin
 Core][security audit blog], commissioning Quarkslab via the Open Source Technology
 Improvement Fund (OSTIF) to conduct a security assessment focused on the P2P
-networking layer, Niklas served as the primary technical liaison from Brink's
-side.
+networking layer, Niklas served as Brink's primary technical liaison.
+
 
 ## **Mentorship**
 
-Beyond his own code, Niklas has increasingly taken on a mentorship role within
-Brink. He now serves on Brink's grant committee, bringing his technical
-expertise and security focus to the evaluation of funding applications. He
-mentored [Brink fellow Marco De Leon][marco fellow blog] who worked directly on
-Bitcoin Core fuzz testing under Niklas's guidance with [tangible
-results][marco results blog], resulting in Marco's transition to full time work as a
+Beyond his own contributions, Niklas has increasingly taken on a mentorship role within
+Brink. 
+
+He now serves on Brink's grant committee, bringing his technical
+expertise and security focus to the evaluation of funding applications. 
+
+He also
+mentored [Brink fellow Marco De Leon][marco fellow blog], who worked directly on
+Bitcoin Core fuzz testing under Niklas's guidance. The collaboration produced [tangible
+results][marco results blog], and ultimately led to Marco transitioning to full-time work as a
 Bitcoin Core developer.
 
-Niklas also built on the successes as a mentor during the fellowship, acting as
-a mentor to [two Bitcoin Core fuzz testing interns][fuzz interns].
+Niklas also continued mentoring new contributors, acting as 
+a resource to for two fuzz testing interns. [two Bitcoin Core fuzz testing interns][fuzz interns].
 
 "*“Work to replace yourself” I saw this quote in a book and I think it’s a good
 philosophy to work by. I always try to automate what I would otherwise do
@@ -153,15 +163,15 @@ or internships.*"
 
 ## **Looking Ahead**
 
-Niklas's work on Fuzzamoto continues, increasing its impact on Bitcoin's
+Niklas's work on Fuzzamoto continues, 
 security posture and running around the clock to probe the codebase for bugs.
 Plans include making its usage more user friendly for other developers to
-increase usage and simplifying test creation as well as work toward
+increase adoption, simplifying test creation, and working toward
 deterministic execution.
 
-Niklas also plans to explore other testing software, including enterprise
-testing softwares and evaluating their applicability to Bitcoin Core and other
-Bitcoin projects. Brink is happy to support not just Niklas, but the software,
+Niklas is also exploring other testing software, including enterprise
+testing software, to evaluate their applicability to Bitcoin Core and other
+Bitcoin projects. Brink is proud to support not just Niklas himself, but also the software,
 team, and compute resources that can support his security work into the future.
 
 "*For the past four years, Brink has given me the opportunity to work full time
