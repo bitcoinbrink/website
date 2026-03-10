@@ -118,7 +118,7 @@ wine, it becomes robust because people continuously test and improve it.*"
 
 ## **Responsible Disclosure and Other Security Initiatives**
 
-One consistency in his first four years of Bitcoin work is a commitment to
+A consistent theme in Niklas's first four years of Bitcoin work has been a strong commitment to 
 responsible security disclosure. 
 
 Niklas became one of the key contributors to
@@ -129,7 +129,7 @@ podcast][brink podcast] walking through these historical disclosures.
 
 His own disclosed findings include [CVE-2024-35202][cve-2024-35202], a crash bug
  in Bitcoin Core that allowed an attacker to crash
-nodes on the Bitcoin network basically at will. Had an attacker discovered the
+nodes on the Bitcoin network essentially at will. Had an attacker discovered this
 bug before Niklas, the potential damage and consequences to Bitcoin could have been severe.
 
 
@@ -156,7 +156,7 @@ Bitcoin Core developer.
 Niklas also continued mentoring new contributors, acting as 
 a resource to for two fuzz testing interns. [two Bitcoin Core fuzz testing interns][fuzz interns].
 
-"*“Work to replace yourself” I saw this quote in a book and I think it’s a good
+Niklas summed up his mentorship philosophy with the idea of "working to replace yourself". As he puts it, "I saw this quote in a book and I think it’s a good
 philosophy to work by. I always try to automate what I would otherwise do
 manually, and spend time mentoring new contributors through the Brink fellowship
 or internships.*"
@@ -164,15 +164,15 @@ or internships.*"
 ## **Looking Ahead**
 
 Niklas's work on Fuzzamoto continues, 
-security posture and running around the clock to probe the codebase for bugs.
-Plans include making its usage more user friendly for other developers to
+running around the clock to probe Bitcoin Core codebase for bugs and strengthen Bitcoin's security posture.
+Future plans include making the software more user friendly to
 increase adoption, simplifying test creation, and working toward
 deterministic execution.
 
 Niklas is also exploring other testing software, including enterprise
 testing software, to evaluate their applicability to Bitcoin Core and other
 Bitcoin projects. Brink is proud to support not just Niklas himself, but also the software,
-team, and compute resources that can support his security work into the future.
+team, and compute resources that augment this work.
 
 "*For the past four years, Brink has given me the opportunity to work full time
 on Bitcoin in the London office, and I look forward to the next four!*"
