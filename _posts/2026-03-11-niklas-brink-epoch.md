@@ -23,7 +23,7 @@ We’re grateful to have him doing it.
 
 ## **Finding the Bugs Before Attackers Do**
 
-Niklas [began his journey with Brink][niklas grant] as a grantee in early 2022,
+Niklas [began his journey with Brink][niklas grant] as a grantee in early 2022
 after studying computer science at Technische Universität Berlin. He arrived
 with a strong intuition of where Bitcoin Core was most vulnerable: its
 peer-to-peer networking layer.
@@ -85,7 +85,7 @@ Mining for bugs.
 
 That's what Fuzzamoto does. It runs Bitcoin nodes inside a specialized virtual
 machine that can take a snapshot of the entire system, run a test, and rapidly
-reset to to the snapshotted state after each fuzzing iteration. This means any
+reset to the snapshotted state after each fuzzing iteration. This means any
 desired initial test state can be set up once (say, mine a few blocks and then
 broadcast a couple transactions), take a snapshot, then execute tests from that
 snapshot state. The result is thousands of test iterations per second against a
