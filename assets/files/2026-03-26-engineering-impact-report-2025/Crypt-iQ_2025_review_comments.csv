@@ -1,0 +1,29 @@
+number,count,title,url
+32646,5,p2p: Add witness mutation check inside FillBlock,https://github.com/bitcoin/bitcoin/pull/32646
+33344,1,[29.x] Backports,https://github.com/bitcoin/bitcoin/pull/33344
+34008,1,"log: don't rate-limit ""new peer"" with -debug=net",https://github.com/bitcoin/bitcoin/pull/34008
+31533,20,fuzz: Add fuzz target for block index tree and related validation events,https://github.com/bitcoin/bitcoin/pull/31533
+31933,1,doc: Add Clang/LLVM based coverage report generation,https://github.com/bitcoin/bitcoin/pull/31933
+33723,1,chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us,https://github.com/bitcoin/bitcoin/pull/33723
+33191,4,net: Provide block templates to peers on request,https://github.com/bitcoin/bitcoin/pull/33191
+33105,10,validation: detect witness stripping without re-running Script checks,https://github.com/bitcoin/bitcoin/pull/33105
+32606,20,p2p: Drop unsolicited CMPCTBLOCK from non-HB peer,https://github.com/bitcoin/bitcoin/pull/32606
+33724,1,refactor: Return uint64_t from GetSerializeSize,https://github.com/bitcoin/bitcoin/pull/33724
+33533,1,test: addrman: check isTerrible when time is more than 10min in the future,https://github.com/bitcoin/bitcoin/pull/33533
+32713,1,doc: fuzz: fix AFL++ link,https://github.com/bitcoin/bitcoin/pull/32713
+32180,4,p2p: Advance pindexLastCommonBlock early after connecting blocks,https://github.com/bitcoin/bitcoin/pull/32180
+33066,3,p2p: never check tx rejections by txid,https://github.com/bitcoin/bitcoin/pull/33066
+33699,2,p2p: reduce false-positives in addr rate-limiting,https://github.com/bitcoin/bitcoin/pull/33699
+32175,1,fuzz: doc: add info about `afl-system-config` for macOS,https://github.com/bitcoin/bitcoin/pull/32175
+33225,3,[29.x] Backport logging ratelimiting,https://github.com/bitcoin/bitcoin/pull/33225
+32394,4,net: make m_nodes_mutex non-recursive,https://github.com/bitcoin/bitcoin/pull/32394
+33252,1,p2p: add `DifferenceFormatter` fuzz target and invariant check,https://github.com/bitcoin/bitcoin/pull/33252
+33443,4,"log: reduce excessive ""rolling back/forward"" messages during block replay",https://github.com/bitcoin/bitcoin/pull/33443
+33183,1,"validation: rename block script verification error from ""mandatory"" to ""block""",https://github.com/bitcoin/bitcoin/pull/33183
+32198,7,fuzz: Make p2p_headers_presync more deterministic,https://github.com/bitcoin/bitcoin/pull/32198
+33429,1,fuzz: reduce iterations in slow targets,https://github.com/bitcoin/bitcoin/pull/33429
+32388,1,fuzz: Remove unused TimeoutExpired catch in fuzz runner,https://github.com/bitcoin/bitcoin/pull/32388
+34088,1,log: Use `__func__` for -logsourcelocations,https://github.com/bitcoin/bitcoin/pull/34088
+33235,1,build: set ENABLE_IPC to OFF when fuzzing,https://github.com/bitcoin/bitcoin/pull/33235
+33388,3,test: don't throw from the destructor of DebugLogHelper,https://github.com/bitcoin/bitcoin/pull/33388
+33453,1,docs: Undeprecate datacarrier and datacarriersize configuration options,https://github.com/bitcoin/bitcoin/pull/33453

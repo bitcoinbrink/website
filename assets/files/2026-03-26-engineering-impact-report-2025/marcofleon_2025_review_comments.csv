@@ -1,0 +1,71 @@
+number,count,title,url
+33283,1,contrib: update fixed seeds,https://github.com/bitcoin/bitcoin/pull/33283
+32191,1,Make TxGraph fuzz tests more deterministic,https://github.com/bitcoin/bitcoin/pull/32191
+32579,9,p2p: Correct unrealistic headerssync unit test behavior,https://github.com/bitcoin/bitcoin/pull/32579
+33743,1,fuzz: refactor memcpy to std::ranges::copy to work around ubsan warn,https://github.com/bitcoin/bitcoin/pull/33743
+31841,2,fuzz: Use immediate task runner to increase fuzz stability,https://github.com/bitcoin/bitcoin/pull/31841
+32113,2,fuzz: enable running fuzz test cases in Debug mode,https://github.com/bitcoin/bitcoin/pull/32113
+33997,1,[30.x] Backports & 30.1rc1,https://github.com/bitcoin/bitcoin/pull/33997
+32488,1,fuzz: Properly setup wallet in wallet_fees target,https://github.com/bitcoin/bitcoin/pull/32488
+31836,6,contrib: Add deterministic-fuzz-coverage,https://github.com/bitcoin/bitcoin/pull/31836
+31676,6,fuzz: add targets for PCP and NAT-PMP port mapping requests,https://github.com/bitcoin/bitcoin/pull/31676
+33076,1,[28.x] Backports,https://github.com/bitcoin/bitcoin/pull/33076
+31548,1,fuzz: Abort when global PRNG is used before SeedRand::ZEROS,https://github.com/bitcoin/bitcoin/pull/31548
+33689,2,http: replace WorkQueue and single threads handling for ThreadPool,https://github.com/bitcoin/bitcoin/pull/33689
+32427,1,(RFC) kernel: Replace leveldb-based BlockTreeDB with flat-file based store,https://github.com/bitcoin/bitcoin/pull/32427
+31437,1,func test: Expand tx download preference tests,https://github.com/bitcoin/bitcoin/pull/31437
+34091,1,fuzz: doc: remove any mention to `address_deserialize_v2`,https://github.com/bitcoin/bitcoin/pull/34091
+31397,4,p2p: track and use all potential peers for orphan resolution,https://github.com/bitcoin/bitcoin/pull/31397
+32104,1,refactor: Enforces Txid and Wtxid types in RelayTransaction,https://github.com/bitcoin/bitcoin/pull/32104
+33294,1,[29.x] *san CI backports,https://github.com/bitcoin/bitcoin/pull/33294
+33056,1,[29.x] final changes for v29.1rc1,https://github.com/bitcoin/bitcoin/pull/33056
+32581,1,allocators: Apply manual ASan poisoning to `PoolResource`,https://github.com/bitcoin/bitcoin/pull/32581
+32973,2,validation: docs and cleanups for MemPoolAccept coins views,https://github.com/bitcoin/bitcoin/pull/32973
+28216,1,fuzz: a new target for the coins database,https://github.com/bitcoin/bitcoin/pull/28216
+31666,2,multi-peer orphan resolution followups,https://github.com/bitcoin/bitcoin/pull/31666
+31918,1,fuzz: add basic TxOrphanage::EraseForBlock cov,https://github.com/bitcoin/bitcoin/pull/31918
+33533,1,test: addrman: check isTerrible when time is more than 10min in the future,https://github.com/bitcoin/bitcoin/pull/33533
+32969,1,[28.x] Backports,https://github.com/bitcoin/bitcoin/pull/32969
+33102,1,fuzz: cover BanMan::IsDiscouraged,https://github.com/bitcoin/bitcoin/pull/33102
+31810,2,TxOrphanage: account for size of orphans and count announcements,https://github.com/bitcoin/bitcoin/pull/31810
+32545,10,Replace cluster linearization algorithm with SFL,https://github.com/bitcoin/bitcoin/pull/32545
+31806,1,fuzz: coinselection: cover `SetBumpFeeDiscount`,https://github.com/bitcoin/bitcoin/pull/31806
+31978,1,kernel: pre-29.x chainparams and headerssync update,https://github.com/bitcoin/bitcoin/pull/31978
+33046,1,[29.x] test: Do not pass tests on unhandled exceptions,https://github.com/bitcoin/bitcoin/pull/33046
+33416,1,[27.x] Backports,https://github.com/bitcoin/bitcoin/pull/33416
+33380,1,test: Add submitblock test in interface_ipc,https://github.com/bitcoin/bitcoin/pull/33380
+33226,1,[29.x] 33106 backport and final changes for rc2,https://github.com/bitcoin/bitcoin/pull/33226
+31870,3,fuzz: split `coinselection` harness,https://github.com/bitcoin/bitcoin/pull/31870
+32421,1,test: refactor: overhaul (w)txid determination for `CTransaction` objects,https://github.com/bitcoin/bitcoin/pull/32421
+33474,1,[29.x] Backports,https://github.com/bitcoin/bitcoin/pull/33474
+32822,3,fuzz: Make process_message(s) more deterministic,https://github.com/bitcoin/bitcoin/pull/32822
+31453,2,util: detect and warn when using exFAT on MacOS,https://github.com/bitcoin/bitcoin/pull/31453
+33052,1,[29.x] backport #32069,https://github.com/bitcoin/bitcoin/pull/33052
+31829,8,p2p: improve TxOrphanage denial of service bounds,https://github.com/bitcoin/bitcoin/pull/31829
+33013,2,[29.x] Backport #32521,https://github.com/bitcoin/bitcoin/pull/33013
+34017,1,fuzz: Add a test case for `ParseByteUnits()`,https://github.com/bitcoin/bitcoin/pull/34017
+32141,1,fuzz: extract unsequenced operations with side-effects,https://github.com/bitcoin/bitcoin/pull/32141
+33300,6,fuzz: compact block harness,https://github.com/bitcoin/bitcoin/pull/33300
+34095,1,refactor: enable `readability-container-contains` clang-tidy rule,https://github.com/bitcoin/bitcoin/pull/34095
+31917,2,fuzz: provide more realistic values to the base58(check) decoders,https://github.com/bitcoin/bitcoin/pull/31917
+30605,4,Cluster linearization: separate tests from tests-of-tests,https://github.com/bitcoin/bitcoin/pull/30605
+32927,1,fuzz: Add missing calls to `SetMockTime` for determinism,https://github.com/bitcoin/bitcoin/pull/32927
+32198,8,fuzz: Make p2p_headers_presync more deterministic,https://github.com/bitcoin/bitcoin/pull/32198
+31802,2,"Add bitcoin-{node,gui} to release binaries for IPC",https://github.com/bitcoin/bitcoin/pull/31802
+32941,4,p2p: TxOrphanage revamp cleanups,https://github.com/bitcoin/bitcoin/pull/32941
+32243,9,test: added fuzz coverage for consensus/merkle.cpp,https://github.com/bitcoin/bitcoin/pull/32243
+33921,3,doc: clarify and cleanup macOS fuzzing notes,https://github.com/bitcoin/bitcoin/pull/33921
+32388,1,fuzz: Remove unused TimeoutExpired catch in fuzz runner,https://github.com/bitcoin/bitcoin/pull/32388
+33235,2,build: set ENABLE_IPC to OFF when fuzzing,https://github.com/bitcoin/bitcoin/pull/33235
+32624,8,fuzz: wallet: add target for `MigrateToDescriptor`,https://github.com/bitcoin/bitcoin/pull/32624
+33609,1,[30.x] Backports,https://github.com/bitcoin/bitcoin/pull/33609
+33536,2,doc: reference fuzz coverage steps in quick-start,https://github.com/bitcoin/bitcoin/pull/33536
+33473,1,[30.x] Backports & rc3,https://github.com/bitcoin/bitcoin/pull/33473
+33453,1,docs: Undeprecate datacarrier and datacarriersize configuration options,https://github.com/bitcoin/bitcoin/pull/33453
+31751,1,test: fix intermittent timeout in p2p_1p1c_network.py,https://github.com/bitcoin/bitcoin/pull/31751
+33557,2,[28.x] 28.3rc2,https://github.com/bitcoin/bitcoin/pull/33557
+32014,1,ci: Do not try to install for fuzz builds,https://github.com/bitcoin/bitcoin/pull/32014
+33469,1,TxGraph: change m_excluded_clusters,https://github.com/bitcoin/bitcoin/pull/33469
+31803,3,fuzz: Extend mini_miner fuzz coverage to max block weight,https://github.com/bitcoin/bitcoin/pull/31803
+33613,1,[28.x] Backport & finalise 28.3,https://github.com/bitcoin/bitcoin/pull/33613
+30746,1,test: cover base[32|58|64] with symmetric roundtrip fuzz (and padding) tests,https://github.com/bitcoin/bitcoin/pull/30746
