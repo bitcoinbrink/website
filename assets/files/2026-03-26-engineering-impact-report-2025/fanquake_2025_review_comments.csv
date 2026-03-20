@@ -1,0 +1,584 @@
+number,count,title,url
+31713,1,miniscript refactor: Remove unique_ptr-indirection,https://github.com/bitcoin/bitcoin/pull/31713
+33391,1,test: Prevent disk space warning during node_init_tests,https://github.com/bitcoin/bitcoin/pull/33391
+33112,1,wallet: relax external_signer flag constraints,https://github.com/bitcoin/bitcoin/pull/33112
+32353,1,doc: Fix fuzz test_runner.py path,https://github.com/bitcoin/bitcoin/pull/32353
+32703,1,test: Explain how to reproduce zmq:: upstream race,https://github.com/bitcoin/bitcoin/pull/32703
+32646,1,p2p: Add witness mutation check inside FillBlock,https://github.com/bitcoin/bitcoin/pull/32646
+33407,2,cmake: Install `bitcoin` manpage,https://github.com/bitcoin/bitcoin/pull/33407
+33779,4,"ci, iwyu: Fix warnings in `src/kernel` and treat them as errors",https://github.com/bitcoin/bitcoin/pull/33779
+32538,1,restrict std::cerr to errors; use std::cout for warnings and info,https://github.com/bitcoin/bitcoin/pull/32538
+34053,1,"lint: Remove confusing, redundant, and brittle lint-spelling",https://github.com/bitcoin/bitcoin/pull/34053
+33000,2,ci: Run unit tests parallel with functional tests,https://github.com/bitcoin/bitcoin/pull/33000
+33903,2,ci: Remove redundant busybox option,https://github.com/bitcoin/bitcoin/pull/33903
+32241,6,[29.x] 29.0 final changes,https://github.com/bitcoin/bitcoin/pull/32241
+32312,1,test: Fix feature_pruning test after nTime typo fix,https://github.com/bitcoin/bitcoin/pull/32312
+32742,1,test: fix catchup loop in outbound eviction functional test,https://github.com/bitcoin/bitcoin/pull/32742
+32607,1,"rpc: Note in fundrawtransaction doc, fee rate is for package",https://github.com/bitcoin/bitcoin/pull/32607
+33446,2,rpc: fix getblock(header) returns target for tip,https://github.com/bitcoin/bitcoin/pull/33446
+12435,1,RPC: Strict JSON-RPC 2.0 compliance (gated behind flag),https://github.com/bitcoin/bitcoin/pull/12435
+29270,2,Implement OP_CHECKSIGFROMSTACK(VERIFY),https://github.com/bitcoin/bitcoin/pull/29270
+32345,2,ipc: Handle unclean shutdowns better,https://github.com/bitcoin/bitcoin/pull/32345
+33606,1,ci: Work around GitHub Recv failure on raw curl usage,https://github.com/bitcoin/bitcoin/pull/33606
+33743,1,fuzz: refactor memcpy to std::ranges::copy to work around ubsan warn,https://github.com/bitcoin/bitcoin/pull/33743
+33190,1,build: Enable ENABLE_IPC option by default,https://github.com/bitcoin/bitcoin/pull/33190
+31904,1,refactor: modernize outdated trait patterns using helper aliases (C++14/C++17),https://github.com/bitcoin/bitcoin/pull/31904
+33939,1,contrib: Count entry differences in asmap-tool diff summary,https://github.com/bitcoin/bitcoin/pull/33939
+31841,1,fuzz: Use immediate task runner to increase fuzz stability,https://github.com/bitcoin/bitcoin/pull/31841
+33201,14,Add functional test for IPC interface,https://github.com/bitcoin/bitcoin/pull/33201
+32943,4,depends: Force `CMAKE_EXPORT_NO_PACKAGE_REGISTRY=TRUE`,https://github.com/bitcoin/bitcoin/pull/32943
+31379,1,cmake: Fix passing `APPEND_*FLAGS` to `secp256k1` subtree,https://github.com/bitcoin/bitcoin/pull/31379
+33082,1,"wallet, refactor: Remove Legacy check and error",https://github.com/bitcoin/bitcoin/pull/33082
+32693,7,depends: fix cmake compatibility error for freetype,https://github.com/bitcoin/bitcoin/pull/32693
+32406,2,policy: uncap datacarrier by default,https://github.com/bitcoin/bitcoin/pull/32406
+33702,1,"contrib: Remove brittle, confusing and redundant UTF8 encoding from Python IO",https://github.com/bitcoin/bitcoin/pull/33702
+32113,1,fuzz: enable running fuzz test cases in Debug mode,https://github.com/bitcoin/bitcoin/pull/32113
+32543,1,kernel: Remove dependency on clientversion,https://github.com/bitcoin/bitcoin/pull/32543
+33581,3,ci: Properly include $FILE_ENV in DEPENDS_HASH,https://github.com/bitcoin/bitcoin/pull/33581
+31945,1,depends: Update libmultiprocess library to fix CI failures,https://github.com/bitcoin/bitcoin/pull/31945
+33094,1,refactor: unify container presence checks,https://github.com/bitcoin/bitcoin/pull/33094
+31787,1,ci: run in worktrees,https://github.com/bitcoin/bitcoin/pull/31787
+32514,3,scripted-diff: Remove unused leading newline in RPC docs,https://github.com/bitcoin/bitcoin/pull/32514
+32847,1,Rename CMake required flags variable in crc32c,https://github.com/bitcoin/bitcoin/pull/32847
+34090,1,net: Fix `-Wmissing-braces`,https://github.com/bitcoin/bitcoin/pull/34090
+31292,1,Add `contrib/justfile` containing useful development workflow commands.,https://github.com/bitcoin/bitcoin/pull/31292
+33186,1,"wallet, test: Ancient Wallet Migration from v0.14.3 (no-HD and Single Chain)",https://github.com/bitcoin/bitcoin/pull/33186
+31504,1,cmake: De-duplicate libraries on link lines opportunistically,https://github.com/bitcoin/bitcoin/pull/31504
+33237,1,doc: use new block_to_connect parameter name,https://github.com/bitcoin/bitcoin/pull/33237
+34008,2,"log: don't rate-limit ""new peer"" with -debug=net",https://github.com/bitcoin/bitcoin/pull/34008
+33519,3,Update libmultiprocess subtree in 30.x branch,https://github.com/bitcoin/bitcoin/pull/33519
+32888,3,ci: Use optimized Debug build type in test-each-commit,https://github.com/bitcoin/bitcoin/pull/32888
+33630,1,doc: correct topology requirements in submitpackage helptext,https://github.com/bitcoin/bitcoin/pull/33630
+32471,1,wallet/rpc: fix listdescriptors RPC fails to return descriptors with private key information when wallet contains descriptors missing any key,https://github.com/bitcoin/bitcoin/pull/32471
+32021,1,qa: Enable feature_init.py on Windows,https://github.com/bitcoin/bitcoin/pull/32021
+33919,1,ci: Run GUI unit tests in cross-Windows task,https://github.com/bitcoin/bitcoin/pull/33919
+33333,1,coins: warn on oversized `-dbcache`,https://github.com/bitcoin/bitcoin/pull/33333
+32522,1,util: C++20 `ToIntegral()` Improvement,https://github.com/bitcoin/bitcoin/pull/32522
+32349,2,"test: Increase stack size for ""Debug"" builds with MSVC",https://github.com/bitcoin/bitcoin/pull/32349
+32719,1,"doc, windows: CompanyName ""Bitcoin"" => ""Bitcoin Core project""",https://github.com/bitcoin/bitcoin/pull/32719
+31359,1,cmake: Add `CheckLinkerSupportsPIE` module,https://github.com/bitcoin/bitcoin/pull/31359
+32826,1,p2p: add more bad ports,https://github.com/bitcoin/bitcoin/pull/32826
+33489,2,build: Drop support for EOL macOS 13,https://github.com/bitcoin/bitcoin/pull/33489
+17355,1,gui: grey out used address in address book,https://github.com/bitcoin/bitcoin/pull/17355
+33061,2,subprocess: always check result of close(),https://github.com/bitcoin/bitcoin/pull/33061
+33962,1,refactor: replace manual promise with SyncWithValidationInterfaceQueue,https://github.com/bitcoin/bitcoin/pull/33962
+33827,2,doc: Correct `pkgin` command usage on NetBSD,https://github.com/bitcoin/bitcoin/pull/33827
+30972,1,"Wallet: ""listreceivedby*"" fix",https://github.com/bitcoin/bitcoin/pull/30972
+31725,1,test: clarify timewarp grace period griefing attack,https://github.com/bitcoin/bitcoin/pull/31725
+31375,2,multiprocess: Add bitcoin wrapper executable,https://github.com/bitcoin/bitcoin/pull/31375
+32109,1,fuzz: avoid returning non-conforming results from FuzzedSock::GetSockName(),https://github.com/bitcoin/bitcoin/pull/32109
+32559,9,doc: add alpine build instructions,https://github.com/bitcoin/bitcoin/pull/32559
+33974,4,cmake: Check dependencies after build option interaction,https://github.com/bitcoin/bitcoin/pull/33974
+32959,1,Reduce minrelaytxfee to 100 sats/kvB,https://github.com/bitcoin/bitcoin/pull/32959
+31676,1,fuzz: add targets for PCP and NAT-PMP port mapping requests,https://github.com/bitcoin/bitcoin/pull/31676
+33470,4,build: Move CMAKE_SKIP_INSTALL_RPATH from CMake to Guix script,https://github.com/bitcoin/bitcoin/pull/33470
+33889,2,guix: update per-host disk-space estimates in build gate,https://github.com/bitcoin/bitcoin/pull/33889
+32324,1,test: Treat executable paths in tests consistently,https://github.com/bitcoin/bitcoin/pull/32324
+31158,1,"build, ci: Fix linking `bitcoin-chainstate.exe` to `bitcoinkernel.dll` on Windows",https://github.com/bitcoin/bitcoin/pull/31158
+29641,1,scripted-diff: Use LogInfo over LogPrintf,https://github.com/bitcoin/bitcoin/pull/29641
+31621,1,doc: Update dependency installation for Debian/Ubuntu,https://github.com/bitcoin/bitcoin/pull/31621
+31764,5,cmake: Generate man pages at install time,https://github.com/bitcoin/bitcoin/pull/31764
+31765,2,cmake: Install man pages for configured targets only,https://github.com/bitcoin/bitcoin/pull/31765
+32149,1,"wallet, migration: Fix empty wallet crash",https://github.com/bitcoin/bitcoin/pull/32149
+32519,1,ci: Enable feature_init and wallet_reorgsrestore in valgrind task,https://github.com/bitcoin/bitcoin/pull/32519
+33888,1,ci: Re-enable LINT_CI_SANITY_CHECK_COMMIT_SIG,https://github.com/bitcoin/bitcoin/pull/33888
+32325,1,ci: Add missing -Wno-error=array-bounds to valgrind fuzz,https://github.com/bitcoin/bitcoin/pull/32325
+34025,1,net: Waste less time in socket handling,https://github.com/bitcoin/bitcoin/pull/34025
+32667,8,build: Find Boost in config mode,https://github.com/bitcoin/bitcoin/pull/32667
+33975,1,"depends, doc: Add `tcl` as build dependency for `sqlite` package",https://github.com/bitcoin/bitcoin/pull/33975
+33133,2,rpc: fix getpeerinfo ping duration unit docs,https://github.com/bitcoin/bitcoin/pull/33133
+31661,7,depends: Override default build type for `libevent`,https://github.com/bitcoin/bitcoin/pull/31661
+31724,9,cmake: Fix `-pthread` flags presentation in summary,https://github.com/bitcoin/bitcoin/pull/31724
+33826,1,scripted-diff: Remove obsolete comment,https://github.com/bitcoin/bitcoin/pull/33826
+30861,2,build: Enhance Ccache performance across worktrees and build trees,https://github.com/bitcoin/bitcoin/pull/30861
+33365,5,ci: Skip Centos job on GHA runners,https://github.com/bitcoin/bitcoin/pull/33365
+32431,19,deps: Bump lief to 0.16.6,https://github.com/bitcoin/bitcoin/pull/32431
+31564,1,Add checkblock RPC and checkBlock() to Mining interface,https://github.com/bitcoin/bitcoin/pull/31564
+31421,1,cmake: Improve compatibility with Python version managers,https://github.com/bitcoin/bitcoin/pull/31421
+32523,1,wallet: Remove isminetypes,https://github.com/bitcoin/bitcoin/pull/32523
+33918,2,depends: Update Qt download link,https://github.com/bitcoin/bitcoin/pull/33918
+33631,2,init: Split file path handling out of -asmap option,https://github.com/bitcoin/bitcoin/pull/33631
+33148,1,doc:Fix typos,https://github.com/bitcoin/bitcoin/pull/33148
+29050,1,Add OP_TXHASH and OP_CHECKTXHASHVERIFY opcodes,https://github.com/bitcoin/bitcoin/pull/29050
+31933,3,doc: Add Clang/LLVM based coverage report generation,https://github.com/bitcoin/bitcoin/pull/31933
+33723,2,chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us,https://github.com/bitcoin/bitcoin/pull/33723
+33689,1,http: replace WorkQueue and single threads handling for ThreadPool,https://github.com/bitcoin/bitcoin/pull/33689
+33666,1,ci: Drop libFuzzer from msan fuzz task,https://github.com/bitcoin/bitcoin/pull/33666
+33236,1,doc: Remove wrong and redundant doxygen tag,https://github.com/bitcoin/bitcoin/pull/33236
+28616,1,Show transactions as not fully confirmed during background validation,https://github.com/bitcoin/bitcoin/pull/28616
+29457,1,doc: Fix gen-manpages to check build options,https://github.com/bitcoin/bitcoin/pull/29457
+28724,1,wallet: Cleanup accidental encryption keys in watchonly wallets,https://github.com/bitcoin/bitcoin/pull/28724
+32329,1,Add rpcestimateconservativefees,https://github.com/bitcoin/bitcoin/pull/32329
+32846,1,"doc: clarify that the ""-j N"" goes after the ""--build build"" part",https://github.com/bitcoin/bitcoin/pull/32846
+33580,1,depends: Use $(package)_file_name when downloading from the fallback,https://github.com/bitcoin/bitcoin/pull/33580
+32954,1,"cmake: Drop no longer necessary ""cmakeMinimumRequired"" object",https://github.com/bitcoin/bitcoin/pull/32954
+33200,1,cmake: Introduce translate.cmake script for translate target,https://github.com/bitcoin/bitcoin/pull/33200
+32041,1,build: bump CLIENT_VERSION_MAJOR to 29,https://github.com/bitcoin/bitcoin/pull/32041
+32104,1,refactor: Enforces Txid and Wtxid types in RelayTransaction,https://github.com/bitcoin/bitcoin/pull/32104
+33892,2,policy: allow <minrelay txns in package context if paid for by cpfp,https://github.com/bitcoin/bitcoin/pull/33892
+33484,1,doc: rpc: fix case typo in `finalizepsbt` help (final_scriptwitness),https://github.com/bitcoin/bitcoin/pull/33484
+27351,1,wallet: add `seeds` argument to `importdescriptors`,https://github.com/bitcoin/bitcoin/pull/27351
+32850,1,test: check P2SH sigop count for coinbase tx,https://github.com/bitcoin/bitcoin/pull/32850
+32651,5,cmake: Replace deprecated `qt6_add_translation` with `qt6_add_lrelease`,https://github.com/bitcoin/bitcoin/pull/32651
+31704,1,doc: add a section in the fuzzing documentation about using MSan,https://github.com/bitcoin/bitcoin/pull/31704
+32597,1,wallet: Always set descriptor cache upgraded flag for new wallets,https://github.com/bitcoin/bitcoin/pull/32597
+32313,1,coins: fix `cachedCoinsUsage` accounting in `CCoinsViewCache`,https://github.com/bitcoin/bitcoin/pull/32313
+32743,1,refactor: use `std::vector<std::byte>` for `BlockManager::ReadRawBlock()`,https://github.com/bitcoin/bitcoin/pull/32743
+33914,1,Change Parse descriptor argument to string_view,https://github.com/bitcoin/bitcoin/pull/33914
+31929,1,http: Make server shutdown more robust,https://github.com/bitcoin/bitcoin/pull/31929
+33514,2,"ci: clear out space on CentOS, depends, gui GHA job",https://github.com/bitcoin/bitcoin/pull/33514
+33001,2,test: Do not pass tests on unhandled exceptions,https://github.com/bitcoin/bitcoin/pull/33001
+33451,7,doc: Add `INSTALL.md` to Linux release tarballs,https://github.com/bitcoin/bitcoin/pull/33451
+33902,3,doc: Document compiler configuration for native depends packages,https://github.com/bitcoin/bitcoin/pull/33902
+31895,5,doc: Improve `dependencies.md`,https://github.com/bitcoin/bitcoin/pull/31895
+31600,1,rpc: have getblocktemplate mintime account for timewarp,https://github.com/bitcoin/bitcoin/pull/31600
+31250,1,wallet: Disable creating and loading legacy wallets,https://github.com/bitcoin/bitcoin/pull/31250
+33810,5,ci: Add IWYU job,https://github.com/bitcoin/bitcoin/pull/33810
+32217,1,Bugfix: Only use git for build info if the repository is actually the right one,https://github.com/bitcoin/bitcoin/pull/32217
+33406,1,Backport Cirrus runners to 28.x,https://github.com/bitcoin/bitcoin/pull/33406
+33056,2,[29.x] final changes for v29.1rc1,https://github.com/bitcoin/bitcoin/pull/33056
+34005,1,util: generalize `util::Result` to support custom errors,https://github.com/bitcoin/bitcoin/pull/34005
+32581,2,allocators: Apply manual ASan poisoning to `PoolResource`,https://github.com/bitcoin/bitcoin/pull/32581
+32709,11,cmake: Fix `FindQt` module,https://github.com/bitcoin/bitcoin/pull/32709
+28241,1,Silent payment index (for light wallets and consistency check),https://github.com/bitcoin/bitcoin/pull/28241
+31349,6,ci: detect outbound internet traffic generated while running tests,https://github.com/bitcoin/bitcoin/pull/31349
+33661,1,test: Add test on skip heights in CBlockIndex,https://github.com/bitcoin/bitcoin/pull/33661
+25832,1,tracing: network connection tracepoints,https://github.com/bitcoin/bitcoin/pull/25832
+31522,2,ci: Enable DEBUG=1 for one GCC-12+ build to catch 117966 regressions,https://github.com/bitcoin/bitcoin/pull/31522
+31467,1,fuzz: Limit wallet_notifications iterations (take 2),https://github.com/bitcoin/bitcoin/pull/31467
+28216,1,fuzz: a new target for the coins database,https://github.com/bitcoin/bitcoin/pull/28216
+26988,2,cli: rework -addrinfo cli to use addresses which aren’t filtered for quality/recency,https://github.com/bitcoin/bitcoin/pull/26988
+32477,1,lint: Check for missing trailing newline,https://github.com/bitcoin/bitcoin/pull/32477
+32027,1,cmake: Add `NO_CACHE_IF_FAILED` option for checking linker flags,https://github.com/bitcoin/bitcoin/pull/32027
+32924,1,test: add valid tx test with minimum-sized ECDSA signature (8 bytes DER-encoded),https://github.com/bitcoin/bitcoin/pull/32924
+33509,1,ci: Check macos-cross executables on macOS,https://github.com/bitcoin/bitcoin/pull/33509
+31308,16,"ci, iwyu: Treat warnings as errors for specific directories",https://github.com/bitcoin/bitcoin/pull/31308
+32932,1,test: Add missing convert_to_json_for_cli,https://github.com/bitcoin/bitcoin/pull/32932
+33270,2,stabilize translations by reverting old ids by text content,https://github.com/bitcoin/bitcoin/pull/33270
+29387,1,test: fix RPC coverage check,https://github.com/bitcoin/bitcoin/pull/29387
+33677,1,ci: Retry image building once on failure,https://github.com/bitcoin/bitcoin/pull/33677
+33876,1,doc: Update NetBSD Build Guide,https://github.com/bitcoin/bitcoin/pull/33876
+32764,8,guix: Build for macOS using Clang only,https://github.com/bitcoin/bitcoin/pull/32764
+33319,1,ci: reduce runner sizes on various jobs,https://github.com/bitcoin/bitcoin/pull/33319
+33749,1,test: ipc: resolve symlinks in `which capnp`,https://github.com/bitcoin/bitcoin/pull/33749
+32363,1,ci: Use previous releases in tests on Windows,https://github.com/bitcoin/bitcoin/pull/32363
+31723,2,qa: Facilitate debugging bitcoind inside functional tests,https://github.com/bitcoin/bitcoin/pull/31723
+32660,1,rpc: Use type-safe exception to pass RPC help,https://github.com/bitcoin/bitcoin/pull/32660
+31670,1,doc: navigate section links,https://github.com/bitcoin/bitcoin/pull/31670
+33358,2,contrib: fix for macOS deployment build failing on Qt translations even though it is optional.,https://github.com/bitcoin/bitcoin/pull/33358
+31735,1,"Fix compilation errors in blockchain.cpp related to serialization, UTXO dumping, and path conversion",https://github.com/bitcoin/bitcoin/pull/31735
+33026,3,"test, refactor: Embedded ASMap [1/3]: Selected minor preparatory work",https://github.com/bitcoin/bitcoin/pull/33026
+33476,2,[28.x] backports + 28.3rc1,https://github.com/bitcoin/bitcoin/pull/33476
+33378,1,Remove unnecessary casts when calling socket operations,https://github.com/bitcoin/bitcoin/pull/33378
+31715,2,build: CMake security checks workarounds,https://github.com/bitcoin/bitcoin/pull/31715
+32586,2,ci: Downgrade DEBUG=1 to -D_GLIBCXX_ASSERTIONS in centos task,https://github.com/bitcoin/bitcoin/pull/32586
+31650,2,refactor: Avoid copies by using const references or by move-construction,https://github.com/bitcoin/bitcoin/pull/31650
+33051,6,Don't fix Python patch version,https://github.com/bitcoin/bitcoin/pull/33051
+31742,1,contrib: fix BUILDDIR in gen-bitcoin-conf script and gen-manpages.py,https://github.com/bitcoin/bitcoin/pull/31742
+32181,1,BIP-777 (GPR) The Great Poker Restoration: Add the poker client back to bitcoin,https://github.com/bitcoin/bitcoin/pull/32181
+32302,1,"ci: Temporarily revert ""Drop bench -priority-level in win cross CI""",https://github.com/bitcoin/bitcoin/pull/32302
+32617,1,[Draft/POC] Add secp256k1-based HPKE (Hybrid Public Key Encryption) For Payjoin v2,https://github.com/bitcoin/bitcoin/pull/32617
+33905,1,ci: Consistenly only cache on the default branch,https://github.com/bitcoin/bitcoin/pull/33905
+31492,1,Execute Discover() when bind=0.0.0.0 or :: is set,https://github.com/bitcoin/bitcoin/pull/31492
+32601,1,test: Fix `system_tests/run_command` test,https://github.com/bitcoin/bitcoin/pull/32601
+28488,1,p2p: Evict outbound peers with high minFeeRate,https://github.com/bitcoin/bitcoin/pull/28488
+31353,2,"rpc, cli: add getbalances#total, and use it for -getinfo",https://github.com/bitcoin/bitcoin/pull/31353
+32343,1,common: Close non-std fds before exec in RunCommandJSON,https://github.com/bitcoin/bitcoin/pull/32343
+31580,2,test: Remove non-portable IPv6 test,https://github.com/bitcoin/bitcoin/pull/31580
+33745,1,mining: check witness commitment in submitBlock,https://github.com/bitcoin/bitcoin/pull/33745
+32857,1,wallet: allow skipping script paths,https://github.com/bitcoin/bitcoin/pull/32857
+31282,1,refactor: Make node_id a const& in RemoveBlockRequest,https://github.com/bitcoin/bitcoin/pull/31282
+31328,1,test: locking -testdatadir when not specified and then deleting lock and dir at end of test,https://github.com/bitcoin/bitcoin/pull/31328
+32787,1,bench: reduces unnecessary big vector definition,https://github.com/bitcoin/bitcoin/pull/32787
+31847,1,[WIP] build: name install targets as components,https://github.com/bitcoin/bitcoin/pull/31847
+32046,1,[29.x] bump to v29.0rc1,https://github.com/bitcoin/bitcoin/pull/32046
+30997,36,build: Switch to Qt 6,https://github.com/bitcoin/bitcoin/pull/30997
+32553,1,wallet: Fix logging of wallet version,https://github.com/bitcoin/bitcoin/pull/32553
+19480,1,build: Only use `@` prefix for `echo` command in Makefiles,https://github.com/bitcoin/bitcoin/pull/19480
+32380,4,Modernize use of UTF-8 in Windows code,https://github.com/bitcoin/bitcoin/pull/32380
+33968,1,ci: remove `doc/release-notes.md` from lint-spelling.py,https://github.com/bitcoin/bitcoin/pull/33968
+33211,1,test: modify logging_filesize_rate_limit params,https://github.com/bitcoin/bitcoin/pull/33211
+32400,4,random: Use modern Windows randomness functions,https://github.com/bitcoin/bitcoin/pull/32400
+32396,10,cmake: Add application manifests when cross-compiling for Windows,https://github.com/bitcoin/bitcoin/pull/32396
+31410,4,qa: Fix `wallet_multiwallet.py`,https://github.com/bitcoin/bitcoin/pull/31410
+33138,1,ci: Pass CI_FAILFAST_TEST_LEAVE_DANGLING into container,https://github.com/bitcoin/bitcoin/pull/33138
+32729,1,"test,refactor: extract script template helpers & widen sigop count coverage",https://github.com/bitcoin/bitcoin/pull/32729
+31806,1,fuzz: coinselection: cover `SetBumpFeeDiscount`,https://github.com/bitcoin/bitcoin/pull/31806
+34079,1,kernel: Remove non-kernel module includes,https://github.com/bitcoin/bitcoin/pull/34079
+32841,1,feature_taproot: sample tx version border values more,https://github.com/bitcoin/bitcoin/pull/32841
+13472,1,[devtools translations] catch invalid specifiers,https://github.com/bitcoin/bitcoin/pull/13472
+33494,2,depends: Update URL for `qrencode` package source tarball,https://github.com/bitcoin/bitcoin/pull/33494
+32006,1,docs: remove passing CI section in guidelines for PR merging as it's common sense,https://github.com/bitcoin/bitcoin/pull/32006
+33247,11,build: Remove CMAKE_SKIP_BUILD_RPATH and SKIP_BUILD_RPATH settings,https://github.com/bitcoin/bitcoin/pull/33247
+33302,2,ci: disable cirrus cache in 32bit arm job,https://github.com/bitcoin/bitcoin/pull/33302
+32513,1,ci: remove 3rd party js from windows dll gha job,https://github.com/bitcoin/bitcoin/pull/32513
+32397,3,doc: Add hint about avoiding spaces in paths when building on Windows,https://github.com/bitcoin/bitcoin/pull/32397
+33139,2,Add Docker support with multi-arch build and user permissions handling,https://github.com/bitcoin/bitcoin/pull/33139
+33569,1,refactor: throw `std::string_view` instead of `const char*` in constexpr/consteval functions,https://github.com/bitcoin/bitcoin/pull/33569
+33990,1,test: p2p: check that peer's announced starting height is remembered,https://github.com/bitcoin/bitcoin/pull/33990
+32051,1,p2p: protect addnode peers during IBD,https://github.com/bitcoin/bitcoin/pull/32051
+31407,8,guix: Notarize MacOS app bundle and codesign all MacOS and Windows binaries,https://github.com/bitcoin/bitcoin/pull/31407
+31954,4,doc: update fuzz instructions when on macOS,https://github.com/bitcoin/bitcoin/pull/31954
+33986,1,doc: improvements to doc/descriptors.md,https://github.com/bitcoin/bitcoin/pull/33986
+33085,1,doc: gen-manpages.py should check build options,https://github.com/bitcoin/bitcoin/pull/33085
+29963,1,depends: Do not consider `CC` environment variable for detecting system,https://github.com/bitcoin/bitcoin/pull/29963
+33197,2,doc: add Linux GUI runtime instructions to doc/README.md,https://github.com/bitcoin/bitcoin/pull/33197
+33482,3,contrib: fix macOS deployment with no translations,https://github.com/bitcoin/bitcoin/pull/33482
+33528,3,wallet: don't consider unconfirmed TRUC coins with ancestors,https://github.com/bitcoin/bitcoin/pull/33528
+32293,3,doc: Add deps install notes for multiprocess,https://github.com/bitcoin/bitcoin/pull/32293
+33251,2,[29.x] backport #33212,https://github.com/bitcoin/bitcoin/pull/33251
+32505,4,depends: bump to latest config.guess and config.sub,https://github.com/bitcoin/bitcoin/pull/32505
+33744,1,ci: Fix lint runner selection (and docker cache),https://github.com/bitcoin/bitcoin/pull/33744
+31779,4,cmake: Improve safety and robustness during building `crc32c` subtree,https://github.com/bitcoin/bitcoin/pull/31779
+32856,2,Update `minisketch` subtree,https://github.com/bitcoin/bitcoin/pull/32856
+33103,2,2025 07 30 Add release note for `dumptxoutset` breaking change,https://github.com/bitcoin/bitcoin/pull/33103
+32342,1,Fix missing error check in `set_clo_on_exec` for FD_CLOEXEC handling,https://github.com/bitcoin/bitcoin/pull/32342
+31978,3,kernel: pre-29.x chainparams and headerssync update,https://github.com/bitcoin/bitcoin/pull/31978
+32084,2,doc: document workaround and fallback for macOS fuzzing,https://github.com/bitcoin/bitcoin/pull/32084
+32987,1,init: [gui] Avoid UB/crash in InitAndLoadChainstate,https://github.com/bitcoin/bitcoin/pull/32987
+33857,7,doc: Add `x86_64-w64-mingw32ucrt` triplet to `depends/README.md`,https://github.com/bitcoin/bitcoin/pull/33857
+33504,4,Mempool: Do not enforce TRUC checks on reorg,https://github.com/bitcoin/bitcoin/pull/33504
+33011,2,log: rate limiting followups,https://github.com/bitcoin/bitcoin/pull/33011
+32483,2,test: fix two intermittent failures in wallet_basic.py,https://github.com/bitcoin/bitcoin/pull/32483
+33512,1,coins: use dirty entry count for flush warnings and disk space checks,https://github.com/bitcoin/bitcoin/pull/33512
+32929,1,qa: Clarify assert_start_raises_init_error output,https://github.com/bitcoin/bitcoin/pull/32929
+33115,4,cmake: Switch to generated `ts_files.cmake` file,https://github.com/bitcoin/bitcoin/pull/33115
+33050,1,"net, validation: don't punish peers for consensus-invalid txs",https://github.com/bitcoin/bitcoin/pull/33050
+33379,1,cmake: Fix regression in `secp256k1.cmake`,https://github.com/bitcoin/bitcoin/pull/33379
+32587,2,test: Fix reorg patterns in tests to use proper fork-based approach,https://github.com/bitcoin/bitcoin/pull/32587
+16522,1,travis: Run functional tests in GUI once,https://github.com/bitcoin/bitcoin/pull/16522
+34003,1,test: interface_ipc.py minor fixes and cleanup,https://github.com/bitcoin/bitcoin/pull/34003
+31651,1,ci: Turn CentOS task into native one,https://github.com/bitcoin/bitcoin/pull/31651
+33396,1,util/strencodings: guard SAFE_CHARS index and pre-reserve result,https://github.com/bitcoin/bitcoin/pull/33396
+34074,1,A few followups after introducing `/rest/blockpart/` endpoint,https://github.com/bitcoin/bitcoin/pull/34074
+31763,1,Pass custom DEP_OPTS and CONFIG_FLAGS to guix-build,https://github.com/bitcoin/bitcoin/pull/31763
+33924,1,qa: Remove no longer needed `feature_dirsymlinks.py`,https://github.com/bitcoin/bitcoin/pull/33924
+32289,4,doc: Add note for building on macOS (Intel) with CMake ≥ 4.0,https://github.com/bitcoin/bitcoin/pull/32289
+32773,1,cmake: Create subdirectories in build tree in advance,https://github.com/bitcoin/bitcoin/pull/32773
+33861,1,build: Bump VS minimum supported version to 18.3,https://github.com/bitcoin/bitcoin/pull/33861
+21671,1,guix: Always canonicalize HOST using `./depends/config.sub`,https://github.com/bitcoin/bitcoin/pull/21671
+31734,1,miniscript: account for all `StringType` variants in `Miniscriptdescriptor::ToString()`,https://github.com/bitcoin/bitcoin/pull/31734
+33420,3,test: Avoid interface_ipc.py Duplicate ID errors,https://github.com/bitcoin/bitcoin/pull/33420
+33070,2,doc/zmq: fix unix socket path example,https://github.com/bitcoin/bitcoin/pull/33070
+33973,1,test: Improve STRICTENC/DERSIG unit tests in script_tests.json,https://github.com/bitcoin/bitcoin/pull/33973
+29492,2,refactor: Remove redundant definitions,https://github.com/bitcoin/bitcoin/pull/29492
+33565,1,net_processing: rename RelayTransaction to better describe what it does,https://github.com/bitcoin/bitcoin/pull/33565
+18265,1,build: add data.h dependency to raw files,https://github.com/bitcoin/bitcoin/pull/18265
+32948,2,refactor: cleanup index logging,https://github.com/bitcoin/bitcoin/pull/32948
+30975,2,ci: build multiprocess on most jobs,https://github.com/bitcoin/bitcoin/pull/30975
+32159,2,"net, pcp: handle multi-part responses and filter for default route while querying default gateway",https://github.com/bitcoin/bitcoin/pull/32159
+33932,1,ci: Use latest Xcode that the minimum macOS version allows,https://github.com/bitcoin/bitcoin/pull/33932
+32765,2,test: Fix list index out of range error in feature_bip68_sequence.py,https://github.com/bitcoin/bitcoin/pull/32765
+31519,1,refactor: Use std::span over Span,https://github.com/bitcoin/bitcoin/pull/31519
+33699,1,p2p: reduce false-positives in addr rate-limiting,https://github.com/bitcoin/bitcoin/pull/33699
+33226,1,[29.x] 33106 backport and final changes for rc2,https://github.com/bitcoin/bitcoin/pull/33226
+33676,1,interfaces: enable cancelling running `waitNext` calls,https://github.com/bitcoin/bitcoin/pull/33676
+32175,1,fuzz: doc: add info about `afl-system-config` for macOS,https://github.com/bitcoin/bitcoin/pull/32175
+33764,11,ci: Add Windows + UCRT jobs for cross-compiling and native testing,https://github.com/bitcoin/bitcoin/pull/33764
+33621,1,contrib: Fix gen-manpages.py to check build options,https://github.com/bitcoin/bitcoin/pull/33621
+33508,2,ci: fix buildx gha cache authentication on forks,https://github.com/bitcoin/bitcoin/pull/33508
+31923,1,refactor: use original log string when no suspicious chars found,https://github.com/bitcoin/bitcoin/pull/31923
+33288,1,rpc: deprecateboolverbose Boolean verbosity is deprecated,https://github.com/bitcoin/bitcoin/pull/33288
+33772,1,prevector: simplify operator==,https://github.com/bitcoin/bitcoin/pull/33772
+31870,1,fuzz: split `coinselection` harness,https://github.com/bitcoin/bitcoin/pull/31870
+33725,4,"ci, iwyu: Treat warnings as errors for `src/init` and `src/policy`",https://github.com/bitcoin/bitcoin/pull/33725
+32972,1,"rpc,net: Add getpeerbyid and listpeersbyids RPCs",https://github.com/bitcoin/bitcoin/pull/32972
+32071,7,build: Drop option to disable hardening.,https://github.com/bitcoin/bitcoin/pull/32071
+32421,1,test: refactor: overhaul (w)txid determination for `CTransaction` objects,https://github.com/bitcoin/bitcoin/pull/32421
+33119,1,"rpc: Fix 'getdescriptoractivity' RPCHelpMan, add test to verify fix",https://github.com/bitcoin/bitcoin/pull/33119
+33549,1,ci: Add macOS cross task for arm64-apple-darwin,https://github.com/bitcoin/bitcoin/pull/33549
+32708,1,"rpc, doc: update `listdescriptors` RCP help",https://github.com/bitcoin/bitcoin/pull/32708
+32358,1,subprocess: Backport upstream changes,https://github.com/bitcoin/bitcoin/pull/32358
+32459,1,qt: drop unused watch-only functionality,https://github.com/bitcoin/bitcoin/pull/32459
+31275,2,doc: corrected lockunspent rpc quoting,https://github.com/bitcoin/bitcoin/pull/31275
+33862,1,txgraph: drop move assignment operator,https://github.com/bitcoin/bitcoin/pull/33862
+29307,1,util: explicitly close all AutoFiles that have been written,https://github.com/bitcoin/bitcoin/pull/29307
+31367,2,ci: limit max stack size to 512 KiB,https://github.com/bitcoin/bitcoin/pull/31367
+32818,1,Add read-only mode to sqlite db and use in `bitcoin-wallet`,https://github.com/bitcoin/bitcoin/pull/32818
+31672,12,rpc: add cpu_load to getpeerinfo,https://github.com/bitcoin/bitcoin/pull/31672
+33566,1,miner: fix empty mempool case for waitNext(),https://github.com/bitcoin/bitcoin/pull/33566
+29868,5,Reintroduce external signer support for Windows,https://github.com/bitcoin/bitcoin/pull/29868
+33136,3,ci: Remove redundant RUN_UNIT_TESTS_SEQUENTIAL,https://github.com/bitcoin/bitcoin/pull/33136
+32662,2,doc: Remove build instruction for running `clang-tidy`,https://github.com/bitcoin/bitcoin/pull/32662
+33073,4,guix: warn SOURCE_DATE_EPOCH set in guix-codesign,https://github.com/bitcoin/bitcoin/pull/33073
+32731,1,depends: Build `qt` package for FreeBSD hosts,https://github.com/bitcoin/bitcoin/pull/32731
+33570,2,randomenv: Fix MinGW dllimport warning for `environ`,https://github.com/bitcoin/bitcoin/pull/33570
+33435,1,system: improve handling around GetTotalRAM(),https://github.com/bitcoin/bitcoin/pull/33435
+34061,1,fuzz: Fix bugs in `clusterlin_postlinearize_tree` target,https://github.com/bitcoin/bitcoin/pull/34061
+32336,2,test: Suppress upstream `-Wduplicate-decl-specifier` in bpfcc,https://github.com/bitcoin/bitcoin/pull/32336
+32766,2,[28.x] Finalize 28.2,https://github.com/bitcoin/bitcoin/pull/32766
+32273,1,wallet: Fix relative path backup during migration.,https://github.com/bitcoin/bitcoin/pull/32273
+32967,7,log: [refactor] Use info level for init logs,https://github.com/bitcoin/bitcoin/pull/32967
+33675,1,randomenv: drop self define of 'environ',https://github.com/bitcoin/bitcoin/pull/33675
+32064,1,build: Remove manpages when making MacOS app,https://github.com/bitcoin/bitcoin/pull/32064
+30059,1,"Add option dbfilesize to control LevelDB target (""max"") file size",https://github.com/bitcoin/bitcoin/pull/30059
+31424,9,build: enable libc++ hardening in debug builds,https://github.com/bitcoin/bitcoin/pull/31424
+33049,1,doc: Fix typos in asmap README,https://github.com/bitcoin/bitcoin/pull/33049
+32463,1,test: fix an incorrect `feature_fee_estimation.py` subtest,https://github.com/bitcoin/bitcoin/pull/32463
+32930,1,Resolve guix non-determinism with emplace_back instead of push_back,https://github.com/bitcoin/bitcoin/pull/32930
+32526,1,fuzz: Delete wallet_notifications,https://github.com/bitcoin/bitcoin/pull/32526
+31920,2,build: create Depends build type for depends and use it by default for depends builds,https://github.com/bitcoin/bitcoin/pull/31920
+33634,2,Update GitHub Action to github-script@v8,https://github.com/bitcoin/bitcoin/pull/33634
+32475,1,wallet: Use `util::Error` throughout `AddWalletDescriptor` instead of returning `nullptr` for some errors,https://github.com/bitcoin/bitcoin/pull/32475
+32530,2,node: cap `-maxmempool` and `-dbcache` values for 32-bit,https://github.com/bitcoin/bitcoin/pull/32530
+26573,1,Wallet: don't underestimate the fees when spending a Taproot output,https://github.com/bitcoin/bitcoin/pull/26573
+33399,1,key: use static context for libsecp256k1 calls where applicable,https://github.com/bitcoin/bitcoin/pull/33399
+33233,2,"doc: follow-ups to ""Add bitcoin-{node,gui} to release binaries for IPC""",https://github.com/bitcoin/bitcoin/pull/33233
+32567,1,subprocess: Backport upstream changes,https://github.com/bitcoin/bitcoin/pull/32567
+31961,1,Require sqlite when building the wallet,https://github.com/bitcoin/bitcoin/pull/31961
+33819,1,mining: getCoinbase() returns struct instead of raw tx,https://github.com/bitcoin/bitcoin/pull/33819
+31500,1,depends: Fix compiling `libevent` package on NetBSD,https://github.com/bitcoin/bitcoin/pull/31500
+32286,1,test: Handle empty string returned by CLI as None in RPC tests,https://github.com/bitcoin/bitcoin/pull/32286
+32269,3,doc: update unix build doc with build flags,https://github.com/bitcoin/bitcoin/pull/32269
+27591,1,rpc: distinguish between vsize and sigop-adjusted mempool vsize,https://github.com/bitcoin/bitcoin/pull/27591
+31296,3,wallet: Translate [default wallet] string in progress messages,https://github.com/bitcoin/bitcoin/pull/31296
+34094,1,ci: bump actions/checkout version to v6,https://github.com/bitcoin/bitcoin/pull/34094
+33585,1,cmake: Use builtin support for .manifest files,https://github.com/bitcoin/bitcoin/pull/33585
+30203,1,Enhance signet chain configuration in bitcoin.conf,https://github.com/bitcoin/bitcoin/pull/30203
+32814,3,cmake: Explicitly specify `Boost_ROOT` for Homebrew's package,https://github.com/bitcoin/bitcoin/pull/32814
+11227,1,WIP: switch to libevent for node socket handling,https://github.com/bitcoin/bitcoin/pull/11227
+30595,1,kernel: Introduce C header API,https://github.com/bitcoin/bitcoin/pull/30595
+33086,1,contrib: [tracing] fix pointer argument handling in mempool_monitor.py,https://github.com/bitcoin/bitcoin/pull/33086
+33985,1,fuzz: gate mempool entry based on weight,https://github.com/bitcoin/bitcoin/pull/33985
+32678,4,guix: warn and abort when SOURCE_DATE_EPOCH is set,https://github.com/bitcoin/bitcoin/pull/32678
+33593,9,guix: Use UCRT runtime for Windows release binaries,https://github.com/bitcoin/bitcoin/pull/33593
+32551,5,"cmake: Remove `ENABLE_{SSE41,AVX2,X86_SHANI,ARM_SHANI}` from `bitcoin-build-config.h`",https://github.com/bitcoin/bitcoin/pull/32551
+33340,1,Fix benchmark CSV output,https://github.com/bitcoin/bitcoin/pull/33340
+31668,1,Added rescan option for import descriptors,https://github.com/bitcoin/bitcoin/pull/31668
+32044,1,"ci: Revert ""Temporary workaround for old CCACHE_DIR cirrus env""",https://github.com/bitcoin/bitcoin/pull/32044
+32290,2,test: allow all functional tests to be run or skipped with --usecli,https://github.com/bitcoin/bitcoin/pull/32290
+31453,1,util: detect and warn when using exFAT on MacOS,https://github.com/bitcoin/bitcoin/pull/31453
+33747,1,contrib: zsh and fish completions for bitcoin wrapper executable,https://github.com/bitcoin/bitcoin/pull/33747
+33317,1,draft: CMake Goals and Guidelines,https://github.com/bitcoin/bitcoin/pull/33317
+31582,1,[28.x] Finalize 28.1,https://github.com/bitcoin/bitcoin/pull/31582
+32711,2,"doc: add missing packages for BSDs (cmake, gmake, curl) to depends/README.md",https://github.com/bitcoin/bitcoin/pull/32711
+33550,1,Fix windows libc++ `fs::path` `fstream` compile errors,https://github.com/bitcoin/bitcoin/pull/33550
+32592,4,threading: remove ancient CRITICAL_SECTION macros,https://github.com/bitcoin/bitcoin/pull/32592
+33383,1,Bash completion for the new bitcoin wrapper command,https://github.com/bitcoin/bitcoin/pull/33383
+33229,3,multiprocess: Don't require bitcoin -m argument when IPC options are used,https://github.com/bitcoin/bitcoin/pull/33229
+32087,1,ci: Drop ENABLE_HARDENING=OFF from clang-tidy,https://github.com/bitcoin/bitcoin/pull/32087
+29809,1,net: update comment for service bit support info for seed.bitcoin.sipa.be,https://github.com/bitcoin/bitcoin/pull/29809
+33157,1,cluster mempool: control/optimize TxGraph memory usage,https://github.com/bitcoin/bitcoin/pull/33157
+31613,1,"depends, NetBSD: Fix `bdb` package compilation with GCC-14",https://github.com/bitcoin/bitcoin/pull/31613
+32615,1,fee estimate test: fix #31944 by handling a legitimate scenario that …,https://github.com/bitcoin/bitcoin/pull/32615
+33842,1,build: Bump g++ minimum supported version to 12,https://github.com/bitcoin/bitcoin/pull/33842
+32750,1,refactor: CFeeRate encapsulates FeeFrac internally,https://github.com/bitcoin/bitcoin/pull/32750
+33511,1,init: Fix Ctrl-C shutdown hangs during wait calls,https://github.com/bitcoin/bitcoin/pull/33511
+32183,3,tests: Improve stderr validation in test_runner.py,https://github.com/bitcoin/bitcoin/pull/32183
+33638,2,chore: remove repetitive word in src/leveldb/README.md,https://github.com/bitcoin/bitcoin/pull/33638
+34057,1,test: add tests for cluster chunks,https://github.com/bitcoin/bitcoin/pull/34057
+33792,2,net_processing: reorder the code that handles the VERSION message,https://github.com/bitcoin/bitcoin/pull/33792
+33268,2,"wallet: Identify transactions spending 0-value outputs, and add tests for anchor outputs in a wallet",https://github.com/bitcoin/bitcoin/pull/33268
+32642,1,test: update BIP340 test vectors and implementation (variable-length messages),https://github.com/bitcoin/bitcoin/pull/32642
+33403,3,Backport Cirrus runners to 29.x,https://github.com/bitcoin/bitcoin/pull/33403
+32357,2,depends: Fix cross-compiling `qt` package from macOS to Windows,https://github.com/bitcoin/bitcoin/pull/32357
+33394,1,refactor: Fix typo and correct template parameter inconsistency,https://github.com/bitcoin/bitcoin/pull/33394
+32993,1,fuzz: wallet: add target for tx scanning,https://github.com/bitcoin/bitcoin/pull/32993
+19513,1,Improve systemd service file,https://github.com/bitcoin/bitcoin/pull/19513
+31595,2,qa: Ensure consistent use of decimals instead of floats,https://github.com/bitcoin/bitcoin/pull/31595
+33052,1,[29.x] backport #32069,https://github.com/bitcoin/bitcoin/pull/33052
+33117,1,Interfaces: Expose UTXO Snapshot Loading and Add Progress Notifications,https://github.com/bitcoin/bitcoin/pull/33117
+32356,2,cmake: Respect user-provided configuration-specific flags,https://github.com/bitcoin/bitcoin/pull/32356
+32028,5,Update `secp256k1` subtree to latest master,https://github.com/bitcoin/bitcoin/pull/32028
+31741,3,multiprocess: Add libmultiprocess git subtree,https://github.com/bitcoin/bitcoin/pull/31741
+33455,6,CPack,https://github.com/bitcoin/bitcoin/pull/33455
+33906,7,depends: Add patch for Windows11Style plugin,https://github.com/bitcoin/bitcoin/pull/33906
+33843,1,test: add tests for private broadcast,https://github.com/bitcoin/bitcoin/pull/33843
+33785,1,util: Allow `Assert` (et al.) in contexts without __func__,https://github.com/bitcoin/bitcoin/pull/33785
+31612,1,ci: build msan's libc++ with _LIBCPP_ABI_BOUNDED_*,https://github.com/bitcoin/bitcoin/pull/31612
+32481,2,"wallet, refactor: Remove Legacy wallet unused warnings and errors",https://github.com/bitcoin/bitcoin/pull/32481
+34105,1,kernel: revert accidentally removed copyright header,https://github.com/bitcoin/bitcoin/pull/34105
+33290,2,build: suggest -DENABLE_IPC=OFF when missing capnp,https://github.com/bitcoin/bitcoin/pull/33290
+31757,1,wallet: fix crash on double block disconnection,https://github.com/bitcoin/bitcoin/pull/31757
+33013,1,[29.x] Backport #32521,https://github.com/bitcoin/bitcoin/pull/33013
+32069,1,test: fix intermittent failure in wallet_reorgsrestore.py,https://github.com/bitcoin/bitcoin/pull/32069
+32086,7,Shuffle depends instructions and recommend modern make for macOS,https://github.com/bitcoin/bitcoin/pull/32086
+31583,1,rpc: add target to getmininginfo field and show next block info,https://github.com/bitcoin/bitcoin/pull/31583
+33414,1,tor: enable PoW defenses for automatically created hidden services,https://github.com/bitcoin/bitcoin/pull/33414
+33947,1,docs: sync external-signer.md with current external signer flow,https://github.com/bitcoin/bitcoin/pull/33947
+31995,2,ci: rename imagefile to Dockerfile to follow docker file's convention.,https://github.com/bitcoin/bitcoin/pull/31995
+33101,3,cmake: Proactively avoid use of `SECP256K1_DISABLE_SHARED`,https://github.com/bitcoin/bitcoin/pull/33101
+33746,2,ci: Add missing python3-dev package for riscv64,https://github.com/bitcoin/bitcoin/pull/33746
+32507,1,ci: Exclude failing wallet_reorgsrestore.py from valgrind task for now,https://github.com/bitcoin/bitcoin/pull/32507
+32442,7,doc: guix: Troubleshooting zdiff3 issue and uninstalling.,https://github.com/bitcoin/bitcoin/pull/32442
+29062,1,Wallet: (Refactor) GetBalance to calculate used balance,https://github.com/bitcoin/bitcoin/pull/29062
+32550,1,cmake: Add missed `SSE41_CXXFLAGS`,https://github.com/bitcoin/bitcoin/pull/32550
+31669,5,cmake: Introduce `WITH_PYTHON` build option,https://github.com/bitcoin/bitcoin/pull/31669
+33654,1,fix: invalid plist format and update values to meet macOS 1.0 standard,https://github.com/bitcoin/bitcoin/pull/33654
+32696,1,doc: make `-DWITH_ZMQ=ON` explicit on `build-unix.md`,https://github.com/bitcoin/bitcoin/pull/32696
+32229,1,tests: Add unix timestamp tests for OP_CLTV,https://github.com/bitcoin/bitcoin/pull/32229
+33212,2,index: Don't commit state in BaseIndex::Rewind,https://github.com/bitcoin/bitcoin/pull/33212
+31805,2,doc: improve NODE_NETWORK_LIMITED documentation per BIP159,https://github.com/bitcoin/bitcoin/pull/31805
+34095,1,refactor: enable `readability-container-contains` clang-tidy rule,https://github.com/bitcoin/bitcoin/pull/34095
+31278,1,"wallet, rpc: deprecate settxfee and paytxfee",https://github.com/bitcoin/bitcoin/pull/31278
+31628,1,test: add coverage for immediate orphanage eviction case,https://github.com/bitcoin/bitcoin/pull/31628
+32454,1,tracing: fix invalid argument in mempool_monitor,https://github.com/bitcoin/bitcoin/pull/32454
+30039,1,dbwrapper: Bump LevelDB max file size to 32 MiB to avoid system slowdown from high disk cache flush rate,https://github.com/bitcoin/bitcoin/pull/30039
+32004,2,qt: 29.0 translations update,https://github.com/bitcoin/bitcoin/pull/32004
+32287,5,build: Fix `macdeployqtplus` after switching to Qt 6,https://github.com/bitcoin/bitcoin/pull/32287
+33183,2,"validation: rename block script verification error from ""mandatory"" to ""block""",https://github.com/bitcoin/bitcoin/pull/33183
+33662,1,doc: add AGENTS.md,https://github.com/bitcoin/bitcoin/pull/33662
+32835,1,test: fix feature_init.py intermittencies,https://github.com/bitcoin/bitcoin/pull/32835
+32136,1,[29.x] backports and 29.0rc3,https://github.com/bitcoin/bitcoin/pull/32136
+29280,1,Implement OP_CHECKTEMPLATEVERIFY,https://github.com/bitcoin/bitcoin/pull/29280
+32566,4,Use subprocess library for notifications,https://github.com/bitcoin/bitcoin/pull/32566
+32248,1,Remove support for RNDR/RNDRRS for aarch64,https://github.com/bitcoin/bitcoin/pull/32248
+33459,1,doc: remove unrelated `bitcoin-wallet` binary from `libbitcoin_ipc` description,https://github.com/bitcoin/bitcoin/pull/33459
+31608,2,doc: Clarify min macOS and Xcode version,https://github.com/bitcoin/bitcoin/pull/31608
+32862,2,rpc: use CScheduler for relocking wallet and remove RPCTimer,https://github.com/bitcoin/bitcoin/pull/32862
+32032,1,docs: added a badge to the workflow,https://github.com/bitcoin/bitcoin/pull/32032
+33623,2,doc: document capnproto and libmultiprocess deps in 29.x,https://github.com/bitcoin/bitcoin/pull/33623
+16994,1,contrib: replace deprecated PermissionsStartOnly in systemd init,https://github.com/bitcoin/bitcoin/pull/16994
+32527,1,test: Remove unused verify_flags suppression,https://github.com/bitcoin/bitcoin/pull/32527
+32209,1,test: Preserve llvm profile path,https://github.com/bitcoin/bitcoin/pull/32209
+31425,1,RFC: Riscv bare metal CI job,https://github.com/bitcoin/bitcoin/pull/31425
+30371,1,fuzz: Mutate -max_len= during generation phase,https://github.com/bitcoin/bitcoin/pull/30371
+29500,1,test: create assert_not_equal util,https://github.com/bitcoin/bitcoin/pull/29500
+33224,1,doc: unify `datacarriersize` warning with release notes,https://github.com/bitcoin/bitcoin/pull/33224
+33674,1,ci: Doc ASLR workaround for sanitizer tasks,https://github.com/bitcoin/bitcoin/pull/33674
+32989,18,ci: Migrate CI to hosted Cirrus Runners,https://github.com/bitcoin/bitcoin/pull/32989
+32823,1,test: Fix wait_for_getheaders() call in test_outbound_eviction_blocks_relay_only(),https://github.com/bitcoin/bitcoin/pull/32823
+28690,3,build: Introduce internal kernel library,https://github.com/bitcoin/bitcoin/pull/28690
+31848,1,"test, tracing: don't use problematic `bpf_usdt_readarg_p()`",https://github.com/bitcoin/bitcoin/pull/31848
+32788,1,descriptors: Allow `H` as a hardened indicator,https://github.com/bitcoin/bitcoin/pull/32788
+32858,2,doc: Add workaround for vcpkg issue with paths with embedded spaces,https://github.com/bitcoin/bitcoin/pull/32858
+34060,1,test: fix race condition in p2p_v2_misbehaving.py peerid assertion,https://github.com/bitcoin/bitcoin/pull/34060
+33822,1,kernel: Add block header support and validation,https://github.com/bitcoin/bitcoin/pull/33822
+33121,1,test: fix p2p_leak_tx.py,https://github.com/bitcoin/bitcoin/pull/33121
+32049,1,contrib: Fix `gen-bitcoin-conf.sh`,https://github.com/bitcoin/bitcoin/pull/32049
+31665,5,build: Make config warnings fatal if -DWCONFIGURE_ERROR=ON,https://github.com/bitcoin/bitcoin/pull/31665
+34037,1,"wallet, doc: clarify the coin selection filters that enforce cluster count",https://github.com/bitcoin/bitcoin/pull/34037
+32663,2,uint256 cxx-20 constexpr patch,https://github.com/bitcoin/bitcoin/pull/32663
+33422,2,build: Remove lingering Windows registry & shortcuts (#32132 follow-up),https://github.com/bitcoin/bitcoin/pull/33422
+32819,1,Add release note for #32530,https://github.com/bitcoin/bitcoin/pull/32819
+32771,1,contrib: tracing: Fix read of `pmsg_type` in p2p_monitor.py,https://github.com/bitcoin/bitcoin/pull/32771
+33475,1,bugfix: miner: fix `addPackageTxs` unsigned integer overflow,https://github.com/bitcoin/bitcoin/pull/33475
+32634,1,build: Add resource file and manifest to `bitcoin.exe`,https://github.com/bitcoin/bitcoin/pull/32634
+28055,1,"Bugfix: net_processing: Restore ""Already requested"" error for FetchBlock",https://github.com/bitcoin/bitcoin/pull/28055
+29589,2,consensus: Consistently encode and decode `OP_1NEGATE` similar to other small ints in Script,https://github.com/bitcoin/bitcoin/pull/29589
+33612,3,test: change log rate limit version gate,https://github.com/bitcoin/bitcoin/pull/33612
+31802,24,"Add bitcoin-{node,gui} to release binaries for IPC",https://github.com/bitcoin/bitcoin/pull/31802
+33995,3,depends: Propagate native C compiler to `sqlite` package,https://github.com/bitcoin/bitcoin/pull/33995
+32668,2,refactor: Drop unused `#include <boost/operators.hpp>`,https://github.com/bitcoin/bitcoin/pull/32668
+33429,1,fuzz: reduce iterations in slow targets,https://github.com/bitcoin/bitcoin/pull/33429
+32054,2,"cmake, guix: Skip building tests in subtrees for releases",https://github.com/bitcoin/bitcoin/pull/32054
+32804,2,Fix build on macOS when `qt@6` is installed,https://github.com/bitcoin/bitcoin/pull/32804
+32296,1,refactor: reenable `implicit-integer-sign-change` check for `serialize.h`,https://github.com/bitcoin/bitcoin/pull/32296
+32629,1,Replace dead gnome link notificator.cpp,https://github.com/bitcoin/bitcoin/pull/32629
+34084,1,scripted-diff: [doc] Unify stale copyright headers,https://github.com/bitcoin/bitcoin/pull/34084
+33604,1,p2p: Allow block downloads from peers without snapshot block after assumeutxo validation,https://github.com/bitcoin/bitcoin/pull/33604
+31793,1,ci: Use clang-20 for sanitizer tasks,https://github.com/bitcoin/bitcoin/pull/31793
+32015,1,net: replace manual reference counting of CNode with shared_ptr,https://github.com/bitcoin/bitcoin/pull/32015
+33106,1,"policy: lower the default blockmintxfee, incrementalrelayfee, minrelaytxfee",https://github.com/bitcoin/bitcoin/pull/33106
+32828,5,"build, docs: Fix Boost-related issues on NetBSD",https://github.com/bitcoin/bitcoin/pull/32828
+31880,1,cmake: Add optional sources to `minisketch` library directly,https://github.com/bitcoin/bitcoin/pull/31880
+32310,2,test: Run all benchmarks in the sanity check,https://github.com/bitcoin/bitcoin/pull/32310
+32193,1,test: fix spelling in Python code comment,https://github.com/bitcoin/bitcoin/pull/32193
+32469,1,cmake: Allow `WITH_DBUS` on all Unix-like systems,https://github.com/bitcoin/bitcoin/pull/32469
+34047,3,cmake: Add fail pattern to `try_append_cxx_flags`,https://github.com/bitcoin/bitcoin/pull/34047
+31896,1,refactor: Remove redundant and confusing calls to IsArgSet,https://github.com/bitcoin/bitcoin/pull/31896
+33452,1,Release: 30.0rc2 translations update,https://github.com/bitcoin/bitcoin/pull/33452
+33517,2,multiprocess: Fix high overhead from message logging,https://github.com/bitcoin/bitcoin/pull/33517
+30911,2,build: simplify by flattening the dependency graph,https://github.com/bitcoin/bitcoin/pull/30911
+33813,1,init: Changing the rpcbind argument being ignored to a pop up warning,https://github.com/bitcoin/bitcoin/pull/33813
+32582,1,log: Additional compact block logging,https://github.com/bitcoin/bitcoin/pull/32582
+33239,1,test: Add comprehensive tests for 999-of-999 Taproot multisig,https://github.com/bitcoin/bitcoin/pull/33239
+33686,4,[wip] [nomerge] [draft] 2510 msan zero,https://github.com/bitcoin/bitcoin/pull/33686
+32994,1,p2p: rename GetAddresses -> GetAddressesUnsafe,https://github.com/bitcoin/bitcoin/pull/32994
+25725,1,consensus: Remove mainnet checkpoints,https://github.com/bitcoin/bitcoin/pull/25725
+32776,2,doc: taproot became always active in v24.0 (doc/bips.md),https://github.com/bitcoin/bitcoin/pull/32776
+32633,3,windows: Use predefined `RC_INVOKED` macro instead of custom one,https://github.com/bitcoin/bitcoin/pull/32633
+31731,1,doc: update translation generation cmake example,https://github.com/bitcoin/bitcoin/pull/31731
+31662,3,cmake: Do not modify `CMAKE_TRY_COMPILE_TARGET_TYPE` globally,https://github.com/bitcoin/bitcoin/pull/31662
+33126,3,Removing Bitcoin core text where unnecessary,https://github.com/bitcoin/bitcoin/pull/33126
+32672,1,ci: update pwsh to use custom shell that fails-fast,https://github.com/bitcoin/bitcoin/pull/32672
+33063,2,"util: Revert ""common: Close non-std fds before exec in RunCommandJSON""",https://github.com/bitcoin/bitcoin/pull/33063
+34088,1,log: Use `__func__` for -logsourcelocations,https://github.com/bitcoin/bitcoin/pull/34088
+32449,1,"wallet: init, don't error out when loading legacy wallets",https://github.com/bitcoin/bitcoin/pull/32449
+32019,7,cmake: Check for `makensis` and `zip` tools before using them for optional `deploy` targets,https://github.com/bitcoin/bitcoin/pull/32019
+31635,1,test: add coverage for unknown address type for `createwalletdescriptor`,https://github.com/bitcoin/bitcoin/pull/31635
+32062,1,[29.x] backports and rc2,https://github.com/bitcoin/bitcoin/pull/32062
+32577,3,subprocess: Let shell parse command on non-Windows systems,https://github.com/bitcoin/bitcoin/pull/32577
+31588,1,contrib: fix `test_deterministic_coverage.sh` script for out-of-tree builds,https://github.com/bitcoin/bitcoin/pull/31588
+31619,2,ci: change the build to be verbose by default,https://github.com/bitcoin/bitcoin/pull/31619
+28592,2,p2p: Increase tx relay rate,https://github.com/bitcoin/bitcoin/pull/28592
+29415,4,Broadcast own transactions only via short-lived Tor or I2P connections,https://github.com/bitcoin/bitcoin/pull/29415
+32023,1,wallet: removed duplicate call to GetDescriptorScriptPubKeyMan,https://github.com/bitcoin/bitcoin/pull/32023
+31176,3,ci: Test cross-built Windows executables on Windows natively,https://github.com/bitcoin/bitcoin/pull/31176
+33665,1,wallet: remove redundant sighash calculation in Musig2 signing flow,https://github.com/bitcoin/bitcoin/pull/33665
+32998,3,Bump SCRIPT_VERIFY flags to 64 bit,https://github.com/bitcoin/bitcoin/pull/32998
+33370,1,ci: use Mold linker for asan-lsan-ubsan-integer-no-depends-usdt workflow,https://github.com/bitcoin/bitcoin/pull/33370
+32648,2,"cmake, qt: Process `*.qrc` files manually",https://github.com/bitcoin/bitcoin/pull/32648
+31966,1,tests: Improve stderr validation in test_runner.py,https://github.com/bitcoin/bitcoin/pull/31966
+32219,2,test: enabling wallet migration functional test on windows,https://github.com/bitcoin/bitcoin/pull/32219
+31209,1,test: cover edge case for lockunspent rpc,https://github.com/bitcoin/bitcoin/pull/31209
+29269,1,Add OP_INTERNALKEY for Tapscript,https://github.com/bitcoin/bitcoin/pull/29269
+32560,3,ci: Move DEBUG=1 to centos task,https://github.com/bitcoin/bitcoin/pull/32560
+32833,1,test: Add `msgtype` to `msg_generic` slots,https://github.com/bitcoin/bitcoin/pull/32833
+32999,4,ci: Use APT_LLVM_V in msan task,https://github.com/bitcoin/bitcoin/pull/32999
+33776,1,ci: Lint follow-ups,https://github.com/bitcoin/bitcoin/pull/33776
+32864,1,fix typos and improve clarity in documentation,https://github.com/bitcoin/bitcoin/pull/32864
+31161,6,cmake: Set top-level target output locations,https://github.com/bitcoin/bitcoin/pull/31161
+28710,3,Remove the legacy wallet and BDB dependency,https://github.com/bitcoin/bitcoin/pull/28710
+33275,1,Release: 30.0 translations update,https://github.com/bitcoin/bitcoin/pull/33275
+32521,1,policy: make pathological transactions packed with legacy sigops non-standard,https://github.com/bitcoin/bitcoin/pull/32521
+30727,2,rpc: add address_type field in getaddressinfo,https://github.com/bitcoin/bitcoin/pull/30727
+22126,1,build: Disable make builtin rules.,https://github.com/bitcoin/bitcoin/pull/22126
+16029,1,"netbase: Remove ""tor"" as a network specification",https://github.com/bitcoin/bitcoin/pull/16029
+33465,1,guix: Added guix-shasums script for gathering and formatting build output checksums,https://github.com/bitcoin/bitcoin/pull/33465
+34089,1,contrib: asmap-tool.py - Don't write binary to TTY,https://github.com/bitcoin/bitcoin/pull/34089
+31634,6,doc: Improve dependencies documentation,https://github.com/bitcoin/bitcoin/pull/31634
+32736,1,wallet: Correct dir iteration error handling,https://github.com/bitcoin/bitcoin/pull/32736
+33824,3,ci: Enable experimental kernel stuff in most CI tasks via `dev-mode`,https://github.com/bitcoin/bitcoin/pull/33824
+31726,1,ci: Replace `CMAKE_CXX_FLAGS` with `APPEND_CXXFLAGS`,https://github.com/bitcoin/bitcoin/pull/31726
+31233,4,cmake: Improve Python robustness and test usability,https://github.com/bitcoin/bitcoin/pull/31233
+33561,2,[28.x] ci: Fix Qt 5.15 URL,https://github.com/bitcoin/bitcoin/pull/33561
+28792,8,build: Embedded ASMap [3/3]: Build binary dump header file,https://github.com/bitcoin/bitcoin/pull/28792
+23074,1,Package-aware fee estimation,https://github.com/bitcoin/bitcoin/pull/23074
+31360,2,depends: Avoid using helper variables in toolchain file,https://github.com/bitcoin/bitcoin/pull/31360
+30988,1,Split CConnman,https://github.com/bitcoin/bitcoin/pull/30988
+30434,2,depends: bump boost to 1.87.0 and use new CMake buildsystem,https://github.com/bitcoin/bitcoin/pull/30434
+32409,7,test: Introduce `SUPPRESS_ABORT_MESSAGE` environment variable,https://github.com/bitcoin/bitcoin/pull/32409
+32059,2,test: Update coverage.cpp to drop linux restriction,https://github.com/bitcoin/bitcoin/pull/32059
+33536,1,doc: reference fuzz coverage steps in quick-start,https://github.com/bitcoin/bitcoin/pull/33536
+32798,2,build: add root dir to CMAKE_PREFIX_PATH in toolchain,https://github.com/bitcoin/bitcoin/pull/32798
+32262,1,build: Restore cross-compilation for Android,https://github.com/bitcoin/bitcoin/pull/32262
+33189,1,rpc: followups for min fee changes,https://github.com/bitcoin/bitcoin/pull/33189
+31622,1,psbt: add non-default sighash types to PSBTs and unify sighash type match checking,https://github.com/bitcoin/bitcoin/pull/31622
+31593,2,ci: Bump centos stream 10,https://github.com/bitcoin/bitcoin/pull/31593
+32215,1,depends: Fix cross-compiling on macOS,https://github.com/bitcoin/bitcoin/pull/32215
+31985,2,doc: Bring reduce-memory.md up to date,https://github.com/bitcoin/bitcoin/pull/31985
+32184,1,ci: Add workaround for vcpkg's `libevent` package,https://github.com/bitcoin/bitcoin/pull/32184
+34115,1,doc: Use multi-path descriptors in descriptors.md and linked tests,https://github.com/bitcoin/bitcoin/pull/34115
+32242,4,guix: Remove unused `file` package,https://github.com/bitcoin/bitcoin/pull/32242
+33003,1,test: add option to skip large re-org test in feature_block,https://github.com/bitcoin/bitcoin/pull/33003
+33453,2,docs: Undeprecate datacarrier and datacarriersize configuration options,https://github.com/bitcoin/bitcoin/pull/33453
+33516,1,doc: Correct typo 'implementes' to 'implements',https://github.com/bitcoin/bitcoin/pull/33516
+30455,4,test: assumeutxo: add missing tests in wallet_assumeutxo.py,https://github.com/bitcoin/bitcoin/pull/30455
+31301,1,refactor: convert ContainsNoNUL to ContainsNUL,https://github.com/bitcoin/bitcoin/pull/31301
+34103,2,cmake: Add missed `Boost::headers`,https://github.com/bitcoin/bitcoin/pull/34103
+33296,1,net: check for empty header before calling FillBlock,https://github.com/bitcoin/bitcoin/pull/33296
+33445,2,"ci: Update Clang in ""tidy"" job",https://github.com/bitcoin/bitcoin/pull/33445
+32604,6,"log: Mitigate disk filling attacks by rate limiting LogPrintf, LogInfo, LogWarning, LogError",https://github.com/bitcoin/bitcoin/pull/32604
+32595,6,build: add a depends dependency provider,https://github.com/bitcoin/bitcoin/pull/32595
+32203,1,ci: Merge master in test-each-commit task,https://github.com/bitcoin/bitcoin/pull/32203
+33412,1,Update libmultiprocess subtree to fix intermittent mptest hang,https://github.com/bitcoin/bitcoin/pull/33412
+32716,4,depends: Override host compilers for FreeBSD and OpenBSD,https://github.com/bitcoin/bitcoin/pull/32716
+33310,3,trace: Workaround GCC bug compiling with old systemtap,https://github.com/bitcoin/bitcoin/pull/33310
+31268,1,cmake: add optional source files to bitcoin_crypto and crc32c directly,https://github.com/bitcoin/bitcoin/pull/31268
+31907,1,qa: clarify and document one assumeutxo test case with malleated snapshot,https://github.com/bitcoin/bitcoin/pull/31907
+32782,2,test: disable secp256 tests by default,https://github.com/bitcoin/bitcoin/pull/32782
+32805,3,cmake: Use `HINTS` instead of `PATHS` in `find_*` commands,https://github.com/bitcoin/bitcoin/pull/32805
+26903,1,Fix BaseIndex::Commit false error,https://github.com/bitcoin/bitcoin/pull/26903
+32940,1,cmake: Use newer signature of `qt6_add_lrelease` when available,https://github.com/bitcoin/bitcoin/pull/32940
+32690,3,"depends: fix multiprocess build on OpenBSD (apply capnp patch, correct SHA256SUM command)",https://github.com/bitcoin/bitcoin/pull/32690
+33828,1,Check required interfaces before generating manpages,https://github.com/bitcoin/bitcoin/pull/33828
+31053,1,RFC: build: support for pre-compiled headers.,https://github.com/bitcoin/bitcoin/pull/31053
+31679,5,cmake: Install internal binaries to <prefix>/libexec/,https://github.com/bitcoin/bitcoin/pull/31679
+33644,2,fuzz: don't pass (maybe) nullptr to memcpy(),https://github.com/bitcoin/bitcoin/pull/33644
+30341,1,Permit Combiner to strip bip32_deriv information,https://github.com/bitcoin/bitcoin/pull/30341
+31415,1,test: fix TestShell initialization and reset(),https://github.com/bitcoin/bitcoin/pull/31415
+33243,1,test: Fix CLI_MAX_ARG_SIZE issues,https://github.com/bitcoin/bitcoin/pull/33243
+33869,3,refactor: Avoid -W*-whitespace in git archive,https://github.com/bitcoin/bitcoin/pull/33869
+31854,2,net: reduce CAddress usage to CService or CNetAddr,https://github.com/bitcoin/bitcoin/pull/31854
+31507,15,build: Use clang-cl to build on Windows natively,https://github.com/bitcoin/bitcoin/pull/31507

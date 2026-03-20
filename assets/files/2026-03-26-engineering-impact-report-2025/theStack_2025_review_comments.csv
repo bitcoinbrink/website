@@ -1,0 +1,80 @@
+number,count,title,url
+31590,2,descriptors: Try pubkeys of both parities when retrieving the private keys for an xonly pubkey in a descriptor,https://github.com/bitcoin/bitcoin/pull/31590
+32304,1,test: test MAX_SCRIPT_SIZE for block validity,https://github.com/bitcoin/bitcoin/pull/32304
+31247,5,psbt: MuSig2 Fields,https://github.com/bitcoin/bitcoin/pull/31247
+33313,2,test/refactor: use test deque to avoid quadratic iteration,https://github.com/bitcoin/bitcoin/pull/33313
+33485,1,test: set par=2 in default config for functional test framework,https://github.com/bitcoin/bitcoin/pull/33485
+32406,6,policy: uncap datacarrier by default,https://github.com/bitcoin/bitcoin/pull/32406
+33702,2,"contrib: Remove brittle, confusing and redundant UTF8 encoding from Python IO",https://github.com/bitcoin/bitcoin/pull/33702
+33688,1,test: Update BIP324 test vectors,https://github.com/bitcoin/bitcoin/pull/33688
+33036,1,Update secp256k1 subtree to latest master,https://github.com/bitcoin/bitcoin/pull/33036
+31375,9,multiprocess: Add bitcoin wrapper executable,https://github.com/bitcoin/bitcoin/pull/31375
+33020,1,test: delete commented-out tests and add a test case in wallet_signer,https://github.com/bitcoin/bitcoin/pull/33020
+32631,5,refactor: Convert GenTxid to `std::variant`,https://github.com/bitcoin/bitcoin/pull/32631
+33133,1,rpc: fix getpeerinfo ping duration unit docs,https://github.com/bitcoin/bitcoin/pull/33133
+30322,3,test: raise an error in `_bulk_tx_` when `target_vsize` is too low,https://github.com/bitcoin/bitcoin/pull/30322
+31925,1,contrib: update `utxo_to_sqlite` tool documentation and comment,https://github.com/bitcoin/bitcoin/pull/31925
+32846,1,"doc: clarify that the ""-j N"" goes after the ""--build build"" part",https://github.com/bitcoin/bitcoin/pull/32846
+32850,1,test: check P2SH sigop count for coinbase tx,https://github.com/bitcoin/bitcoin/pull/32850
+31495,7,wallet: Utilize IsMine() and CanProvide() in migration to cover edge cases,https://github.com/bitcoin/bitcoin/pull/31495
+29954,1,RPC: Return `permitbaremultisig` and `maxdatacarriersize` in `getmempoolinfo`,https://github.com/bitcoin/bitcoin/pull/29954
+31888,1,correct wrong assumptions in the contrib linearize data script,https://github.com/bitcoin/bitcoin/pull/31888
+31774,3,crypto: Use secure_allocator for `AES256_ctx`,https://github.com/bitcoin/bitcoin/pull/31774
+31298,3,rpc: combinerawtransaction now rejects unmergeable transactions,https://github.com/bitcoin/bitcoin/pull/31298
+32617,1,[Draft/POC] Add secp256k1-based HPKE (Hybrid Public Key Encryption) For Payjoin v2,https://github.com/bitcoin/bitcoin/pull/32617
+31241,6,wallet: remove BDB dependency from wallet migration benchmark,https://github.com/bitcoin/bitcoin/pull/31241
+33894,1,net: Remove unused `local_socket_bytes` variable in `CConnman::GetAddresses()`,https://github.com/bitcoin/bitcoin/pull/33894
+32440,2,test: remove bdb assert in tool_wallet.py,https://github.com/bitcoin/bitcoin/pull/32440
+33553,3,validation: Improve warnings in case of chain corruption,https://github.com/bitcoin/bitcoin/pull/33553
+31997,1,doc: update location of minisketch repository,https://github.com/bitcoin/bitcoin/pull/31997
+32591,3,test: fix and augment block tests of invalid_txs,https://github.com/bitcoin/bitcoin/pull/32591
+31893,1,test: remove scanning check on `wallet_importdescriptors`,https://github.com/bitcoin/bitcoin/pull/31893
+32587,4,test: Fix reorg patterns in tests to use proper fork-based approach,https://github.com/bitcoin/bitcoin/pull/32587
+33477,1,Rollback for dumptxoutset without invalidating blocks,https://github.com/bitcoin/bitcoin/pull/33477
+32765,1,test: Fix list index out of range error in feature_bip68_sequence.py,https://github.com/bitcoin/bitcoin/pull/32765
+32708,1,"rpc, doc: update `listdescriptors` RCP help",https://github.com/bitcoin/bitcoin/pull/32708
+32358,3,subprocess: Backport upstream changes,https://github.com/bitcoin/bitcoin/pull/32358
+31672,1,rpc: add cpu_load to getpeerinfo,https://github.com/bitcoin/bitcoin/pull/31672
+29868,1,Reintroduce external signer support for Windows,https://github.com/bitcoin/bitcoin/pull/29868
+32766,2,[28.x] Finalize 28.2,https://github.com/bitcoin/bitcoin/pull/32766
+32463,1,test: fix an incorrect `feature_fee_estimation.py` subtest,https://github.com/bitcoin/bitcoin/pull/32463
+32025,1,"validation, fix: Use wtxid instead of txid in `CheckEphemeralSpends`",https://github.com/bitcoin/bitcoin/pull/32025
+32834,1,test: Use msg_generic in p2p_ping.py,https://github.com/bitcoin/bitcoin/pull/32834
+31243,4,descriptor: Move filling of keys from `DescriptorImpl::MakeScripts` to `PubkeyProvider::GetPubKey`,https://github.com/bitcoin/bitcoin/pull/31243
+32750,3,refactor: CFeeRate encapsulates FeeFrac internally,https://github.com/bitcoin/bitcoin/pull/32750
+33116,3,refactor: Convert uint256 to Txid,https://github.com/bitcoin/bitcoin/pull/33116
+32091,2,test: replace assert with assert_equal and assert_greater_than,https://github.com/bitcoin/bitcoin/pull/32091
+31829,21,p2p: improve TxOrphanage denial of service bounds,https://github.com/bitcoin/bitcoin/pull/31829
+31242,1,"wallet, desc spkm: Return SigningProvider only if we have the privkey",https://github.com/bitcoin/bitcoin/pull/31242
+31901,3,contrib: Add deterministic-unittest-coverage,https://github.com/bitcoin/bitcoin/pull/31901
+32835,1,test: fix feature_init.py intermittencies,https://github.com/bitcoin/bitcoin/pull/32835
+32566,1,Use subprocess library for notifications,https://github.com/bitcoin/bitcoin/pull/32566
+32248,1,Remove support for RNDR/RNDRRS for aarch64,https://github.com/bitcoin/bitcoin/pull/32248
+33361,1,Fix #25980: Validate transactions in combinerawtransaction,https://github.com/bitcoin/bitcoin/pull/33361
+32823,1,test: Fix wait_for_getheaders() call in test_outbound_eviction_blocks_relay_only(),https://github.com/bitcoin/bitcoin/pull/32823
+32675,2,test: wallet: cover wallet passphrase with a null char,https://github.com/bitcoin/bitcoin/pull/32675
+32419,2,"psbt: clarify PSBT, PSBTInput, PSBTOutput unserialization flows",https://github.com/bitcoin/bitcoin/pull/32419
+32516,1,"test: add MAX_DISCONNECTED_TX_POOL_BYTES, chainlimits coverage",https://github.com/bitcoin/bitcoin/pull/32516
+31802,2,"Add bitcoin-{node,gui} to release binaries for IPC",https://github.com/bitcoin/bitcoin/pull/31802
+29032,9,signet: omit commitment for some trivial challenges,https://github.com/bitcoin/bitcoin/pull/29032
+32412,1,Musig2 fields followups,https://github.com/bitcoin/bitcoin/pull/32412
+32941,9,p2p: TxOrphanage revamp cleanups,https://github.com/bitcoin/bitcoin/pull/32941
+32783,4,doc: Add fetching single PRs from upstream to productivity.md,https://github.com/bitcoin/bitcoin/pull/32783
+34010,2,psbt: detect invalid MuSig2 pubkeys in deserialization,https://github.com/bitcoin/bitcoin/pull/34010
+29675,31,wallet: Be able to receive and spend inputs involving MuSig2 aggregate keys,https://github.com/bitcoin/bitcoin/pull/29675
+32469,1,cmake: Allow `WITH_DBUS` on all Unix-like systems,https://github.com/bitcoin/bitcoin/pull/32469
+32994,1,p2p: rename GetAddresses -> GetAddressesUnsafe,https://github.com/bitcoin/bitcoin/pull/32994
+33433,1,test: rpc_bind: Skip nonloopback test if no such address is found,https://github.com/bitcoin/bitcoin/pull/33433
+32760,1,depends: capnp 1.2.0,https://github.com/bitcoin/bitcoin/pull/32760
+32998,3,Bump SCRIPT_VERIFY flags to 64 bit,https://github.com/bitcoin/bitcoin/pull/32998
+31823,8,tests: Add witness commitment if we have a witness transaction in `FullBlockTest.update_block()`,https://github.com/bitcoin/bitcoin/pull/31823
+32833,1,test: Add `msgtype` to `msg_generic` slots,https://github.com/bitcoin/bitcoin/pull/32833
+31161,3,cmake: Set top-level target output locations,https://github.com/bitcoin/bitcoin/pull/31161
+31675,1,[test] fix p2p_orphan_handling.py empty orphanage check,https://github.com/bitcoin/bitcoin/pull/31675
+31622,9,psbt: add non-default sighash types to PSBTs and unify sighash type match checking,https://github.com/bitcoin/bitcoin/pull/31622
+33003,2,test: add option to skip large re-org test in feature_block,https://github.com/bitcoin/bitcoin/pull/33003
+30455,5,test: assumeutxo: add missing tests in wallet_assumeutxo.py,https://github.com/bitcoin/bitcoin/pull/30455
+31244,36,descriptors: MuSig2,https://github.com/bitcoin/bitcoin/pull/31244
+31907,4,qa: clarify and document one assumeutxo test case with malleated snapshot,https://github.com/bitcoin/bitcoin/pull/31907
+32385,3,test: refactor out same-txid-diff-wtxid tx to reuse in other tests,https://github.com/bitcoin/bitcoin/pull/32385
+31415,1,test: fix TestShell initialization and reset(),https://github.com/bitcoin/bitcoin/pull/31415

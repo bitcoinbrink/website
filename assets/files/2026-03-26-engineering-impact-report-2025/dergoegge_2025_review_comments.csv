@@ -1,0 +1,99 @@
+number,count,title,url
+21590,2,Safegcd-based modular inverses in MuHash3072,https://github.com/bitcoin/bitcoin/pull/21590
+32646,7,p2p: Add witness mutation check inside FillBlock,https://github.com/bitcoin/bitcoin/pull/32646
+31969,1,"Add mainnet assumeutxo param at height 880,000",https://github.com/bitcoin/bitcoin/pull/31969
+33283,1,contrib: update fixed seeds,https://github.com/bitcoin/bitcoin/pull/33283
+31640,2,tests: improves tapscript unit tests,https://github.com/bitcoin/bitcoin/pull/31640
+33743,1,fuzz: refactor memcpy to std::ranges::copy to work around ubsan warn,https://github.com/bitcoin/bitcoin/pull/33743
+28676,2,Cluster mempool implementation,https://github.com/bitcoin/bitcoin/pull/28676
+31457,1,fuzz: Speed up *_package_eval fuzz targets a bit,https://github.com/bitcoin/bitcoin/pull/31457
+31841,2,fuzz: Use immediate task runner to increase fuzz stability,https://github.com/bitcoin/bitcoin/pull/31841
+32056,1,doc: Adjust path in comment,https://github.com/bitcoin/bitcoin/pull/32056
+32406,1,policy: uncap datacarrier by default,https://github.com/bitcoin/bitcoin/pull/32406
+34008,1,"log: don't rate-limit ""new peer"" with -debug=net",https://github.com/bitcoin/bitcoin/pull/34008
+33626,3,ci: run native fuzz with MSAN job,https://github.com/bitcoin/bitcoin/pull/33626
+31836,1,contrib: Add deterministic-fuzz-coverage,https://github.com/bitcoin/bitcoin/pull/31836
+31908,1,Revert merge of PR #31826,https://github.com/bitcoin/bitcoin/pull/31908
+31549,1,fuzz: Abort if system time is called without mock time being set,https://github.com/bitcoin/bitcoin/pull/31549
+33348,1,contrib: add bitcoin binary to gen-manpages,https://github.com/bitcoin/bitcoin/pull/33348
+32109,1,fuzz: avoid returning non-conforming results from FuzzedSock::GetSockName(),https://github.com/bitcoin/bitcoin/pull/32109
+31676,5,fuzz: add targets for PCP and NAT-PMP port mapping requests,https://github.com/bitcoin/bitcoin/pull/31676
+32631,7,refactor: Convert GenTxid to `std::variant`,https://github.com/bitcoin/bitcoin/pull/32631
+33535,1,[28.x] More backports,https://github.com/bitcoin/bitcoin/pull/33535
+34025,1,net: Waste less time in socket handling,https://github.com/bitcoin/bitcoin/pull/34025
+33099,1,ci: allow for any libc++ intrumentation & use it for TSAN,https://github.com/bitcoin/bitcoin/pull/33099
+31533,1,fuzz: Add fuzz target for block index tree and related validation events,https://github.com/bitcoin/bitcoin/pull/31533
+33723,3,chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us,https://github.com/bitcoin/bitcoin/pull/33723
+33666,2,ci: Drop libFuzzer from msan fuzz task,https://github.com/bitcoin/bitcoin/pull/33666
+31397,1,p2p: track and use all potential peers for orphan resolution,https://github.com/bitcoin/bitcoin/pull/31397
+31704,3,doc: add a section in the fuzzing documentation about using MSan,https://github.com/bitcoin/bitcoin/pull/31704
+32606,1,p2p: Drop unsolicited CMPCTBLOCK from non-HB peer,https://github.com/bitcoin/bitcoin/pull/32606
+29954,1,RPC: Return `permitbaremultisig` and `maxdatacarriersize` in `getmempoolinfo`,https://github.com/bitcoin/bitcoin/pull/29954
+31666,1,multi-peer orphan resolution followups,https://github.com/bitcoin/bitcoin/pull/31666
+31918,1,fuzz: add basic TxOrphanage::EraseForBlock cov,https://github.com/bitcoin/bitcoin/pull/31918
+32772,1,fuzz: wallet: remove `FundTx` from `FuzzedWallet`,https://github.com/bitcoin/bitcoin/pull/32772
+32154,1,fuzz: Avoid integer sanitizer warnings in policy_estimator target,https://github.com/bitcoin/bitcoin/pull/32154
+31810,2,TxOrphanage: account for size of orphans and count announcements,https://github.com/bitcoin/bitcoin/pull/31810
+33211,1,test: modify logging_filesize_rate_limit params,https://github.com/bitcoin/bitcoin/pull/33211
+32115,1,Rust tool to import bip39 mnemonic,https://github.com/bitcoin/bitcoin/pull/32115
+32339,1,ci: Merge fuzz task for macOS,https://github.com/bitcoin/bitcoin/pull/32339
+32354,1,tests: Added progress tracker when running fuzz test_runner.py,https://github.com/bitcoin/bitcoin/pull/32354
+32948,10,refactor: cleanup index logging,https://github.com/bitcoin/bitcoin/pull/32948
+33461,2,ci: add Valgrind fuzz,https://github.com/bitcoin/bitcoin/pull/33461
+32122,1,fuzz: Fix off-by-one in package_rbf target,https://github.com/bitcoin/bitcoin/pull/32122
+33226,1,[29.x] 33106 backport and final changes for rc2,https://github.com/bitcoin/bitcoin/pull/33226
+33949,1,ubsan: add another suppression for InsecureRandomContext,https://github.com/bitcoin/bitcoin/pull/33949
+32933,1,log: Properly log warnings with warn loglevel in addrdb,https://github.com/bitcoin/bitcoin/pull/32933
+31923,1,refactor: use original log string when no suspicious chars found,https://github.com/bitcoin/bitcoin/pull/31923
+33637,1,refactor: optimize block index comparisons (1.4-6.8x faster),https://github.com/bitcoin/bitcoin/pull/33637
+30277,2,[DO NOT MERGE] Erlay: bandwidth-efficient transaction relay protocol (Full implementation),https://github.com/bitcoin/bitcoin/pull/30277
+33474,1,[29.x] Backports,https://github.com/bitcoin/bitcoin/pull/33474
+33225,1,[29.x] Backport logging ratelimiting,https://github.com/bitcoin/bitcoin/pull/33225
+32822,4,fuzz: Make process_message(s) more deterministic,https://github.com/bitcoin/bitcoin/pull/32822
+32025,2,"validation, fix: Use wtxid instead of txid in `CheckEphemeralSpends`",https://github.com/bitcoin/bitcoin/pull/32025
+32530,1,node: cap `-maxmempool` and `-dbcache` values for 32-bit,https://github.com/bitcoin/bitcoin/pull/32530
+32834,1,test: Use msg_generic in p2p_ping.py,https://github.com/bitcoin/bitcoin/pull/32834
+33985,1,fuzz: gate mempool entry based on weight,https://github.com/bitcoin/bitcoin/pull/33985
+33252,9,p2p: add `DifferenceFormatter` fuzz target and invariant check,https://github.com/bitcoin/bitcoin/pull/33252
+33696,1,crypto: optimize SipHash `Write()` method with chunked processing,https://github.com/bitcoin/bitcoin/pull/33696
+33116,2,refactor: Convert uint256 to Txid,https://github.com/bitcoin/bitcoin/pull/33116
+33843,1,test: add tests for private broadcast,https://github.com/bitcoin/bitcoin/pull/33843
+34017,1,fuzz: Add a test case for `ParseByteUnits()`,https://github.com/bitcoin/bitcoin/pull/34017
+31215,1,rpc: increase the defaults for -rpcthreads and -rpcworkqueue,https://github.com/bitcoin/bitcoin/pull/31215
+33414,1,tor: enable PoW defenses for automatically created hidden services,https://github.com/bitcoin/bitcoin/pull/33414
+33480,1,ci: Turn CentOS config into Alpine musl config,https://github.com/bitcoin/bitcoin/pull/33480
+31901,2,contrib: Add deterministic-unittest-coverage,https://github.com/bitcoin/bitcoin/pull/31901
+33300,5,fuzz: compact block harness,https://github.com/bitcoin/bitcoin/pull/33300
+33662,1,doc: add AGENTS.md,https://github.com/bitcoin/bitcoin/pull/33662
+32927,1,fuzz: Add missing calls to `SetMockTime` for determinism,https://github.com/bitcoin/bitcoin/pull/32927
+32024,1,test: get rid of redundant TODO tag in fuzz tests,https://github.com/bitcoin/bitcoin/pull/32024
+32198,1,fuzz: Make p2p_headers_presync more deterministic,https://github.com/bitcoin/bitcoin/pull/32198
+31649,6,consensus: Remove checkpoints (take 2),https://github.com/bitcoin/bitcoin/pull/31649
+31910,2,qa: fix an off-by-one in utxo snapshot fuzz target and sanity check its snapshot data,https://github.com/bitcoin/bitcoin/pull/31910
+31802,1,"Add bitcoin-{node,gui} to release binaries for IPC",https://github.com/bitcoin/bitcoin/pull/31802
+33079,1,ci: limit max stack size to 512 KiB,https://github.com/bitcoin/bitcoin/pull/33079
+33429,1,fuzz: reduce iterations in slow targets,https://github.com/bitcoin/bitcoin/pull/33429
+33983,2,refactor/p2p: Decouple CNode from PeerManagerImpl::MaybeDiscourageAndDisconnect,https://github.com/bitcoin/bitcoin/pull/33983
+31814,2,ci: Bump fuzz task timeout,https://github.com/bitcoin/bitcoin/pull/31814
+33346,1,doc: remove release note fragment,https://github.com/bitcoin/bitcoin/pull/33346
+32015,3,net: replace manual reference counting of CNode with shared_ptr,https://github.com/bitcoin/bitcoin/pull/32015
+31992,3,"cmake: Avoid fuzzer ""multiple definition of `main'"" errors",https://github.com/bitcoin/bitcoin/pull/31992
+32869,2,p2p: Relax BlockRequestAllowed to respond to advertised blocks,https://github.com/bitcoin/bitcoin/pull/32869
+33956,1,net: fix use-after-free with v2->v1 reconnection logic,https://github.com/bitcoin/bitcoin/pull/33956
+31766,1,leveldb: pull upstream C++23 changes,https://github.com/bitcoin/bitcoin/pull/31766
+31662,1,cmake: Do not modify `CMAKE_TRY_COMPILE_TARGET_TYPE` globally,https://github.com/bitcoin/bitcoin/pull/31662
+33126,3,Removing Bitcoin core text where unnecessary,https://github.com/bitcoin/bitcoin/pull/33126
+25573,1,guix: produce a `-static-pie` bitcoind,https://github.com/bitcoin/bitcoin/pull/25573
+32473,2,Introduce per-txin sighash midstate cache for legacy/p2sh/segwitv0 scripts,https://github.com/bitcoin/bitcoin/pull/32473
+28584,4,Fuzz: extend CConnman tests,https://github.com/bitcoin/bitcoin/pull/28584
+33235,3,build: set ENABLE_IPC to OFF when fuzzing,https://github.com/bitcoin/bitcoin/pull/33235
+33234,1,doc: update example bitcoin conf for 29.1rc2,https://github.com/bitcoin/bitcoin/pull/33234
+33536,3,doc: reference fuzz coverage steps in quick-start,https://github.com/bitcoin/bitcoin/pull/33536
+33189,1,rpc: followups for min fee changes,https://github.com/bitcoin/bitcoin/pull/33189
+33473,1,[30.x] Backports & rc3,https://github.com/bitcoin/bitcoin/pull/33473
+31622,2,psbt: add non-default sighash types to PSBTs and unify sighash type match checking,https://github.com/bitcoin/bitcoin/pull/31622
+31985,1,doc: Bring reduce-memory.md up to date,https://github.com/bitcoin/bitcoin/pull/31985
+33296,1,net: check for empty header before calling FillBlock,https://github.com/bitcoin/bitcoin/pull/33296
+32604,5,"log: Mitigate disk filling attacks by rate limiting LogPrintf, LogInfo, LogWarning, LogError",https://github.com/bitcoin/bitcoin/pull/32604
+33557,1,[28.x] 28.3rc2,https://github.com/bitcoin/bitcoin/pull/33557
+32014,3,ci: Do not try to install for fuzz builds,https://github.com/bitcoin/bitcoin/pull/32014
