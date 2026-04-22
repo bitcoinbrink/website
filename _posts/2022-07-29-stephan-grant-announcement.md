@@ -37,7 +37,7 @@ that ensures the robustness of Bitcoin over time through the education of
 (potential) Bitcoin developers and builders, focusing on both the Bitcoin
 protocols as well as applications on top of it.
 
-[@stphnvlstk][stephan twitter]
+[@stickies_v][stephan twitter]
 
 ## About Brink
 
@@ -53,6 +53,6 @@ apply now for the next funding round.
 [chaincode seminars]: https://learning.chaincode.com/
 [Bitcoin Core PR Review Clubs]: https://bitcoincore.reviews/meetings-hosts/#stickies-v
 [Qala]: https://qala.dev/
-[stephan twitter]: https://twitter.com/stphnvlstk
+[stephan twitter]: https://twitter.com/stickies_v
 [donate]: mailto:donate@brink.dev
 [programs]: /programs
