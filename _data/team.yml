@@ -53,31 +53,6 @@ board:
 
 interns:
 
-- name: "Dongjia Zhang"
-  description: >-
-    Dongjia Zhang is a Ph.D. researcher focusing on software security and
-    fuzzing. He is the maintainer of LibAFL, a state-of-the-art fuzzing
-    framework written in Rust. His internship under the mentorship of Niklas
-    Gögge involves fuzz testing Bitcoin Core.
-  social: "@tokatoka"
-  link: https://github.com/tokatoka
-  image: assets/images/dongjia-zhang.jpg
-  alt: Picture of Dongjia Zhang
-  quote: >-
-    ""
-
-- name: "Stratos"
-  description: >-
-    Stratos is a vulnerability researcher approaching Bitcoin Core
-    security and fuzzing through a different lens. His internship work under Niklas
-    Gögge will focus on fuzz testing Bitcoin Core.
-  social: "@5tratan"
-  link: https://x.com/5tratan
-  image: assets/images/stratos.png
-  alt: Picture of Stratos
-  quote: >-
-    ""
-
 fellows:
 
 grantees:
@@ -402,7 +377,7 @@ alumni:
 
 - name: Gloria Zhao
   description: >-
-    Gloria is one of the maintainers of Bitcoin Core, primarily focused on
+    Gloria was one of the maintainers of Bitcoin Core, primarily focused on
     mempool and P2P. As a Brink fellow and grantee, she worked on package relay
     (BIP331) and transaction relay policy changes to make pinning attacks more
     difficult. She also served on Brink's grant commitee while running the <a
@@ -434,3 +409,28 @@ alumni:
   link: https://twitter.com/hrdng
   image: assets/images/dave-harding.png
   alt: Picture of Dave Harding
+
+- name: "Dongjia Zhang"
+  description: >-
+    Dongjia Zhang is a Ph.D. researcher focusing on software security and
+    fuzzing. He is the maintainer of LibAFL, a state-of-the-art fuzzing
+    framework written in Rust. His internship under the mentorship of Niklas
+    Gögge involved fuzz testing Bitcoin Core.
+  social: "@tokatoka"
+  link: https://github.com/tokatoka
+  image: assets/images/dongjia-zhang.jpg
+  alt: Picture of Dongjia Zhang
+  quote: >-
+    ""
+
+- name: "Stratos"
+  description: >-
+    Stratos is a vulnerability researcher approaching Bitcoin Core
+    security and fuzzing from a systems and protocol security perspective. His internship work under Niklas
+    Gögge will focused on fuzz testing Bitcoin Core.
+  social: "@5tratan"
+  link: https://x.com/5tratan
+  image: assets/images/stratos.png
+  alt: Picture of Stratos
+  quote: >-
+    ""
