@@ -178,6 +178,21 @@ grantees:
     to be a part of it and excited to keep on reviewing code, learning about
     Bitcoin, and fuzzing everything."
 
+- name: "conduition"
+  description: >-
+    Conduition's grant supports his post-quantum cryptography research for
+    Bitcoin, including work on the SHRINCS hash-based signature protocol and
+    draft BIP, commit/reveal rescue protocols for dormant UTXOs, and
+    isogeny-based cryptography research and education.
+  social: "@conduition_io"
+  link: https://x.com/conduition_io
+  image: assets/images/conduition.jpg
+  alt: Picture of conduition
+  quote: >-
+    "I'm deeply honored to receive Brink's first-ever grant to focus on
+    post-quantum research. This generous grant from Brink will help me follow
+    through with the arc of my previous research."
+
 grant_committee:
 
 - name: Cory Fields
