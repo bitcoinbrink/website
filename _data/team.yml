@@ -193,6 +193,21 @@ grantees:
     post-quantum research. This generous grant from Brink will help me follow
     through with the arc of my previous research."
 
+- name: Martin Zumsande
+  description: >-
+    Martin's grant supports his work on Bitcoin Core's peer-to-peer network,
+    including improvements to address relay, initial block download and block
+    validation, as well as review of larger, more complex proposals. Martin has
+    been contributing to Bitcoin Core since 2019.
+  social: "@mzumsande"
+  link: https://github.com/mzumsande
+  image: assets/images/martin-zumsande.jpg
+  alt: Picture of Martin Zumsande
+  quote: >-
+    "I find it fascinating to understand and predict how local node rules give
+    rise to a robust network with emergent phenomena when thousands of honest
+    nodes (and some adversaries) interact."
+
 grant_committee:
 
 - name: Cory Fields
@@ -228,15 +243,6 @@ alumni:
   link: https://twitter.com/jesseposner
   image: assets/images/jesse-posner.jpg
   alt: Picture of Jesse Posner
-
-- name: Martin Zumsande
-  description: >-
-    Martin has been contributing to Bitcoin Core since early 2019. His grant
-    focus was on Bitcoin Core's peer-to-peer and address relay code. 
-  social: "@lightlike1"
-  link: https://twitter.com/lightlike1
-  image: assets/images/martin-zumsande.jpg
-  alt: Picture of Martin Zumsande
 
 - name: "Bruno Garcia"
   description: >-
