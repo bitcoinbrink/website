@@ -92,7 +92,8 @@ grantees:
   description: >-
     Sebastian's funding supports his code review and testing,
     improving test coverage, extending the test framework, and
-    improving the networking/P2P and wallet codebases. 
+    improving the networking/P2P and wallet codebases. Sebastian is also a
+    maintainer of libsecp256k1 and serves on Brink's grant committee.
   social: "@theStack"
   link: https://twitter.com/theStack
   image: assets/images/sebastian-falbesoner.jpg
@@ -103,20 +104,6 @@ grantees:
     organization allows me to be part of a great community of like-minded
     "Brinkies" by holding regular tech engineering calls and events, which is a
     valuable experience to learn from each other."
-
-- name: "Niklas Gögge"
-  description: >-
-    Niklas’ funding supports his work on Bitcoin Core. His focus is on making
-    Bitcoin Core's peer-to-peer code more robust through review, testing and
-    fuzzing.
-  social: "@dergoegge"
-  link: https://twitter.com/dergoegge
-  image: assets/images/niklas-goegge.jpg
-  alt: Picture of Niklas Gögge
-  quote: >-
-    "Thanks to Brink's support, I have the incredible opportunity to dedicate
-    myself full-time to Bitcoin Core, allowing me to contribute more effectively
-    and collaborate with the other Brinkies in the London office."
 
 - name: Stéphan Vuylsteke
   description: >-
@@ -221,15 +208,16 @@ grant_committee:
   image: assets/images/cory-fields.jpg
   alt: Picture of Cory Fields
 
-- name: "Niklas Gögge"
+- name: Sebastian Falbesoner
   description: >-
-    In addition to his work on Bitcoin security including finding, fixing, and
-    responsibly disclosing bugs and his efforts building out Bitcoin
-    Core's testing infrastructure, Niklas serves on Brink's grant committee.
-  social: "@dergoegge"
-  link: https://twitter.com/dergoegge
-  image: assets/images/niklas-goegge.jpg
-  alt: Picture of Niklas Gögge
+    In addition to his code review and testing work on Bitcoin Core, including
+    improving test coverage, extending the test framework, and improving the
+    networking/P2P and wallet codebases, and his role as a maintainer of
+    libsecp256k1, Sebastian serves on Brink's grant committee.
+  social: "@theStack"
+  link: https://twitter.com/theStack
+  image: assets/images/sebastian-falbesoner.jpg
+  alt: Picture of Sebastian Falbesoner
 
 alumni:
 
@@ -455,3 +443,20 @@ alumni:
   alt: Picture of Stratos
   quote: >-
     ""
+
+- name: "Niklas Gögge"
+  description: >-
+    Niklas’ funding supported his work on Bitcoin Core, focused on making
+    Bitcoin Core's peer-to-peer code more robust through review, testing and
+    fuzzing, as well as his work on Bitcoin security including finding, fixing,
+    and responsibly disclosing bugs and building out Bitcoin Core's testing
+    infrastructure. Niklas also served on Brink's grant committee and mentored
+    Brink's fuzz testing interns.
+  social: "@dergoegge"
+  link: https://twitter.com/dergoegge
+  image: assets/images/niklas-goegge.jpg
+  alt: Picture of Niklas Gögge
+  quote: >-
+    "Thanks to Brink's support, I have the incredible opportunity to dedicate
+    myself full-time to Bitcoin Core, allowing me to contribute more effectively
+    and collaborate with the other Brinkies in the London office."
